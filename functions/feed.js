@@ -43,7 +43,7 @@ async function generateFeed() {
             id: products[i].variants[a]._key+a+(i+6),
             title: products[i].title + ' - ' + products[i].variants[a].title,
             description: products[i].meta ? products[i].meta.description : '',
-            link: 'https://hurom.cz/odstavnovac' + products[i].slug.current + '?variant=' + products[i].variants[a].title.toLowerCase().split(' ').join('-').normalize("NFD").replace(/[\u0300-\u036f]/g, ""),
+            link: 'https://hurom.cz/odstavnovac/' + products[i].slug.current + '?variant=' + products[i].variants[a].title.toLowerCase().split(' ').join('-').normalize("NFD").replace(/[\u0300-\u036f]/g, ""),
             image_link: urlFor(products[i].variants[a].image).url(),
             params: products[i].param,
             parametry: products[i].parametry,
