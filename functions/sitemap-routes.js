@@ -8,8 +8,8 @@ export default (
 
     <Route exact path="/recepty" />
     <Route exact path="/novinky" />
-    <Route exact path="/:recept/recept" />
-    <Route exact path="/:url/clanek" />
-    <Route exact path="/:product/odstavnovac" />
+    <Route exact path="/recept/:recept" />
+    <Route exact path="/clanek/:url" />
+    <Route exact path="/odstavnovac/:product" />
   </Route>
 )
