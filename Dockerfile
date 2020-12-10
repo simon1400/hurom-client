@@ -10,6 +10,7 @@ COPY package*.json ./
 RUN npm install
 
 COPY --chown=node:node . .
+RUN npm run feed
 RUN npm run build
 EXPOSE 3000
 

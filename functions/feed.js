@@ -2,7 +2,7 @@ require("babel-register")({
   presets: ["es2015", "react"]
 });
 
-const sanityClient = require("../src/lib/sanity").default;
+const sanityClient = require("../lib/sanity").default;
 const imageUrlBuilder = require("@sanity/image-url");
 const axios = require('axios')
 const imageBuilder = imageUrlBuilder(sanityClient);
