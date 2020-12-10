@@ -1,0 +1,420 @@
+$ff_name: 'Lato';
+$ff_light: 300;
+$ff_medium: 400;
+$ff_bold: 700;
+
+$max-width: 1920px;
+$accent: #80bd01;
+$text_color: #4d4d4d;
+
+$radius: 3px;
+
+$margin-small: 40px;
+$margin: 80px;
+$margin-big: 120px;
+
+$shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.06);
+
+$head_1: 70px;
+$head_2: 56px;
+$head_3: 40px;
+$head_4: 25px;
+
+$text_big: 22px;
+$text: 17px;
+$text_small: 14px;
+
+a.button{
+  height: 55px;
+  max-height: 55px;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 55px;
+}
+
+.button{
+  min-width: 210px;
+  height: 55px;
+  max-height: 55px;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  font-size: $text_small;
+  line-height: 1.14;
+  letter-spacing: 1.4px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: $radius;
+  border: none;
+  transition: all .5s ease;
+  display: inline-block;
+  cursor: pointer;
+  &:hover, &:focus, &:active{
+    text-decoration: none;
+    outline: none;
+  }
+  svg, img{
+    height: 14px;
+    width: auto;
+    margin-left: 20px;
+    transition: all .5s ease;
+  }
+  &.primary{
+    background-color: $accent;
+    color: white;
+    font-weight: $ff_bold;
+    border: 1px solid #72a70f;
+    &:hover{
+      background-color: #7ab109;
+      border: 1px solid #6e9d15;
+    }
+  }
+  &.negative{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: 1px solid white;
+    font-weight: $ff_bold;
+    &:hover{
+      background-color: rgba(0, 0, 0, 0.35);
+    }
+  }
+  &.bare{
+    background-color: transparent;
+    color: $accent;
+    font-weight: $ff_bold;
+    padding: 0;
+    min-width: auto;
+    min-height: auto;
+    &:hover{
+      svg{
+        margin-left: 40px;
+      }
+    }
+  }
+  &.border-button{
+    border: 1px solid $accent;
+    background-color: transparent;
+    width: 100%;
+    min-width: auto;
+    padding: 0;
+    height: auto;
+    min-height: 40px;
+    color: $accent;
+    &:hover{
+      background-color: rgba($accent, .06);
+    }
+  }
+}
+
+.select{
+  width: 100%;
+  display: block;
+  height: 55px;
+  border: solid 1px #e6e6e6;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  line-height: 1.14;
+  letter-spacing: 1.4px;
+  color: #4d4d4d;
+  font-size: $text_small;
+  font-weight: $ff_bold;
+  transition: all .2s ease;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 12px;
+  &:focus, &:active{
+    outline: none;
+  }
+  &.uk-open{
+    border: solid 1px rgba(#a8a8a8, .45);
+    background-color: #fff;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  &:hover{
+    border: solid 1px #a8a8a8;
+  }
+  &.uk-form-danger{
+    border-color: #ff0000;
+    color: inherit;
+  }
+  + div{
+    border: solid 1px rgba(#a8a8a8, .45);
+    border-top: none;
+    > ul{
+      li{
+        margin-bottom: 0;
+        &:not(:last-child){
+          border-bottom: solid 1px rgba(#a8a8a8, .45);
+        }
+        a{
+          color: $text_color;
+          font-size: $text_small;
+          font-weight: $ff_bold;
+          letter-spacing: 1.4px;
+          height: 55px;
+          line-height: 55px;
+          display: block;
+          &:hover{
+            text-decoration: none;
+            background-color: rgba($text_color, .1);
+          }
+        }
+      }
+    }
+  }
+  svg, img{
+    height: auto;
+    width: 12px;
+    color: #a8a8a8;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+::-moz-selection { background: $accent; }
+::selection { background: $accent; }
+
+html{
+  -webkit-tap-highlight-color: transparent;
+  overflow-x: hidden;
+}
+
+body{
+  font-family: $ff_name;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  min-height: calc(100vh - 109px);
+}
+
+main{
+  position: relative;
+  min-height: calc(100vh - 109px);
+  background-color: #fff;
+}
+
+.routes-wrapper{
+  min-height: calc(100vh - 109px);
+}
+
+b, strong{
+  font-weight: $ff_bold;
+}
+
+p{
+  font-size: $text;
+  line-height: 1.82;
+  color: rgba($text_color, .7);
+  a{
+    color: $accent;
+    &:hover{
+      color: $accent;
+    }
+  }
+}
+
+a{
+  color: $accent;
+  &:hover{
+    color: $accent;
+  }
+}
+
+.small-text{
+  font-size: $text_small;
+}
+
+
+ul{
+  li{
+    list-style-type: none;
+    position: relative;
+    color: rgba($text_color, .7);
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      width: 10px;
+      height: 2px;
+      background-color: $accent;
+      font-size: 15px;
+      left: -20px;
+      top: 13px;
+    }
+  }
+}
+
+.uk-label{
+  letter-spacing: 1.4px;
+  white-space: normal;
+}
+
+.uk-input,
+.uk-select,
+.uk-textarea,
+.uk-radio,
+.uk-checkbox {
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.uk-radio {
+  border-radius: 50%;
+}
+
+.uk-form-label{
+  display: block;
+  margin-bottom: 7px;
+}
+
+.uk-input, input{
+  font-size: 15px;
+  color: #333333;
+  line-height: 1.13;
+  &:focus{
+    border-color: $accent;
+    border-right-color: $accent;
+    outline: none;
+  }
+}
+
+.uk-legend{
+  letter-spacing: 1.4px;
+  color: rgba(77, 77, 77, 0.5);
+  text-transform: uppercase;
+  display: block;
+  vertical-align: middle;
+}
+
+.big-text p{
+  font-size: $text_big;
+  line-height: 1.95;
+  font-weight: $ff_light;
+  strong{
+    font-weight: $ff_medium;
+  }
+}
+
+.green-text{
+  color: $accent;
+}
+
+caption{
+  font-weight: $ff_light;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  span{
+    font-size: $text;
+    display: block;
+    width: auto;
+    font-weight: $ff_medium;
+    &:nth-child(2){
+      text-align: right;
+    }
+  }
+}
+
+table{
+  th{
+    text-transform: none!important;
+  }
+  tr{
+    td{
+      color: rgba($text_color, .7);
+      font-size: $text;
+    }
+  }
+}
+
+$offcanvas-bar-color-mode: black;
+$container-max-width: $max-width;
+$height-large-height: 700px;
+$overlay-primary-background: rgba(0, 0, 0, 0.12);
+$global-xxlarge-font-size: $head_1;
+$base-heading-font-weight: $ff_light;
+$base-h1-line-height: 1.09;
+$global-large-margin: 80px;
+$global-xlarge-margin: 120px;
+$global-xlarge-font-size: $head_2;
+$global-emphasis-color: $text_color;
+$global-large-font-size: $head_3;
+$height-medium-height: 460px;
+$padding-large-padding-l: 120px;
+$base-h4-font-size: $head_4;
+$base-h4-line-height: 0.88;
+$base-h5-font-size: 12px;
+$base-h5-line-height: 1.33;
+$container-small-max-width: 1120px;
+$label-padding-horizontal: 0;
+$label-background: transparent;
+$label-line-height: 1.14;
+$label-font-size: $text_small;
+$label-color: rgba($text_color, .5);
+$container-xsmall-max-width: 860px;
+
+$tab-margin-horizontal: 0;
+$tab-item-padding-horizontal: 25px;
+$tab-item-padding-vertical: 13px;
+$tab-item-color: $text_color;
+$tab-item-hover-color: $tab-item-color;
+$tab-border-width: 0;
+$tab-item-border-width: 2px;
+$tab-item-font-size: $text_small;
+$tab-item-active-border: $accent;
+$global-primary-background: $accent;
+$global-link-color: $accent;
+$global-2xlarge-font-size: $head_1;
+
+$global-success-background: $accent;
+
+$breakpoint-medium: 880px;
+
+$hamburger-layer-width         : 24px;
+$hamburger-layer-height        : 3px;
+$hamburger-layer-spacing       : 4px;
+$hamburger-layer-color         : $text_color;
+$hamburger-layer-border-radius : 0;
+$hamburger-hover-opacity       : 1;
+
+$global-font-family: $ff_name;
+
+$dropdown-padding: 0;
+
+$table-small-cell-padding-vertical: 20px;
+$table-small-cell-padding-horizontal: 0;
+
+$form-legend-font-size: $text_small;
+$form-legend-line-height: 14px;
+
+$modal-body-padding-horizontal: 40px;
+$modal-body-padding-vertical: 40px;
+$modal-dialog-width: 460px;
+
+$form-label-color: rgba(77, 77, 77, 0.7);
+$form-label-font-size: $text_small;
+
+$offcanvas-bar-width-m: 500px;
+
+$table-header-cell-font-size: $text_small;
+$table-header-cell-font-weight: $ff_medium;
+$table-header-cell-color: rgba(77, 77, 77, 0.7);
+
+$form-radio-checked-icon-color: transparent;
+$form-radio-checked-focus-background: $accent;
+
+$table-caption-font-size: $head_4;
+$table-caption-color: $text_color;
+
+$global-danger-background: #ff0000;
+
+$modal-background: rgba(0,0,0,0.7);
+$offcanvas-overlay-background: $modal-background;
+$offcanvas-bar-background: white;
+$offcanvas-bar-width: 100%;
+$alert-success-background: rgba($accent, .28);
+$alert-success-color: $accent;
+$alert-danger-background: rgba($global-danger-background, .28);
+$alert-danger-color: $global-danger-background;
