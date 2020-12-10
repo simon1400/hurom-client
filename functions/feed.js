@@ -53,6 +53,7 @@ async function generateFeed() {
             gift: products[i].gift
           })
         }
+        
       }else if(products[i].price > 0 && !products[i].variants){
         productsData.push({
           id: products[i]._id,
