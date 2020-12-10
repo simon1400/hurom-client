@@ -54,9 +54,6 @@ async function generateSitemap() {
     };
 
     var path = './public/sitemap.xml'
-    if(process.env.NODE_ENV === 'prod'){
-      path = './build/sitemap.xml'
-    }
 
     return (
       new Sitemap(router)

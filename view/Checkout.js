@@ -156,7 +156,7 @@ const Checkout = ({
                   </table>
                   <hr className="uk-margin-remove-top" />
                   <p>Všechny ceny jsou včetně DPH 21 %</p>
-                  <p>Odesláním objednávky souhlasíte s <a href="/obchodni-podminky/clanek" target="_blank">obchodními podmínkami.</a></p>
+                  <p>Odesláním objednávky souhlasíte s <a href="/clanek/obchodni-podminky" target="_blank">obchodními podmínkami.</a></p>
                   {Object.values(error).indexOf(true) >= 0 && <div className="uk-alert-danger uk-width-1-1 uk-margin-remove-bottom uk-text-center" uk-alert="">Chyba, zkontrolujte si prosím vaše údaje.</div>}
                   <button onClick={() => send()} className="button primary uk-width-expand uk-margin-top">Odeslat objednávku</button>
                 </div>

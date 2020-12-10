@@ -78,11 +78,6 @@ async function generateFeed() {
     var pathHeureka = './public/heureka-feed.xml'
     var pathGoogle = './public/google-feed.xml'
     var pathZbozi = './public/zbozi-feed.xml'
-    if(process.env.NODE_ENV === 'prod'){
-      pathHeureka = './build/heureka-feed.xml'
-      pathGoogle = './build/google-feed.xml'
-      pathZbozi = './build/zbozi-feed.xml'
-    }
 
     fs.writeFile(pathHeureka, xmlHeureka, (err) => {
       if (err) return console.log(err);

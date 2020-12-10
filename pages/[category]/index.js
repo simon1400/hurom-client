@@ -1,4 +1,3 @@
-import loadable from '@loadable/component'
 import sanityClient from "../../lib/sanity.js";
 import BlockContent from "@sanity/block-content-to-react";
 
@@ -10,12 +9,12 @@ import {
   queryRecepts
 } from '../../queries/category'
 
-const ArticleShort = loadable(() => import('../../components/Article'))
-const Loader = loadable(() => import('../../components/Loader'))
-const Page = loadable(() => import('../../layout/page'))
-const PageHead = loadable(() => import('../../components/PageHead'))
-const Card = loadable(() => import('../../components/Card'))
-const Recept = loadable(() => import('../../components/Recept'))
+import ArticleShort from '../../components/Article'
+import Loader from '../../components/Loader'
+import Page from '../../layout/page'
+import PageHead from '../../components/PageHead'
+import Card from '../../components/Card'
+import Recept from '../../components/Recept'
 
 export async function getStaticPaths() {
   const paths = [

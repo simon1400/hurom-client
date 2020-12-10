@@ -5,7 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "sitemap:dev": "NODE_ENV=dev babel-node ./functions/sitemap-generator.js",
+    "sitemap:prod": "NODE_ENV=prod babel-node ./functions/sitemap-generator.js",
+    "feed:dev": "NODE_ENV=dev babel-node ./functions/feed.js",
+    "feed:prod": "NODE_ENV=prod babel-node ./functions/feed.js"
   },
   "dependencies": {
     "@loadable/component": "^5.14.1",

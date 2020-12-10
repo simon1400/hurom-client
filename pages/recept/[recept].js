@@ -1,12 +1,11 @@
-import loadable from '@loadable/component'
 import sanityClient from "../../lib/sanity.js";
 
 import query from '../../queries/recept'
 
-const Page = loadable(() => import('../../layout/page'))
-const ArticleShort = loadable(() => import('../../components/Article'))
-const Breadcrumb = loadable(() => import('../../components/breadcrump'))
-const Loader = loadable(() => import('../../components/Loader'))
+import Page from '../../layout/page'
+import ArticleShort from '../../components/Article'
+import Breadcrumb from '../../components/breadcrump'
+import Loader from '../../components/Loader'
 
 export async function getStaticPaths() {
 

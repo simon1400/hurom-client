@@ -1,5 +1,4 @@
 import {useState, useEffect, useContext} from 'react'
-import loadable from '@loadable/component'
 import {offcanvas} from 'uikit'
 import sanityClient from "../../lib/sanity.js";
 import imageUrlBuilder from "@sanity/image-url";
@@ -7,8 +6,8 @@ import { DataStateContext } from '../../context/dataStateContext'
 
 import query from '../../queries/product'
 
-const Loader = loadable(() => import('../../components/Loader'))
-const Product = loadable(() => import('../../view/Product'))
+import Loader from '../../components/Loader'
+import Product from '../../view/Product'
 
 const imageBuilder = imageUrlBuilder(sanityClient);
 const urlFor = source => imageBuilder.image(source);

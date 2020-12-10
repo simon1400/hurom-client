@@ -1,13 +1,15 @@
 import {useState, useEffect, useContext} from 'react'
 import Link from 'next/link'
 import { DataStateContext } from '../context/dataStateContext'
+import { useRouter } from 'next/router'
 
 const Header = () => {
 
+  const router = useRouter()
   const { dataContextState, dataContextDispatch } = useContext(DataStateContext)
   const [menu, setMenu] = useState(false)
   const [basket, setBasket] = useState([])
-  const urlParse = () => window.location.pathname.split('/')
+  const urlParse = () => router.pathname.split('/')
 
   const handleSearch = () => {
     dataContextDispatch({state: {searchFocus: true}, type: 'state'})
@@ -21,7 +23,7 @@ const Header = () => {
     <header>
       <div className="uk-container">
         <div className="nav-wrap">
-          {window.location.pathname !== '/kosik' && window.location.pathname !== '/objednavka' &&<div className="uk-hidden@m uk-flex">
+          {router.pathname !== '/kosik' && router.pathname !== '/objednavka' &&<div className="uk-hidden@m uk-flex">
              <button className={`hamburger hamburger--spring ${menu && 'is-active'}`} type="button" onClick={() => setMenu(!menu)} aria-label="Hamburger">
               <span className="hamburger-box">
                 <span className="hamburger-inner"></span>
@@ -48,7 +50,7 @@ const Header = () => {
             </div>
           </div>}
           <Link href="/"><a className="logo"><img src="/assets/logo.svg" alt="Logo"/></a></Link>
-          {window.location.pathname !== '/kosik' && window.location.pathname !== '/objednavka' && <nav className="uk-visible@m">
+          {router.pathname !== '/kosik' && router.pathname !== '/objednavka' && <nav className="uk-visible@m">
              <ul>
               <li className={urlParse().indexOf('odstavnovace') >= 0 ? 'active-menu' : ''}>
                 <Link href="/odstavnovace"><a>Odšťavňovače</a></Link>
@@ -67,7 +69,7 @@ const Header = () => {
               </li>
             </ul>
           </nav>}
-          {window.location.pathname !== '/kosik' && window.location.pathname !== '/objednavka' &&<div className="icons-wrap">
+          {router.pathname !== '/kosik' && router.pathname !== '/objednavka' &&<div className="icons-wrap">
              <ul>
               <li><a href="/" uk-toggle="target: #search" onClick={() => handleSearch()}><img src="/assets/search.svg" uk-svg="" alt="Search icon" /></a></li>
               {/*<li>
@@ -82,7 +84,7 @@ const Header = () => {
               </li>
             </ul>
           </div>}
-          {(window.location.pathname === '/kosik' || window.location.pathname === '/objednavka') && <div className="back-catalog-wrap uk-width-1-1 uk-text-right">
+          {(router.pathname === '/kosik' || router.pathname === '/objednavka') && <div className="back-catalog-wrap uk-width-1-1 uk-text-right">
             <a href="/odstavnovace" className="button bare"><img src="/assets/angle-left.svg" alt="left" className="uk-svg" uk-svg="" /> zpět k nákupu</a>
           </div>}
         </div>

@@ -1,13 +1,12 @@
 import {useState, useEffect} from 'react'
-import loadable from '@loadable/component'
 import {dropdown} from 'uikit'
 import BlockContent from "@sanity/block-content-to-react";
 
-const Page = loadable(() => import('../layout/page'))
-const ArticleShort = loadable(() => import('../components/Article'))
-const Breadcrumb = loadable(() => import('../components/breadcrump'))
-const Button = loadable(() => import('../components/Button'))
-const Card = loadable(() => import('../components/Card'))
+import Page from '../layout/page'
+import ArticleShort from '../components/Article'
+import Breadcrumb from '../components/breadcrump'
+import Button from '../components/Button'
+import Card from '../components/Card'
 
 const GalerySlider = ({item, urlFor, title}) => {
   return(
@@ -79,7 +78,7 @@ const Product = ({
   }
 
   return(
-    <Page title={product?.meta?.head} description={product?.meta?.description} image={product?.imageUrl}>
+    <Page title={product?.meta?.head} description={product?.meta?.description} image={urlFor(product.image).url()}>
       <Breadcrumb data={dataBread} />
       <div className="uk-container uk-margin-large-top">
         <div className="uk-grid uk-child-width-1-1 uk-child-width-1-2@m" uk-grid="">

@@ -1,12 +1,12 @@
-import loadable from '@loadable/component'
+import {useState, useEffect} from 'react'
 import sanityClient from "../../lib/sanity.js";
 import BlockContent from "@sanity/block-content-to-react";
 import query from '../../queries/article'
 
-const ArticleShort = loadable(() => import('../../components/Article'))
-const Loader = loadable(() => import('../../components/Loader'))
-const Page = loadable(() => import('../../layout/page'))
-const PageHead = loadable(() => import('../../components/PageHead'))
+import ArticleShort from '../../components/Article'
+import Loader from '../../components/Loader'
+import Page from '../../layout/page'
+import PageHead from '../../components/PageHead'
 
 export async function getStaticPaths() {
 
@@ -34,25 +34,30 @@ export async function getStaticProps({ params }) {
     window.location.href = '/not-found'
     return
   }
-  let breadData = [{
-    title: data[0].title
-  }]
-  if(data[0]._type === 'article'){
-    breadData.unshift({
-      link: `/novinky`,
-      title: 'Novinky'
-    })
-  }
 
   return {
     props: {
-      breadData,
       article: data[0]
     }
   }
 }
 
-const Article = ({dataBread, article}) => {
+const Article = ({article}) => {
+
+  const [dataBread, setDataBread] = useState([])
+
+  useEffect(() => {
+    let breadData = [{
+      title: article.title
+    }]
+    if(article._type === 'article'){
+      breadData.unshift({
+        link: `/novinky`,
+        title: 'Novinky'
+      })
+    }
+    setDataBread(breadData)
+  }, [article])
 
   if(article){
     return <Page title={article?.meta?.head} description={article?.meta?.description} image={article?.imageUrl}>

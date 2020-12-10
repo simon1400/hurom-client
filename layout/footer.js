@@ -25,11 +25,11 @@ const Footer = () => {
       let type = footer.actionSlug._type
 
       if(type === 'article'){
-        linkAction = `/${footer.actionSlug.slug}/clanek`
+        linkAction = `/clanek/${footer.actionSlug.slug}`
       }else if(type === 'recepts'){
-        linkAction = `/${footer.actionSlug.slug}/recept`
+        linkAction = `/recept/${footer.actionSlug.slug}`
       }else if(type === 'product'){
-        linkAction = `/${footer.actionSlug.slug}/odstavnovace/product`
+        linkAction = `/odstavnovac/${footer.actionSlug.slug}`
       }else if(type === 'category'){
         linkAction = `/${footer.actionSlug.slug}`
       }
@@ -88,8 +88,8 @@ const Footer = () => {
               <div>
                 <h5>ODKAZY</h5>
                 <ul>
-                  <li><a href="/obchodni-podminky/clanek">Obchodní podmínky</a></li>
-                  <li><a href="/ochrana-osobnich-udaju/clanek">Ochrana osobních údajů</a></li>
+                  <li><a href="/clanek/obchodni-podminky">Obchodní podmínky</a></li>
+                  <li><a href="/clanek/ochrana-osobnich-udaju">Ochrana osobních údajů</a></li>
                 </ul>
               </div>
               <div>

@@ -8,10 +8,9 @@ WORKDIR /var/www/hurom/client
 COPY package*.json ./
 
 RUN npm install
-RUN npm run build
 
 COPY --chown=node:node . .
-
+RUN npm run build
 EXPOSE 3000
 
 CMD [ "npm", "start" ]

@@ -67,7 +67,7 @@ const Search = () => {
           <div className="uk-grid uk-child-width-1-1" uk-grid="">
             {!!searchItems?.length && searchItems.map((item, index) =>
               <div key={index}>
-                <a href={item._type === 'product' ? `/${item.slug}/odstavnovac` : `/${item.slug}/clanek`} onClick={() => closeCanvas()} className="card">
+                <a href={item._type === 'product' ? `/odstavnovac/${item.slug}` : `/clanek/${item.slug}`} onClick={() => closeCanvas()} className="card">
                   {item._type === 'product' &&<div className="card-img-wrap">
                     <div className="square">
                       <img src={urlFor(item.image).width(270).auto('format').url()} alt={item.title} />

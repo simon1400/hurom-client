@@ -1,42 +1,35 @@
 import React, {useState, useEffect} from 'react'
-import loadable from '@loadable/component'
 import sanityClient from "../lib/sanity.js";
 import imageUrlBuilder from "@sanity/image-url";
 
 import query from '../queries/homepage'
 
-const Page = loadable(() => import('../layout/page'))
-const Card = loadable(() => import('../components/Card'))
-const ArticleShort = loadable(() => import('../components/Article'))
-const Loader = loadable(() => import('../components/Loader'))
-const Button = loadable(() => import('../components/Button'))
+import Page from '../layout/page'
+import Card from '../components/Card'
+import ArticleShort from '../components/Article'
+import Loader from '../components/Loader'
+import Button from '../components/Button'
 
 const imageBuilder = imageUrlBuilder(sanityClient);
 const urlFor = source => imageBuilder.image(source);
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const allPostsData = await sanityClient.fetch(query)
+  const productsRef = allPostsData[0].productsRef
+  allPostsData[0].productsRef = [
+    productsRef.filter(item => allPostsData[0].products.product_1._ref === item._id)[0],
+    productsRef.filter(item => allPostsData[0].products.product_2._ref === item._id)[0],
+    productsRef.filter(item => allPostsData[0].products.product_3._ref === item._id)[0]
+  ]
+
   return {
     props: {
-      allPostsData
+      homepage: allPostsData[0]
     }
   }
 }
 
-const Homepage = ({allPostsData}) => {
-
-  const [homepage, setHomepage] = useState()
-
-  useEffect(() => {
-    const productsRef = allPostsData[0].productsRef
-    allPostsData[0].productsRef = [
-      productsRef.filter(item => allPostsData[0].products.product_1._ref === item._id)[0],
-      productsRef.filter(item => allPostsData[0].products.product_2._ref === item._id)[0],
-      productsRef.filter(item => allPostsData[0].products.product_3._ref === item._id)[0]
-    ]
-    setHomepage(allPostsData[0])
-  }, [])
-
+const Homepage = ({homepage}) => {
 
   if(!homepage){
     return <Loader />
@@ -61,7 +54,7 @@ const Homepage = ({allPostsData}) => {
   }
 
   return (
-    <Page title={homepage?.meta?.head} description={homepage?.meta?.description} image={homepage?.imageUrl}>
+    <Page title={homepage?.meta?.head} description={homepage?.meta?.description} image={urlFor(homepage.image).url()}>
       <div className="uk-inline uk-width-1-1 uk-margin-large-bottom">
         <div className="uk-cover-container uk-height-large container-height-top">
           <img
@@ -97,7 +90,6 @@ const Homepage = ({allPostsData}) => {
       </div>
     </Page>
   )
-
 }
 
 export default Homepage

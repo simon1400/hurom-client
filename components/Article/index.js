@@ -11,9 +11,6 @@ const urlFor = source => imageBuilder.image(source);
 
 const ArticleShort = ({reverse = false, inside = false, recept = false, data, links, shortLink = false}) => {
 
-  const [tablet] = useState(window.innerWidth <= 880)
-  const [mobile] = useState(window.innerWidth <= 640)
-
   const [link, setLink] = useState('')
 
   useEffect(() => {
@@ -38,7 +35,7 @@ const ArticleShort = ({reverse = false, inside = false, recept = false, data, li
             <div>
               {data?.description && <label className={`uk-label ${!data.title ? 'uk-margin-medium-bottom' : ''}`}>{data?.description}</label>}
               {data?.title && <h3 className="uk-margin-medium-bottom">{data?.title}</h3>}
-              {!!data.content && <div className={!mobile ? "uk-margin-bottom" : undefined}>
+              {!!data.content && <div className="uk-margin-bottom">
                 <BlockContent blocks={data?.content} />
               </div>}
               {recept && data.ingredience && <label className="uk-label">ingredience</label>}

@@ -29,8 +29,8 @@ const ThankYou = () => {
 
       const order = res.data.data[0]
 
-      // AxiosAPI.post('/send/orderInfo', order).then(resMail => console.log(resMail.data))
-      //         .catch(err => console.log('Send Email error --- ', err))
+      AxiosAPI.post('/send/orderInfo', order).then(resMail => console.log(resMail.data))
+              .catch(err => console.log('Send Email error --- ', err))
 
       script.async = true;
       var products = ''
