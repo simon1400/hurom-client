@@ -83,7 +83,7 @@ const Product = ({
       <div className="uk-container uk-margin-large-top">
         <div className="uk-grid uk-child-width-1-1 uk-child-width-1-2@m" uk-grid="">
           <div>
-            <div className="uk-position-relative uk-visible-toggle uk-height-1-1" style={{maxHeight: '100vh'}} tabIndex="-1"  uk-slideshow="min-height: 500">
+            <div className="uk-position-relative uk-visible-toggle uk-height-1-1" style={{maxHeight: '100vh', minHeight: '500px'}} tabIndex="-1" uk-slideshow="index: 0">
 
               <ul className="uk-slideshow-items uk-height-1-1" style={{maxHeight: '100vh'}}>
                 {!product.variants?.length && <GalerySlider item={product.image} title={product.title} urlFor={urlFor} />}
