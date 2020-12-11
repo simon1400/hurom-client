@@ -1,23 +1,16 @@
 stages:
-    - build
     - deploy
 
-build:
-    stage: build
-    tags:
-      - hurom-app
-    script:
-      - echo "Building deploy package"
-      - npm install
-      - CI= npm run build
-      - echo "Build successful"
 deploy:
     stage: deploy
     tags:
-      - hurom-app
+      - hurom-next
     script:
         - echo "Deploying to server"
         - cp -rv ./ /var/www/hurom/client/
+        - cd /var/www/hurom/client/ && sudo docker-compose down
+        - cd /var/www/hurom/client/ && sudo docker-compose build
+        - cd /var/www/hurom/client/ && sudo docker-compose up -d
         - echo "Deployed"
     environment:
         name: production
