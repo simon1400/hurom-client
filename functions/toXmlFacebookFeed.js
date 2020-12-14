@@ -21,7 +21,7 @@ const toXml = data => {
 
   xmlStringFeed += dataTransform
   xmlStringFeed += `</channel>
-  </rss>`
+  `
 
   return xmlStringFeed
 }
