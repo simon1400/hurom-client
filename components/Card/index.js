@@ -29,7 +29,7 @@ const Card = ({data}) => {
         </div>
         {!!data.variants?.length && <div className="card-variants">
           <ul>
-            {data.variants.map((item, index) => <li key={index} style={{backgroundColor: item.color ? item.color.hex : 'white'}} uk-tooltip={`title: ${item.title}; pos: bottom;`}></li>)}
+            {data.variants.map((item, index) => <li key={index} style={item.color ? {backgroundColor: item.color.hex} : {backgroundColor: 'white'}} uk-tooltip={`title: ${item.title}; pos: bottom;`}></li>)}
           </ul>
         </div>}
       </a>

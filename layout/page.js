@@ -112,7 +112,7 @@ const Page = ({
           fbq('init', '730771304229470');
           fbq('track', 'PageView');`}} />
 
-        <noscript><img height="1" width="1" style="display:none"
+        <noscript><img height="1" width="1" style={{display: 'none'}}
         src="https://www.facebook.com/tr?id=730771304229470&ev=PageView&noscript=1"
         /></noscript>
         {/*<!-- End Facebook Pixel Code -->*/}

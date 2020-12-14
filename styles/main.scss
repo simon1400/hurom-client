@@ -12,6 +12,10 @@
   margin-bottom: $global-large-margin!important;
 }
 
+.height-auto{
+  min-height: 'auto'
+}
+
 .modal-video{
   .uk-modal-dialog{
     max-width: 80%!important;

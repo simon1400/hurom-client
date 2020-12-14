@@ -31,7 +31,7 @@ const ArticleShort = ({reverse = false, inside = false, recept = false, data, li
     <div className={`article-short uk-margin-medium-bottom ${(inside || recept) ? "uk-margin-remove-bottom article-inside" : ''}`}>
       <div className={`uk-grid uk-child-width-1-1 ${data.image ? "uk-child-width-1-2@m" : ''} uk-grid-collapse ${reverse ? 'uk-flex-row-reverse' : ''}`} uk-grid="" uk-height-match="target: .height-eq">
         <div>
-          <div className="article-short-content uk-flex uk-flex-center@s uk-flex-column height-eq" style={!data.image ? {minHeight: 'auto'} : {}}>
+          <div className={`article-short-content uk-flex uk-flex-center@s uk-flex-column height-eq${!data.image ? 'height-auto' : undefined}`}>
             <div>
               {data?.description && <label className={`uk-label ${!data.title ? 'uk-margin-medium-bottom' : ''}`}>{data?.description}</label>}
               {data?.title && <h3 className="uk-margin-medium-bottom">{data?.title}</h3>}
