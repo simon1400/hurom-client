@@ -1,5 +1,5 @@
 const toXml = data => {
-  var xmlStringFeed = `<?xml version="2.0" encoding="utf-8"?>\n
+  var xmlStringFeed = `<?xml version="1.0" encoding="utf-8"?>\n
   <channel>
   <title>Objevujte šnekové odšťavňovače Hurom</title>
   <link>https://hurom.cz</link>
