@@ -10,6 +10,7 @@ const urlFor = (source) => imageBuilder.image(source)
 const toXmlHeureka = require('./toXmlHeurekaFeed').default
 const toXmlGoogle = require('./toXmlGoogleFeed').default
 const toXmlZbozi = require('./toXmlZboziFeed').default
+const toXmlFacebook = require('./toXmlFacebookFeed').default
 fs = require('fs');
 
 async function generateFeed() {
@@ -53,7 +54,7 @@ async function generateFeed() {
             gift: products[i].gift
           })
         }
-        
+
       }else if(products[i].price > 0 && !products[i].variants){
         productsData.push({
           id: products[i]._id,
@@ -75,10 +76,12 @@ async function generateFeed() {
     const xmlHeureka = toXmlHeureka(productsData)
     const xmlGoogle = toXmlGoogle(productsData)
     const xmlZbozi = toXmlZbozi(productsData)
+    const xmlFacebook = toXmlFacebook(productsData)
 
     var pathHeureka = './public/heureka-feed.xml'
     var pathGoogle = './public/google-feed.xml'
     var pathZbozi = './public/zbozi-feed.xml'
+    var pathFacebook = './public/facebook-feed.xml'
 
     fs.writeFile(pathHeureka, xmlHeureka, (err) => {
       if (err) return console.log(err);
@@ -91,6 +94,10 @@ async function generateFeed() {
     fs.writeFile(pathZbozi, xmlZbozi, (err) => {
       if (err) return console.log(err);
       console.log(`Xml write in --> ${pathZbozi}`);
+    });
+    fs.writeFile(pathFacebook, xmlFacebook, (err) => {
+      if (err) return console.log(err);
+      console.log(`Xml write in --> ${pathFacebook}`);
     });
 
   }catch(e){

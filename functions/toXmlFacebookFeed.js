@@ -1,0 +1,29 @@
+const toXml = data => {
+  var xmlStringFeed = `<?xml version="1.0" encoding="utf-8"?>\n
+  <channel>
+  <title>Objevujte šnekové odšťavňovače Hurom</title>
+  <link>https://hurom.cz</link>
+  <description>Odšťavňujte pomocí nízkých otáček se šnekovými odšťavňovači Hurom a dodejte vašemu tělu jen ty nejlepší čerstvé přírodní šťávy prémiové kvality.</description>\n`
+
+  const dataTransform = data.reduce((result, item) => {
+   return result + `<item>
+     <id>${item.id}</id>
+     <title>${item.title}</title>
+     <description>${item.description}</description>
+     <link>${item.link}</link>
+     <image_link>${item.image_link}</image_link>
+     <availability>in stock</availability>
+     <condition>new</condition>
+     <price>${item.price} CZK</price>
+     <brand>HUROM</brand>
+   </item>\n`
+  }, '')
+
+  xmlStringFeed += dataTransform
+  xmlStringFeed += `</channel>
+  </rss>`
+
+  return xmlStringFeed
+}
+
+export default toXml;

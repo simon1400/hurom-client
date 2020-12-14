@@ -1,4 +1,4 @@
-import React, { useReducer, createContext } from "react";
+import { useReducer, createContext } from "react";
 import Cookies from 'js-cookie'
 
 let reducer = (state, action) => {
