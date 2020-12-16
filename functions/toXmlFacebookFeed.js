@@ -1,5 +1,6 @@
 const toXml = data => {
   var xmlStringFeed = `<?xml version="1.0" encoding="utf-8"?>\n
+  <rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
   <channel>
   <title>Objevujte šnekové odšťavňovače Hurom</title>
   <link>https://hurom.cz</link>
@@ -23,7 +24,7 @@ const toXml = data => {
 
   xmlStringFeed += dataTransform
   xmlStringFeed += `</channel>
-  `
+                    </rss>`
 
   return xmlStringFeed
 }
