@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+  <rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
   <channel>
   <title>Objevujte šnekové odšťavňovače Hurom</title>
   <link>https://hurom.cz</link>
@@ -14,6 +15,8 @@
      <condition>new</condition>
      <price>12490 CZK</price>
      <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
    </item>
 <item>
      <id>9113cb2571e116</id>
@@ -25,6 +28,21 @@
      <condition>new</condition>
      <price>12490 CZK</price>
      <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
+   </item>
+<item>
+     <id>1c7a9bbb-f6a2-482f-ae21-7e487732fb6b</id>
+     <title>HF 1. generace</title>
+     <description>Vychutnejte si čerstvé šťávy v pohodlí domova s elegantním nízkootáčkovým šnekovým odšťavňovačem Hurom HF.</description>
+     <link>https://hurom.cz/odstavnovac/hf-1-generace</link>
+     <image_link>https://cdn.sanity.io/images/bvwt1scq/production/7245346ff270aa6091c853242550bbc466f25c70-835x1307.jpg</image_link>
+     <availability>in stock</availability>
+     <condition>new</condition>
+     <price>9490 CZK</price>
+     <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
    </item>
 <item>
      <id>d7d8cfa8b2c608</id>
@@ -36,6 +54,8 @@
      <condition>new</condition>
      <price>9990 CZK</price>
      <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
    </item>
 <item>
      <id>996e55605eb218</id>
@@ -47,6 +67,8 @@
      <condition>new</condition>
      <price>9990 CZK</price>
      <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
    </item>
 <item>
      <id>f1ac605b7b5209</id>
@@ -58,6 +80,8 @@
      <condition>new</condition>
      <price>10490 CZK</price>
      <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
    </item>
 <item>
      <id>a629510933c119</id>
@@ -69,6 +93,34 @@
      <condition>new</condition>
      <price>10490 CZK</price>
      <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
+   </item>
+<item>
+     <id>6660e61b-ef9f-49d2-965b-2ac512604e31</id>
+     <title>HH 1. generace</title>
+     <description>Vychutnejte si zdravé ovocné a zeleninové šťávy v pohodlí domova s vínovým nízkootáčkovým šnekovým odšťavňovačem Hurom HH.</description>
+     <link>https://hurom.cz/odstavnovac/hh-1-generace</link>
+     <image_link>https://cdn.sanity.io/images/bvwt1scq/production/10ba1847518fd7bd7103fcce4f1bbaaca96fcb9a-952x1270.jpg</image_link>
+     <availability>in stock</availability>
+     <condition>new</condition>
+     <price>8490 CZK</price>
+     <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
+   </item>
+<item>
+     <id>681f0761-ffb1-4672-8f4f-f9299f2e893f</id>
+     <title>HT 2. generace</title>
+     <description>Zdravé ovocné a zeleninové šťávy během chvilky, přímo u vás doma. Nízkootáčkový šnekový odšťavňovač Hurom HT 2. generace si zamilujete!</description>
+     <link>https://hurom.cz/odstavnovac/ht-2-generace</link>
+     <image_link>https://cdn.sanity.io/images/bvwt1scq/production/925829530d47c8e84169fee35272647c58199a51-483x742.jpg</image_link>
+     <availability>in stock</availability>
+     <condition>new</condition>
+     <price>11990 CZK</price>
+     <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
    </item>
 <item>
      <id>5f122494ec57012</id>
@@ -80,6 +132,8 @@
      <condition>new</condition>
      <price>15990 CZK</price>
      <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
    </item>
 <item>
      <id>0fedce748329112</id>
@@ -91,6 +145,21 @@
      <condition>new</condition>
      <price>15990 CZK</price>
      <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
+   </item>
+<item>
+     <id>a064d3ab-16f0-4645-a58a-453454ebf204</id>
+     <title>HW Smart hopper - commercial</title>
+     <description>Čerstvé ovocné a zeleninové šťávy během chvilky kdykoliv. Nízkootáčkový šnekový odšťavňovač Hurom HW 2. generace je správná volba!</description>
+     <link>https://hurom.cz/odstavnovac/hw-smart-hopper-commercial</link>
+     <image_link>https://cdn.sanity.io/images/bvwt1scq/production/170b56e71db2b8958fd3f220009b3a0b055a8f7c-439x816.jpg</image_link>
+     <availability>in stock</availability>
+     <condition>new</condition>
+     <price>36179 CZK</price>
+     <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
    </item>
 <item>
      <id>c370def0f2ca014</id>
@@ -102,6 +171,8 @@
      <condition>new</condition>
      <price>13990 CZK</price>
      <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
    </item>
 <item>
      <id>ee9eb4216798114</id>
@@ -113,6 +184,21 @@
      <condition>new</condition>
      <price>13990 CZK</price>
      <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
+   </item>
+<item>
+     <id>df067e17-ae0c-4610-b1b6-61eeb0189b65</id>
+     <title>HB 1. generace</title>
+     <description>Vychutnejte si zdravé ovocné a zeleninové šťávy v pohodlí domova s černým nízkootáčkovým šnekovým odšťavňovačem Hurom HH.</description>
+     <link>https://hurom.cz/odstavnovac/hb-1-generace</link>
+     <image_link>https://cdn.sanity.io/images/bvwt1scq/production/b6a6a176120922e0104656d128a4fdbcc1730543-628x838.jpg</image_link>
+     <availability>in stock</availability>
+     <condition>new</condition>
+     <price>7990 CZK</price>
+     <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
    </item>
 </channel>
-  </rss>
+                    </rss>
