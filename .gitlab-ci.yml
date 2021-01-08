@@ -1,16 +1,29 @@
 stages:
+    - build
     - deploy
+
+before_script:
+    - docker info
+    - docker login -u simon1400 -p d04101996d
+
+build:
+  stage: build
+  tags:
+    - hurom-app
+  script:
+      - docker build -f ./Dockerfile --no-cache -t hurom:master .
+      - docker tag hurom:master simon1400/hurom:master
+      - docker push simon1400/hurom
 
 
 deploy:
     stage: deploy
     tags:
-      - hurom-next
+      - hurom-app
     script:
-        - echo "Deploying to server"
-        - cp -rv ./ /var/www/hurom/client/
+        - docker login -u simon1400 -p d04101996d
+        - cd /var/www/hurom/client/ && sudo docker-compose pull
         - cd /var/www/hurom/client/ && sudo docker-compose down
-        - cd /var/www/hurom/client/ && sudo docker-compose build
         - cd /var/www/hurom/client/ && sudo docker-compose up -d
         - echo "Deployed"
     environment:
