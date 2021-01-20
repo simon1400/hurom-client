@@ -21,9 +21,7 @@ const gtag = data => {
     }))
   }
 
-  window.gtag('event', 'purchase', dataSend);
-
-  return
+  return dataSend
 }
 
 

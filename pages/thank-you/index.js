@@ -3,66 +3,80 @@ import loadable from '@loadable/component'
 import {AxiosAPI} from '../../restClient'
 import { DataStateContext } from '../../context/dataStateContext'
 import getUrl from '../../function/getSearch'
-import gtag from '../../function/gtag'
+import dataSend from '../../function/gtag'
 import Head from 'next/head'
 
 const Button = loadable(() => import('../../components/Button'))
 const Page = loadable(() => import('../../layout/page'))
 
-const ThankYou = () => {
+const script = (order) => {
+  const script = document.createElement('script');
+
+  script.async = true;
+  var products = ''
+  order.basket.map(item => products += `_hrq.push(['addProduct', '${item.nameProduct}${item.variantProduct ? ' - ' + item.variantProduct : ''}', '${item.price}', '${item.count}', '${item.id}']);`)
+  script.innerHTML = `var _hrq = _hrq || [];
+      _hrq.push(['setKey', '982154816664C09B9691FCFA69037EE7']);
+      _hrq.push(['setOrderId', ${order.idOrder}]);
+      ${products}
+      _hrq.push(['trackOrder']);
+
+    (function() {
+        var ho = document.createElement('script'); ho.type = 'text/javascript'; ho.async = true;
+        ho.src = 'https://im9.cz/js/ext/1-roi-async.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ho, s);
+    })();`;
+
+    return script
+}
+
+export async function getServerSideProps({query}) {
+
+  // http://localhost:3000/thank-you?refId=493742&dobirka=true
+
+  if(!query.refId === undefined){
+    return {
+      redirect: {
+        permanent: false,
+        destination: '/not-found'
+      }
+    }
+  }
+
+  const res = await AxiosAPI.get(`/payment/status/${query.refId}`)
+
+  await AxiosAPI.post('/send/orderInfo', res.data.data[0])
+
+  return {
+    props: {
+      order: res.data.data[0]
+    }
+  }
+}
+
+const ThankYou = ({order}) => {
 
   const [status, setStatus] = useState('')
+  const [price, setPrice] = useState('')
+
   const { dataContextDispatch } = useContext(DataStateContext)
-  const [price, setPrice] = useState(0)
 
   useEffect(() => {
-
-    const script = document.createElement('script');
-
-    var serchUrl = getUrl(window.location.search);
-    if(!serchUrl.refId){ window.location.href = '/not-found'; return;}
 
     dataContextDispatch({ state: [], type: 'basket' })
     dataContextDispatch({ state: 0, type: 'basketCount' })
 
-    AxiosAPI.get(`/payment/status/${serchUrl.refId}`).then(res => {
-
-      const order = res.data.data[0]
-
-      AxiosAPI.post('/send/orderInfo', order).then(resMail => console.log(resMail.data))
-              .catch(err => console.log('Send Email error --- ', err))
-
-      script.async = true;
-      var products = ''
-      order.basket.map(item => products += `_hrq.push(['addProduct', '${item.nameProduct}${item.variantProduct ? ' - ' + item.variantProduct : ''}', '${item.price}', '${item.count}', '${item.id}']);`)
-      script.innerHTML = `var _hrq = _hrq || [];
-          _hrq.push(['setKey', '982154816664C09B9691FCFA69037EE7']);
-          _hrq.push(['setOrderId', ${order.idOrder}]);
-          ${products}
-          _hrq.push(['trackOrder']);
-
-      (function() {
-          var ho = document.createElement('script'); ho.type = 'text/javascript'; ho.async = true;
-          ho.src = 'https://im9.cz/js/ext/1-roi-async.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ho, s);
-      })();`;
-
-      if(order.payOnline) {
-        setStatus(order.status)
-        if(order.status !== 'PENDING' && order.status !== 'CANCELLED'){
-          gtag(order)
-          setPrice(order.sum)
-          document.body.appendChild(script);
-        }
-      }else{
-        setStatus('dobirka')
-        gtag(order)
+    if(order.payOnline) {
+      setStatus(order.status)
+      if(order.status !== 'PENDING' && order.status !== 'CANCELLED'){
         setPrice(order.sum)
-        document.body.appendChild(script);
+        document.body.appendChild(script(order));
       }
-
-    }).catch(err => console.log('Error get status order --- ', err))
-
+    }else{
+      setStatus('dobirka')
+      setPrice(order.sum)
+      document.body.appendChild(script(order));
+    }
 
     return () => {
       document.body.removeChild(script);
@@ -75,6 +89,7 @@ const ThankYou = () => {
       <Head>
         {price > 0 && <script dangerouslySetInnerHTML={{__html: `var seznam_cId = 100071362; var seznam_value = ${price};`}} />}
         {price > 0 && <script type="text/javascript" src="https://www.seznam.cz/rs/static/rc.js" async></script>}
+        {order && <script dangerouslySetInnerHTML={{__html: `gtag('event', 'purchase', ${dataSend})`}} />}
       </Head>
       <div className="uk-container uk-margin-xlarge-top">
         <div className="uk-grid uk-child-width-1-1" uk-grid="">
