@@ -89,7 +89,7 @@ const ThankYou = ({order}) => {
       <Head>
         {price > 0 && <script dangerouslySetInnerHTML={{__html: `var seznam_cId = 100071362; var seznam_value = ${price};`}} />}
         {price > 0 && <script type="text/javascript" src="https://www.seznam.cz/rs/static/rc.js" async></script>}
-        {order && <script dangerouslySetInnerHTML={{__html: `gtag('event', 'purchase', ${dataSend})`}} />}
+        {order && <script dangerouslySetInnerHTML={{__html: `gtag('event', 'purchase', ${dataSend()})`}} />}
       </Head>
       <div className="uk-container uk-margin-xlarge-top">
         <div className="uk-grid uk-child-width-1-1" uk-grid="">
