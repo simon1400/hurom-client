@@ -17,19 +17,19 @@ import PageHead from '../../components/PageHead'
 import Card from '../../components/Card'
 import Recept from '../../components/Recept'
 
-export async function getStaticPaths() {
-  const paths = [
-    {params: {category: 'odstavnovace'}},
-    {params: {category: 'recepty'}},
-    {params: {category: 'novinky'}}
-  ]
-  return {
-    paths,
-    fallback: false
-  }
-}
+// export async function getStaticPaths() {
+//   const paths = [
+//     {params: {category: 'odstavnovace'}},
+//     {params: {category: 'recepty'}},
+//     {params: {category: 'novinky'}}
+//   ]
+//   return {
+//     paths,
+//     fallback: false
+//   }
+// }
 
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
 
   var items = [],
       breadTitle = '',

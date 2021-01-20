@@ -8,25 +8,25 @@ import Loader from '../../components/Loader'
 import Page from '../../layout/page'
 import PageHead from '../../components/PageHead'
 
-export async function getStaticPaths() {
+// export async function getStaticPaths() {
+//
+//   const data = await sanityClient.fetch(`{
+//     'article': *[_type == "article"]{slug},
+//     'baseArticle': *[_type == "baseArticle"]{slug},
+//   }`)
+//
+//   const paths = []
+//
+//   data.article.map(item => paths.push({params: {article: item.slug.current}}))
+//   data.baseArticle.map(item => paths.push({params: {article: item.slug.current}}))
+//
+//   return {
+//     paths,
+//     fallback: false
+//   }
+// }
 
-  const data = await sanityClient.fetch(`{
-    'article': *[_type == "article"]{slug},
-    'baseArticle': *[_type == "baseArticle"]{slug},
-  }`)
-
-  const paths = []
-
-  data.article.map(item => paths.push({params: {article: item.slug.current}}))
-  data.baseArticle.map(item => paths.push({params: {article: item.slug.current}}))
-
-  return {
-    paths,
-    fallback: false
-  }
-}
-
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
 
   const data = await sanityClient.fetch(query, {url: params.article})
 

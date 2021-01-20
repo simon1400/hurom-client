@@ -7,21 +7,21 @@ import ArticleShort from '../../components/Article'
 import Breadcrumb from '../../components/breadcrump'
 import Loader from '../../components/Loader'
 
-export async function getStaticPaths() {
+// export async function getStaticPaths() {
+//
+//   const data = await sanityClient.fetch(`*[_type == "recepts"]{"slug": slug.current}`)
+//
+//   const paths = []
+//
+//   data.map(item => paths.push({params: {recept: item.slug}}))
+//
+//   return {
+//     paths,
+//     fallback: false
+//   }
+// }
 
-  const data = await sanityClient.fetch(`*[_type == "recepts"]{"slug": slug.current}`)
-
-  const paths = []
-
-  data.map(item => paths.push({params: {recept: item.slug}}))
-
-  return {
-    paths,
-    fallback: false
-  }
-}
-
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
 
   const data = await sanityClient.fetch(query, {url: params.recept})
 

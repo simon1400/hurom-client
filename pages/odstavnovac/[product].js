@@ -12,19 +12,19 @@ import Product from '../../view/Product'
 const imageBuilder = imageUrlBuilder(sanityClient);
 const urlFor = source => imageBuilder.image(source);
 
-export async function getStaticPaths() {
+// export async function getStaticPaths() {
+//
+//   const data = await sanityClient.fetch(`*[_type == "product"]{slug}`)
+//   const paths = []
+//   data.map(item => paths.push({params: {product: item.slug.current}}))
+//
+//   return {
+//     paths,
+//     fallback: false
+//   }
+// }
 
-  const data = await sanityClient.fetch(`*[_type == "product"]{slug}`)
-  const paths = []
-  data.map(item => paths.push({params: {product: item.slug.current}}))
-
-  return {
-    paths,
-    fallback: false
-  }
-}
-
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
 
   const data = await sanityClient.fetch(query, {url: params.product})
 
