@@ -3,13 +3,14 @@ import loadable from '@loadable/component'
 import {AxiosAPI} from '../../restClient'
 import { DataStateContext } from '../../context/dataStateContext'
 import getUrl from '../../function/getSearch'
-import dataSend from '../../function/gtag'
+// import dataSend from '../../function/gtag'
 import Head from 'next/head'
 
 const Button = loadable(() => import('../../components/Button'))
 const Page = loadable(() => import('../../layout/page'))
 
 const script = (order) => {
+
   const script = document.createElement('script');
 
   script.async = true;
@@ -32,7 +33,7 @@ const script = (order) => {
 
 export async function getServerSideProps({query}) {
 
-  // http://localhost:3000/thank-you?refId=493742&dobirka=true
+  // /thank-you?refId=41539&dobirka=true
 
   if(!query.refId === undefined){
     return {
@@ -49,12 +50,21 @@ export async function getServerSideProps({query}) {
 
   return {
     props: {
-      order: res.data.data[0]
+      order: res.data.data[0],
+      orderBasket: res.data.data[0].basket.map((item, index) => ({
+        id: item.id,
+        name: item.nameProduct,
+        brand: "Hurom",
+        variant: item.variantProduct,
+        list_position: index + 1,
+        quantity: item.count,
+        price: item.price
+      }))
     }
   }
 }
 
-const ThankYou = ({order}) => {
+const ThankYou = ({order, orderBasket}) => {
 
   const [status, setStatus] = useState('')
   const [price, setPrice] = useState('')
@@ -89,7 +99,15 @@ const ThankYou = ({order}) => {
       <Head>
         {price > 0 && <script dangerouslySetInnerHTML={{__html: `var seznam_cId = 100071362; var seznam_value = ${price};`}} />}
         {price > 0 && <script type="text/javascript" src="https://www.seznam.cz/rs/static/rc.js" async></script>}
-        {order && <script dangerouslySetInnerHTML={{__html: `gtag('event', 'purchase', ${dataSend()})`}} />}
+        <script dangerouslySetInnerHTML={{__html: `gtag('event', 'purchase', {
+          transaction_id: ${order.idOrder},
+          affiliation: "Hurom",
+          value: ${order.sum - (order.sum * 0.21)},
+          currency: 'CZK',
+          tax: ${order.sum * 0.21},
+          shipping: ${order.deliveryPrice},
+          items: ${JSON.stringify(orderBasket)}
+        })`}} />
       </Head>
       <div className="uk-container uk-margin-xlarge-top">
         <div className="uk-grid uk-child-width-1-1" uk-grid="">
