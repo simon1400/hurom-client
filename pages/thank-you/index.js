@@ -33,8 +33,6 @@ const script = (order) => {
 
 export async function getServerSideProps({query}) {
 
-  // /thank-you?refId=41539&dobirka=true
-
   if(!query.refId === undefined){
     return {
       redirect: {

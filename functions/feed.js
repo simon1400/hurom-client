@@ -37,7 +37,7 @@ async function generateFeed() {
     for(var i = 0; i < products.length; i++) {
 
       var productVariants = []
-      if(products[i].variants.length){
+      if(products[i].variants && products[i].variants.length){
         for(var a = 0; a < products[i].variants.length; a++){
           productVariants.push({
             id: products[i].variants[a]._key+a+(i+6),
@@ -54,7 +54,7 @@ async function generateFeed() {
           })
         }
 
-      }else if(products[i].price > 0 && !products[i].variants.length){
+      }else if(products[i].price > 0 && products[i].variants && !products[i].variants.length){
         productsData.push({
           id: products[i]._id,
           title: products[i].title,

@@ -120,8 +120,9 @@ const ProductWrap = ({dataBread, startSelectValue, product}) => {
             product={product}
             setError={setError}
             dataBread={dataBread}
+            selectValue={selectValue}
             setSelectValue={setSelectValue}
-            selectValue={selectValue}/>
+          />
 
 }
 

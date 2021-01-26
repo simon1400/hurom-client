@@ -250,7 +250,6 @@ const CheckoutWrap = () => {
     }
 
     await AxiosAPI.post(`/order`, dataSend).then(res => {
-      console.log(res);
       if(dataSend.payOnline && res.data.data.redirect !== undefined){
         window.location.href = decodeURIComponent(res.data.data.redirect)
       }else{

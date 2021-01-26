@@ -18,7 +18,7 @@ const toXml = data => {
    return result + `\n<SHOPITEM>
      <ITEM_ID>${item.id}</ITEM_ID>
      <PRODUCTNAME>HUROM | ${item.title}</PRODUCTNAME>
-     <PRODUCT>${item.title}</PRODUCT>
+     <PRODUCT>HUROM | ${item.title}</PRODUCT>
      <DESCRIPTION>${item.description}</DESCRIPTION>
      <URL>${item.link}</URL>
      <IMGURL>${item.image_link}</IMGURL>

@@ -123,7 +123,7 @@
      <google_product_category>750</google_product_category>
    </item>
 <item>
-     <id>5f122494ec57012</id>
+     <id>5f122494ec57013</id>
      <title>H 200 - titanově šedá</title>
      <description>Získejte to nejlepší z čerstvého ovoce a zeleniny, díky pomalé extrakci. Vylisujte si čerstvou šťávu v pohodlí domova a během několika okamžiků.</description>
      <link>https://hurom.cz/odstavnovac/h-200?variant=titanove-seda</link>
@@ -136,7 +136,7 @@
      <google_product_category>750</google_product_category>
    </item>
 <item>
-     <id>0fedce748329112</id>
+     <id>0fedce748329113</id>
      <title>H 200 - matně černá</title>
      <description>Získejte to nejlepší z čerstvého ovoce a zeleniny, díky pomalé extrakci. Vylisujte si čerstvou šťávu v pohodlí domova a během několika okamžiků.</description>
      <link>https://hurom.cz/odstavnovac/h-200?variant=matne-cerna</link>
@@ -162,7 +162,7 @@
      <google_product_category>750</google_product_category>
    </item>
 <item>
-     <id>c370def0f2ca014</id>
+     <id>c370def0f2ca015</id>
      <title>One stop H-AI - red</title>
      <description>Vyzkoušejte sílu prémiového šnekového odšťavňovače Hurom H-AI H34. Jedinečný zážitek z čerstvých přírodních šťáv, kdykoliv a přímo u vás doma.</description>
      <link>https://hurom.cz/odstavnovac/one-stop-h-ai?variant=red</link>
@@ -175,7 +175,7 @@
      <google_product_category>750</google_product_category>
    </item>
 <item>
-     <id>ee9eb4216798114</id>
+     <id>ee9eb4216798115</id>
      <title>One stop H-AI - platinum</title>
      <description>Vyzkoušejte sílu prémiového šnekového odšťavňovače Hurom H-AI H34. Jedinečný zážitek z čerstvých přírodních šťáv, kdykoliv a přímo u vás doma.</description>
      <link>https://hurom.cz/odstavnovac/one-stop-h-ai?variant=platinum</link>
@@ -183,19 +183,6 @@
      <availability>in stock</availability>
      <condition>new</condition>
      <price>13990 CZK</price>
-     <brand>HUROM</brand>
-     <inventory>10</inventory>
-     <google_product_category>750</google_product_category>
-   </item>
-<item>
-     <id>df067e17-ae0c-4610-b1b6-61eeb0189b65</id>
-     <title>HB 1. generace</title>
-     <description>Vychutnejte si zdravé ovocné a zeleninové šťávy v pohodlí domova s černým nízkootáčkovým šnekovým odšťavňovačem Hurom HH.</description>
-     <link>https://hurom.cz/odstavnovac/hb-1-generace</link>
-     <image_link>https://cdn.sanity.io/images/bvwt1scq/production/b6a6a176120922e0104656d128a4fdbcc1730543-628x838.jpg</image_link>
-     <availability>in stock</availability>
-     <condition>new</condition>
-     <price>7990 CZK</price>
      <brand>HUROM</brand>
      <inventory>10</inventory>
      <google_product_category>750</google_product_category>
