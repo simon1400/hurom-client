@@ -12,18 +12,6 @@ import Product from '../../view/Product'
 const imageBuilder = imageUrlBuilder(sanityClient);
 const urlFor = source => imageBuilder.image(source);
 
-// export async function getStaticPaths() {
-//
-//   const data = await sanityClient.fetch(`*[_type == "product"]{slug}`)
-//   const paths = []
-//   data.map(item => paths.push({params: {product: item.slug.current}}))
-//
-//   return {
-//     paths,
-//     fallback: false
-//   }
-// }
-
 export async function getServerSideProps({ params }) {
 
   const data = await sanityClient.fetch(query, {url: params.product})
@@ -36,8 +24,13 @@ export async function getServerSideProps({ params }) {
     name: 'vybrat barvu',
     id: ''
   }
+
+  var idsGTM = [data[0]._id]
+
   if(!data[0].variants?.length){
     selectValue.id = data[0]._id
+  }else{
+    idsGTM = data[0].variants.map(item => item._key)
   }
   const dataBread = [
     {
@@ -53,19 +46,18 @@ export async function getServerSideProps({ params }) {
     props: {
       dataBread,
       startSelectValue: selectValue,
-      product: data[0]
+      product: data[0],
+      idsGTM
     }
   }
 }
 
-
-
-const ProductWrap = ({dataBread, startSelectValue, product}) => {
+const ProductWrap = ({dataBread, startSelectValue, product, idsGTM}) => {
 
   const { dataContextState, dataContextDispatch } = useContext(DataStateContext)
   const [selectValue, setSelectValue] = useState(startSelectValue)
   const [error, setError] = useState(false)
-
+  const [addToCardGTM, setAddToCardGTM] = useState(false)
 
   const buy = (e) => {
     e.preventDefault()
@@ -105,6 +97,8 @@ const ProductWrap = ({dataBread, startSelectValue, product}) => {
       localBasket.push(newLocalBasket)
     }
 
+    setAddToCardGTM(newLocalBasket.id)
+
     dataContextDispatch({ state: localBasket, type: 'basket' })
     offcanvas('#canvas').show();
   }
@@ -116,11 +110,13 @@ const ProductWrap = ({dataBread, startSelectValue, product}) => {
   return <Product
             buy={buy}
             error={error}
+            idsGTM={idsGTM}
             urlFor={urlFor}
             product={product}
             setError={setError}
             dataBread={dataBread}
             selectValue={selectValue}
+            addToCardGTM={addToCardGTM}
             setSelectValue={setSelectValue}
           />
 

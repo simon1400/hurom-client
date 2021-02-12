@@ -46,18 +46,26 @@ export async function getServerSideProps({query}) {
 
   await AxiosAPI.post('/send/orderInfo', res.data.data[0])
 
+  var basItem
+  var orderBasket = res.data.data[0].basket.map((item, index) => {
+    basItem = {
+      id: item.id,
+      name: item.nameProduct,
+      brand: "Hurom",
+      list_position: index + 1,
+      quantity: item.count,
+      price: item.price
+    }
+    if(item.variantProduct){
+      basItem.variant = item.variantProduct
+    }
+    return basItem
+  })
+
   return {
     props: {
       order: res.data.data[0],
-      orderBasket: res.data.data[0].basket.map((item, index) => ({
-        id: item.id,
-        name: item.nameProduct,
-        brand: "Hurom",
-        variant: item.variantProduct,
-        list_position: index + 1,
-        quantity: item.count,
-        price: item.price
-      }))
+      orderBasket
     }
   }
 }
@@ -66,6 +74,7 @@ const ThankYou = ({order, orderBasket}) => {
 
   const [status, setStatus] = useState('')
   const [price, setPrice] = useState('')
+  console.log(order);
 
   const { dataContextDispatch } = useContext(DataStateContext)
 

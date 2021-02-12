@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react'
 import {dropdown} from 'uikit'
+import Head from 'next/head'
 import BlockContent from "@sanity/block-content-to-react";
 
 import Page from '../layout/page'
@@ -29,6 +30,8 @@ const Product = ({
   setError,
   setSelectValue,
   urlFor,
+  addToCardGTM,
+  idsGTM,
   error,
   selectValue,
   buy
@@ -78,7 +81,29 @@ const Product = ({
   }
 
   return(
-    <Page title={product?.meta?.head} description={product?.meta?.description} image={urlFor(product.image).url()}>
+    <Page title={product?.meta?.head} description={product?.meta?.description} image={urlFor(product.image).url()} >
+      <Head>
+        <script dangerouslySetInnerHTML={{__html: `gtag('event','view_item', {
+          'value': ${product.price},
+          'items': [
+            ${idsGTM.map(item => {
+              return `{
+                'id': '${item}',
+                'google_business_vertical': 'retail'
+              }`
+            })}
+            ]
+          });`}} />
+        {addToCardGTM &&<script dangerouslySetInnerHTML={{__html: `gtag('event','add_to_cart', {
+          'value': ${product.price},
+          'items': [
+              {
+                'id': '${addToCardGTM}',
+                'google_business_vertical': 'retail'
+              }
+            ]
+          });`}} />}
+      </Head>
       <Breadcrumb data={dataBread} />
       <div className="uk-container uk-margin-large-top">
         <div className="uk-grid uk-child-width-1-1 uk-child-width-1-2@m" uk-grid="">

@@ -1,6 +1,6 @@
 import sanityClient from "../../lib/sanity.js";
 import BlockContent from "@sanity/block-content-to-react";
-
+import Head from 'next/head'
 
 import {
   settingCategoryProduct,
@@ -17,18 +17,6 @@ import PageHead from '../../components/PageHead'
 import Card from '../../components/Card'
 import Recept from '../../components/Recept'
 
-// export async function getStaticPaths() {
-//   const paths = [
-//     {params: {category: 'odstavnovace'}},
-//     {params: {category: 'recepty'}},
-//     {params: {category: 'novinky'}}
-//   ]
-//   return {
-//     paths,
-//     fallback: false
-//   }
-// }
-
 export async function getServerSideProps({ params }) {
 
   var items = [],
@@ -36,7 +24,9 @@ export async function getServerSideProps({ params }) {
       pathCategory = params.category,
       category = '',
       meta = {},
-      globalCategory
+      globalCategory,
+      valueGTM = false,
+      idsGTM = []
 
   if(pathCategory === 'odstavnovace'){
     category = await sanityClient.fetch(settingCategoryProduct)
@@ -44,6 +34,16 @@ export async function getServerSideProps({ params }) {
     items = await sanityClient.fetch(queryProducts)
     breadTitle = 'Odšťavňovače'
     meta = {title: 'Odšťavňovače', description: 'Odšťavňovače'}
+    valueGTM = items.reduce((a, b) => +a+b.price, '')
+    items.map(item => {
+      if(!item.variants?.length){
+        idsGTM.push(item._id)
+      }else{
+        item.variants.map(variant => {
+          idsGTM.push(variant._key)
+        })
+      }
+    })
   }else if(pathCategory === 'recepty'){
     category = await sanityClient.fetch(settingCategoryArticles)
     globalCategory = category.settingRecept
@@ -66,15 +66,35 @@ export async function getServerSideProps({ params }) {
       items,
       globalCategory,
       dataBread: [{title: breadTitle}],
-      match: params
+      match: params,
+      valueGTM,
+      idsGTM
     }
   }
 }
 
-const Category = ({globalCategory, items, dataBread, meta, match}) => {
+const Category = ({globalCategory, items, dataBread, meta, match, valueGTM, idsGTM}) => {
 
   if(items?.length){
-    return <Page title={meta.title} description={meta.description} image={globalCategory?.imageUrl}>
+    return <Page
+            title={meta.title}
+            description={meta.description}
+            image={globalCategory?.imageUrl}
+          >
+
+      {!!valueGTM && <Head>
+         <script dangerouslySetInnerHTML={{__html: `gtag('event','view_item_list', {
+          'value': ${valueGTM},
+          'items': [
+            ${idsGTM.map(item => {
+              return `{
+                'id': '${item}',
+                'google_business_vertical': 'retail'
+              }`
+            })}
+            ]
+          });`}} />
+      </Head>}
       <PageHead data={globalCategory} dataBread={dataBread} className="category-head" />
       <div className="uk-container uk-margin-medium-bottom">
         <div className="uk-grid uk-child-width-1-2 uk-child-width-1-3@m" uk-grid="" uk-height-match="target: > div > .card > .card-content-wrap">

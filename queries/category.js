@@ -12,6 +12,7 @@ const settingCategoryArticles = `*[_type == "settingsArticles"]{
 }[0]`;
 
 const queryProducts = `*[_type == "product"]{
+  _id,
   title,
   "slug": slug.current,
   price,
