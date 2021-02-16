@@ -74,7 +74,6 @@ const ThankYou = ({order, orderBasket}) => {
 
   const [status, setStatus] = useState('')
   const [price, setPrice] = useState('')
-  console.log(order);
 
   const { dataContextDispatch } = useContext(DataStateContext)
 

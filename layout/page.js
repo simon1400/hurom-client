@@ -57,7 +57,8 @@ const Page = ({
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-DJN3SG2FPF');`}} />
+          gtag('config', 'G-DJN3SG2FPF');
+          gtag('config', 'AW-465988455');`}} />
 
         <meta charSet="utf-8" />
         <link rel="icon" href="/favicon/favicon.ico" />
