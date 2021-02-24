@@ -1,9 +1,12 @@
 const toXml = data => {
   var xmlStringFeed = `<?xml version="1.0" encoding="utf-8"?>
   <SHOP>\n`
-  var paramStr = '', slide = '', galery = '', articles = '';
+  var paramStr, slide, galery, articles;
   const dataTransform = data.reduce((result, item) => {
     paramStr = ''
+    slide = ''
+    galery = ''
+    articles = ''
     if(item.parametry && item.parametry.length){
       item.parametry.map(itemParameter => {
         var valueTypeParameters = item.params.filter(param => param._id === itemParameter.parameter._ref)[0].value

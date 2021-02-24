@@ -45,12 +45,13 @@ async function generateFeed() {
       meta
     }`)
 
-    let productsData = [], dataObj = {}, articleItem = {};
+    let productsData = [];
 
     for(var i = 0; i < products.length; i++) {
-      var productVariants = []
+      var productVariants = [], dataObj = {}, articleItem = {};
       if(products[i].variants && products[i].variants.length){
         for(var a = 0; a < products[i].variants.length; a++){
+          articleItem = {}
           dataObj = {
             id: products[i].variants[a]._key,
             title: products[i].title + ' | ' + products[i].variants[a].title,
