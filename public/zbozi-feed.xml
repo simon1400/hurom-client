@@ -968,10 +968,10 @@
 
 <SHOPITEM>
      <ITEM_ID>c370def0f2ca</ITEM_ID>
-     <PRODUCTNAME>HUROM | H-AI One stop  | red</PRODUCTNAME>
-     <PRODUCT>H-AI One stop  | red</PRODUCT>
+     <PRODUCTNAME>HUROM | H-AI One stop | ;red</PRODUCTNAME>
+     <PRODUCT>H-AI One stop | ;red</PRODUCT>
      <DESCRIPTION>Vyzkoušejte sílu prémiového šnekového odšťavňovače Hurom H-AI H34. Jedinečný zážitek z čerstvých přírodních šťáv, kdykoliv a přímo u vás doma.</DESCRIPTION>
-     <URL>https://hurom.cz/odstavnovac/h-ai-one-stop?variant=red</URL>
+     <URL>https://hurom.cz/odstavnovac/h-ai-one-stop?variant=;red</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/50d2f48bde67b4958b6b6664b0d8e19dd32bb564-819x1094.jpg</IMGURL>
      <PRICE_VAT>13990</PRICE_VAT>
      
@@ -1052,8 +1052,8 @@
 
 <SHOPITEM>
      <ITEM_ID>ee9eb4216798</ITEM_ID>
-     <PRODUCTNAME>HUROM | H-AI One stop  | platinum</PRODUCTNAME>
-     <PRODUCT>H-AI One stop  | platinum</PRODUCT>
+     <PRODUCTNAME>HUROM | H-AI One stop | platinum</PRODUCTNAME>
+     <PRODUCT>H-AI One stop | platinum</PRODUCT>
      <DESCRIPTION>Vyzkoušejte sílu prémiového šnekového odšťavňovače Hurom H-AI H34. Jedinečný zážitek z čerstvých přírodních šťáv, kdykoliv a přímo u vás doma.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-ai-one-stop?variant=platinum</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/3e59d27194f9e9617bb0e247d1e58b4e28cd523b-819x1094.jpg</IMGURL>
