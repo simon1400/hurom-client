@@ -17,8 +17,9 @@ export async function getServerSideProps({ params }) {
   const data = await sanityClient.fetch(query, {url: params.product})
 
   if(!data.length){
-    window.location.href = '/not-found'
-    return
+    return {
+      notFound: true,
+    }
   }
   var selectValue = {
     name: 'vybrat barvu',

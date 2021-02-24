@@ -26,8 +26,9 @@ export async function getServerSideProps({ params }) {
   const data = await sanityClient.fetch(query, {url: params.recept})
 
   if(!data.length){
-    window.location.href = '/not-found'
-    return
+    return {
+      notFound: true,
+    }
   }
   const dataBread = [
     {

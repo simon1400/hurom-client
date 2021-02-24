@@ -140,6 +140,14 @@ $global-2xlarge-font-size: $head_1;
 
 @media (max-width: $breakpoint-small){
 
+  .cookies{
+    padding: 10px 15px;
+    width: calc(100% - 30px);
+    a{
+      white-space: nowrap; 
+    }
+  }
+
   .gift-img{
     max-width: 150px;
   }

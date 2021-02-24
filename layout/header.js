@@ -9,7 +9,7 @@ const Header = () => {
   const { dataContextState, dataContextDispatch } = useContext(DataStateContext)
   const [menu, setMenu] = useState(false)
   const [basket, setBasket] = useState([])
-  const urlParse = () => router.pathname.split('/')
+  const urlParse = () => router.asPath.split('/')
 
   const handleSearch = () => {
     dataContextDispatch({state: {searchFocus: true}, type: 'state'})
@@ -23,7 +23,7 @@ const Header = () => {
     <header>
       <div className="uk-container">
         <div className="nav-wrap">
-          {router.pathname !== '/kosik' && router.pathname !== '/objednavka' &&<div className="uk-hidden@m uk-flex">
+          {router.asPath !== '/kosik' && router.asPath !== '/objednavka' &&<div className="uk-hidden@m uk-flex">
              <button className={`hamburger hamburger--spring ${menu && 'is-active'}`} type="button" onClick={() => setMenu(!menu)} aria-label="Hamburger">
               <span className="hamburger-box">
                 <span className="hamburger-inner"></span>
@@ -32,10 +32,13 @@ const Header = () => {
             <div className={`menu-mobile ${menu && 'menu-mobile-active'}`}>
                <ul>
                 <li className={urlParse().indexOf('odstavnovace') >= 0 ? 'active-menu' : ''} onClick={() => setMenu(!menu)}>
-                  <Link href="/odstavnovace"><a><span>Odšťavňovače</span></a></Link>
+                  <Link href="/odstavnovace"><a><span>Produkty</span></a></Link>
                 </li>
                 <li className={urlParse().indexOf('proc-hurom') >= 0 ? 'active-menu' : ''} onClick={() => setMenu(!menu)}>
                   <Link href="/clanek/proc-hurom"><a><span>Proč Hurom</span></a></Link>
+                </li>
+                <li className={urlParse().indexOf('vyzkousejte-hurom') >= 0 ? 'active-menu' : ''} onClick={() => setMenu(!menu)}>
+                  <Link href="/clanek/vyzkousejte-hurom"><a>Vyzkoušejte Hurom</a></Link>
                 </li>
                 <li className={urlParse().indexOf('recepty') >= 0 ? 'active-menu' : ''} onClick={() => setMenu(!menu)}>
                   <Link href="/recepty"><a><span>Recepty</span></a></Link>
@@ -46,17 +49,21 @@ const Header = () => {
                 <li className={urlParse().indexOf('kontakt') >= 0 ? 'active-menu' : ''} onClick={() => setMenu(!menu)}>
                   <Link href="/clanek/kontakt"><a><span>Kontakt</span></a></Link>
                 </li>
+
               </ul>
             </div>
           </div>}
           <Link href="/"><a className="logo"><img src="/assets/logo.svg" alt="Logo"/></a></Link>
-          {router.pathname !== '/kosik' && router.pathname !== '/objednavka' && <nav className="uk-visible@m">
+          {router.asPath !== '/kosik' && router.asPath !== '/objednavka' && <nav className="uk-visible@m">
              <ul>
               <li className={urlParse().indexOf('odstavnovace') >= 0 ? 'active-menu' : ''}>
-                <Link href="/odstavnovace"><a>Odšťavňovače</a></Link>
+                <Link href="/odstavnovace"><a>Produkty</a></Link>
               </li>
               <li className={urlParse().indexOf('proc-hurom') >= 0 ? 'active-menu' : ''}>
                 <Link href="/clanek/proc-hurom"><a>Proč Hurom</a></Link>
+              </li>
+              <li className={urlParse().indexOf('vyzkousejte-hurom') >= 0 ? 'active-menu' : ''}>
+                <Link href="/clanek/vyzkousejte-hurom"><a>Vyzkoušejte Hurom</a></Link>
               </li>
               <li className={urlParse().indexOf('recepty') >= 0 ? 'active-menu' : ''}>
                 <Link href="/recepty"><a>Recepty</a></Link>
@@ -69,7 +76,7 @@ const Header = () => {
               </li>
             </ul>
           </nav>}
-          {router.pathname !== '/kosik' && router.pathname !== '/objednavka' &&<div className="icons-wrap">
+          {router.asPath !== '/kosik' && router.asPath !== '/objednavka' &&<div className="icons-wrap">
              <ul>
               <li><a href="/" uk-toggle="target: #search" onClick={() => handleSearch()}><img src="/assets/search.svg" uk-svg="" alt="Search icon" /></a></li>
               {/*<li>
@@ -84,7 +91,7 @@ const Header = () => {
               </li>
             </ul>
           </div>}
-          {(router.pathname === '/kosik' || router.pathname === '/objednavka') && <div className="back-catalog-wrap uk-width-1-1 uk-text-right">
+          {(router.asPath === '/kosik' || router.asPath === '/objednavka') && <div className="back-catalog-wrap uk-width-1-1 uk-text-right">
             <a href="/odstavnovace" className="button bare"><img src="/assets/angle-left.svg" alt="left" className="uk-svg" uk-svg="" /> zpět k nákupu</a>
           </div>}
         </div>

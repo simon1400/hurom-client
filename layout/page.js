@@ -1,12 +1,16 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import Head from 'next/head'
 import sanityClient from "../lib/sanity.js";
 import { useRouter } from 'next/router'
+
+import { DataStateContext } from '../context/dataStateContext'
 
 import Header from './header'
 import Footer from './footer'
 import Canvas from './canvas'
 import Search from './search'
+import Cookies from '../components/Cookies'
+
 import query from '../queries/page'
 
 const Page = ({
@@ -25,6 +29,7 @@ const Page = ({
   tags
 }) => {
 
+  const { dataContextState } = useContext(DataStateContext)
   const router = useRouter()
   const [global, setGlobal] = useState({
     site_url: process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://hurom.cz',
@@ -123,6 +128,7 @@ const Page = ({
       <Footer />
       <Canvas />
       <Search />
+      {!dataContextState.cookies_agree && <Cookies />}
     </div>
   );
 }

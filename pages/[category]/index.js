@@ -57,7 +57,9 @@ export async function getServerSideProps({ params }) {
     breadTitle = 'Novinky'
     meta = {title: 'Novinky', description: 'Novinky'}
   }else{
-    window.location.href = '/not-found'
+    return {
+      notFound: true,
+    }
   }
 
   return {
