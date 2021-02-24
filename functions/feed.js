@@ -40,7 +40,7 @@ async function generateFeed() {
       if(products[i].variants && products[i].variants.length){
         for(var a = 0; a < products[i].variants.length; a++){
           productVariants.push({
-            id: products[i].variants[a]._key+a+(i+6),
+            id: products[i].variants[a]._key,
             title: products[i].title + ' | ' + products[i].variants[a].title,
             description: products[i].meta ? products[i].meta.description : '',
             link: 'https://hurom.cz/odstavnovac/' + products[i].slug.current + '?variant=' + products[i].variants[a].title.toLowerCase().split(' ').join('-').normalize("NFD").replace(/[\u0300-\u036f]/g, ""),
@@ -48,13 +48,12 @@ async function generateFeed() {
             params: products[i].param,
             parametry: products[i].parametry,
             price: products[i].price,
-            mpn: products[i].variants[a]._key.split('-').join('')+i+a,
+            mpn: products[i].variants[a]._key.split('-').join(''),
             ean: products[i].variants[a].ean ? products[i].variants[a].ean : '',
             gift: products[i].gift
           })
         }
-
-      }else if(products[i].price > 0 && products[i].variants && !products[i].variants.length){
+      }else if(products[i].price > 0 && (!products[i].variants || !products[i].variants.length)){
         productsData.push({
           id: products[i]._id,
           title: products[i].title,
@@ -65,7 +64,7 @@ async function generateFeed() {
           parametry: products[i].parametry,
           ean: products[i].ean ? products[i].ean : '',
           price: products[i].price,
-          mpn: products[i]._id.split('-').join('') + 'cz'+(i+3),
+          mpn: products[i]._id.split('-').join(''),
           gift: products[i].gift
         });
       }

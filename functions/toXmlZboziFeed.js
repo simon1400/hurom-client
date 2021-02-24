@@ -4,7 +4,7 @@ const toXml = data => {
   var paramStr;
   const dataTransform = data.reduce((result, item) => {
     paramStr = ''
-    if(item.parametry.length){
+    if(item.parametry && item.parametry.length){
       item.parametry.map(itemParameter => {
         var valueTypeParameters = item.params.filter(param => param._id === itemParameter.parameter._ref)[0].value
         paramStr += `\n<PARAM>

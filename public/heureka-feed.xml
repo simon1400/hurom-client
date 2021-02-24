@@ -2,11 +2,11 @@
   <SHOP>
 
 <SHOPITEM>
-     <ITEM_ID>112c11215d2406</ITEM_ID>
-     <PRODUCTNAME>HUROM | H 100 | platinově stříbrná</PRODUCTNAME>
-     <PRODUCT>HUROM | H 100 | platinově stříbrná</PRODUCT>
+     <ITEM_ID>112c11215d24</ITEM_ID>
+     <PRODUCTNAME>HUROM | H 100 | platinově stříbrný</PRODUCTNAME>
+     <PRODUCT>HUROM | H 100 | platinově stříbrný</PRODUCT>
      <DESCRIPTION>Dopřejte vašemu organismu čerstvé osvěžující šťávy s pomocí produktů od značky Hurom. Dejte svému tělu to nejlepší!</DESCRIPTION>
-     <URL>https://hurom.cz/odstavnovac/h-100?variant=platinove-stribrna</URL>
+     <URL>https://hurom.cz/odstavnovac/h-100?variant=platinove-stribrny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/4f4389798d30d51d22da50830e157834986a8b12-789x1252.jpg</IMGURL>
      <PRICE_VAT>12490</PRICE_VAT>
      
@@ -72,7 +72,7 @@
 
      <MANUFACTURER>HUROM</MANUFACTURER>
      <DELIVERY_DATE>0</DELIVERY_DATE>
-     <EAN></EAN>
+     <EAN>8809069585921</EAN>
      <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
      <CATEGORY>
         <CATEGORY_ID>954</CATEGORY_ID>
@@ -83,11 +83,11 @@
    </SHOPITEM>
 
 <SHOPITEM>
-     <ITEM_ID>9113cb2571e116</ITEM_ID>
-     <PRODUCTNAME>HUROM | H 100 | černá</PRODUCTNAME>
-     <PRODUCT>HUROM | H 100 | černá</PRODUCT>
+     <ITEM_ID>9113cb2571e1</ITEM_ID>
+     <PRODUCTNAME>HUROM | H 100 | černý</PRODUCTNAME>
+     <PRODUCT>HUROM | H 100 | černý</PRODUCT>
      <DESCRIPTION>Dopřejte vašemu organismu čerstvé osvěžující šťávy s pomocí produktů od značky Hurom. Dejte svému tělu to nejlepší!</DESCRIPTION>
-     <URL>https://hurom.cz/odstavnovac/h-100?variant=cerna</URL>
+     <URL>https://hurom.cz/odstavnovac/h-100?variant=cerny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/57b8ac64480a171f0e6c73da9045a45bf6a4c533-702x1000.jpg</IMGURL>
      <PRICE_VAT>12490</PRICE_VAT>
      
@@ -153,7 +153,7 @@
 
      <MANUFACTURER>HUROM</MANUFACTURER>
      <DELIVERY_DATE>0</DELIVERY_DATE>
-     <EAN></EAN>
+     <EAN>8809069585914</EAN>
      <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
      <CATEGORY>
         <CATEGORY_ID>954</CATEGORY_ID>
@@ -225,7 +225,7 @@
    </SHOPITEM>
 
 <SHOPITEM>
-     <ITEM_ID>d7d8cfa8b2c608</ITEM_ID>
+     <ITEM_ID>d7d8cfa8b2c6</ITEM_ID>
      <PRODUCTNAME>HUROM | HV 2. generace | stříbrný</PRODUCTNAME>
      <PRODUCT>HUROM | HV 2. generace | stříbrný</PRODUCT>
      <DESCRIPTION>Zdravé ovocné a zeleninové šťávy během chvilky, přímo u vás doma. Nízkootáčkový šnekový odšťavňovač Hurom HV 2. generace je to pravé pro vás!</DESCRIPTION>
@@ -286,7 +286,7 @@
    </SHOPITEM>
 
 <SHOPITEM>
-     <ITEM_ID>996e55605eb218</ITEM_ID>
+     <ITEM_ID>996e55605eb2</ITEM_ID>
      <PRODUCTNAME>HUROM | HV 2. generace | vínový</PRODUCTNAME>
      <PRODUCT>HUROM | HV 2. generace | vínový</PRODUCT>
      <DESCRIPTION>Zdravé ovocné a zeleninové šťávy během chvilky, přímo u vás doma. Nízkootáčkový šnekový odšťavňovač Hurom HV 2. generace je to pravé pro vás!</DESCRIPTION>
@@ -347,11 +347,67 @@
    </SHOPITEM>
 
 <SHOPITEM>
-     <ITEM_ID>f1ac605b7b5209</ITEM_ID>
-     <PRODUCTNAME>HUROM | GI Chef | stříbrná</PRODUCTNAME>
-     <PRODUCT>HUROM | GI Chef | stříbrná</PRODUCT>
+     <ITEM_ID>3c4a70f1-7585-4f90-9a0a-6457f7803d54</ITEM_ID>
+     <PRODUCTNAME>HUROM | Mini blender DIVA</PRODUCTNAME>
+     <PRODUCT>HUROM | Mini blender DIVA</PRODUCT>
+     <DESCRIPTION>Dokonalý a elegantní malý mixér. Velmi praktický pomocník do každé moderní domácnosti</DESCRIPTION>
+     <URL>https://hurom.cz/odstavnovac/mini-blender-diva</URL>
+     <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/20eb97dd12eb05849149cf5238c161d993ac28d6-3460x3460.png</IMGURL>
+     <PRICE_VAT>2490</PRICE_VAT>
+     
+<PARAM>
+                      <PARAM_NAME>Výrobce</PARAM_NAME>
+                      <VAL>Hurom</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Možnost mytí v myčce </PARAM_NAME>
+                      <VAL>Ano</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Otáčky</PARAM_NAME>
+                      <VAL>20000 otáček za minutu</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Protiskluzové nožičky</PARAM_NAME>
+                      <VAL>Ano</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Příkon</PARAM_NAME>
+                      <VAL>200 W</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Váha</PARAM_NAME>
+                      <VAL>1,3 kg</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Rozměry</PARAM_NAME>
+                      <VAL> 11,3 × 11,3 × 36,8 cm</VAL>
+                    </PARAM>
+
+     <MANUFACTURER>HUROM</MANUFACTURER>
+     <DELIVERY_DATE>0</DELIVERY_DATE>
+     <EAN></EAN>
+     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
+     <CATEGORY>
+        <CATEGORY_ID>954</CATEGORY_ID>
+        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
+        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
+     </CATEGORY>
+     
+   </SHOPITEM>
+
+<SHOPITEM>
+     <ITEM_ID>f1ac605b7b52</ITEM_ID>
+     <PRODUCTNAME>HUROM | GI Chef | stříbrný</PRODUCTNAME>
+     <PRODUCT>HUROM | GI Chef | stříbrný</PRODUCT>
      <DESCRIPTION>Usnadněte si práci v kuchyni a seznamte se s jedinečným pomocníkem, kterého potřebuje jednoduše každá kuchyně.</DESCRIPTION>
-     <URL>https://hurom.cz/odstavnovac/gi-chef?variant=stribrna</URL>
+     <URL>https://hurom.cz/odstavnovac/gi-chef?variant=stribrny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/9d73cd901edd8a57bfc486d783d63c1c6290ae31-1185x1482.jpg</IMGURL>
      <PRICE_VAT>10490</PRICE_VAT>
      
@@ -418,11 +474,11 @@
    </SHOPITEM>
 
 <SHOPITEM>
-     <ITEM_ID>a629510933c119</ITEM_ID>
-     <PRODUCTNAME>HUROM | GI Chef | černá</PRODUCTNAME>
-     <PRODUCT>HUROM | GI Chef | černá</PRODUCT>
+     <ITEM_ID>a629510933c1</ITEM_ID>
+     <PRODUCTNAME>HUROM | GI Chef | černý</PRODUCTNAME>
+     <PRODUCT>HUROM | GI Chef | černý</PRODUCT>
      <DESCRIPTION>Usnadněte si práci v kuchyni a seznamte se s jedinečným pomocníkem, kterého potřebuje jednoduše každá kuchyně.</DESCRIPTION>
-     <URL>https://hurom.cz/odstavnovac/gi-chef?variant=cerna</URL>
+     <URL>https://hurom.cz/odstavnovac/gi-chef?variant=cerny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/171b6e96ad6f8ec1e9bfe2e08a300e3c9da72ad7-597x750.jpg</IMGURL>
      <PRICE_VAT>10490</PRICE_VAT>
      
@@ -486,6 +542,27 @@
         <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
      </CATEGORY>
      <GIFT>ultra lehká termo láhev v hodnotě 500 Kč</GIFT>
+   </SHOPITEM>
+
+<SHOPITEM>
+     <ITEM_ID>628249e4-669e-461a-8b43-d828988f6766</ITEM_ID>
+     <PRODUCTNAME>HUROM | Citrusovač CJ-B01BSS</PRODUCTNAME>
+     <PRODUCT>HUROM | Citrusovač CJ-B01BSS</PRODUCT>
+     <DESCRIPTION>S elektrickým citrusovačem Hurom CJ-B01BSS budete mít šťávu ze všech druhů citrusů během chvilky. 🍊 Pomeranče, grepy ani citróny 🍋 není třeba loupat, pouze je překrojíte a přiložíte na lisovací hrot.</DESCRIPTION>
+     <URL>https://hurom.cz/odstavnovac/citusovac-hurom-cj-b01bss</URL>
+     <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/f98fded15ba1cd7b8b2664d0e7ae92c2bfdde4fb-701x1500.jpg</IMGURL>
+     <PRICE_VAT>3690</PRICE_VAT>
+     
+     <MANUFACTURER>HUROM</MANUFACTURER>
+     <DELIVERY_DATE>0</DELIVERY_DATE>
+     <EAN>8809069584207</EAN>
+     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
+     <CATEGORY>
+        <CATEGORY_ID>954</CATEGORY_ID>
+        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
+        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
+     </CATEGORY>
+     
    </SHOPITEM>
 
 <SHOPITEM>
@@ -611,12 +688,12 @@
    </SHOPITEM>
 
 <SHOPITEM>
-     <ITEM_ID>5f122494ec57013</ITEM_ID>
-     <PRODUCTNAME>HUROM | H 200 | titanově šedá</PRODUCTNAME>
-     <PRODUCT>HUROM | H 200 | titanově šedá</PRODUCT>
+     <ITEM_ID>70b40f4baf58</ITEM_ID>
+     <PRODUCTNAME>HUROM | H 200 | bílý</PRODUCTNAME>
+     <PRODUCT>HUROM | H 200 | bílý</PRODUCT>
      <DESCRIPTION>Získejte to nejlepší z čerstvého ovoce a zeleniny, díky pomalé extrakci. Vylisujte si čerstvou šťávu v pohodlí domova a během několika okamžiků.</DESCRIPTION>
-     <URL>https://hurom.cz/odstavnovac/h-200?variant=titanove-seda</URL>
-     <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/007343617488f5f43be23f4541eaa2b05a3619e5-768x1024.jpg</IMGURL>
+     <URL>https://hurom.cz/odstavnovac/h-200?variant=bily</URL>
+     <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/bb43c144e1855488372e355a8d32364a6592d9d6-683x1024.webp</IMGURL>
      <PRICE_VAT>15990</PRICE_VAT>
      
 <PARAM>
@@ -676,7 +753,7 @@
 
      <MANUFACTURER>HUROM</MANUFACTURER>
      <DELIVERY_DATE>0</DELIVERY_DATE>
-     <EAN>8809686400065</EAN>
+     <EAN>8809686400089</EAN>
      <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
      <CATEGORY>
         <CATEGORY_ID>954</CATEGORY_ID>
@@ -687,11 +764,11 @@
    </SHOPITEM>
 
 <SHOPITEM>
-     <ITEM_ID>0fedce748329113</ITEM_ID>
-     <PRODUCTNAME>HUROM | H 200 | matně černá</PRODUCTNAME>
-     <PRODUCT>HUROM | H 200 | matně černá</PRODUCT>
+     <ITEM_ID>0fedce748329</ITEM_ID>
+     <PRODUCTNAME>HUROM | H 200 | matně černý</PRODUCTNAME>
+     <PRODUCT>HUROM | H 200 | matně černý</PRODUCT>
      <DESCRIPTION>Získejte to nejlepší z čerstvého ovoce a zeleniny, díky pomalé extrakci. Vylisujte si čerstvou šťávu v pohodlí domova a během několika okamžiků.</DESCRIPTION>
-     <URL>https://hurom.cz/odstavnovac/h-200?variant=matne-cerna</URL>
+     <URL>https://hurom.cz/odstavnovac/h-200?variant=matne-cerny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/02be3bad9e90ce08bc93244b681724d646d0e343-1125x1500.jpg</IMGURL>
      <PRICE_VAT>15990</PRICE_VAT>
      
@@ -753,6 +830,82 @@
      <MANUFACTURER>HUROM</MANUFACTURER>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>8809686400003</EAN>
+     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
+     <CATEGORY>
+        <CATEGORY_ID>954</CATEGORY_ID>
+        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
+        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
+     </CATEGORY>
+     <GIFT>ultra lehká termo láhev v hodnotě 500 Kč</GIFT>
+   </SHOPITEM>
+
+<SHOPITEM>
+     <ITEM_ID>18298fbe94ed</ITEM_ID>
+     <PRODUCTNAME>HUROM | H 200 | titanově šedý</PRODUCTNAME>
+     <PRODUCT>HUROM | H 200 | titanově šedý</PRODUCT>
+     <DESCRIPTION>Získejte to nejlepší z čerstvého ovoce a zeleniny, díky pomalé extrakci. Vylisujte si čerstvou šťávu v pohodlí domova a během několika okamžiků.</DESCRIPTION>
+     <URL>https://hurom.cz/odstavnovac/h-200?variant=titanove-sedy</URL>
+     <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/007343617488f5f43be23f4541eaa2b05a3619e5-768x1024.jpg</IMGURL>
+     <PRICE_VAT>15990</PRICE_VAT>
+     
+<PARAM>
+                      <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
+                      <VAL>šnekový</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Uložení šneku</PARAM_NAME>
+                      <VAL>vertikální</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Otáčky</PARAM_NAME>
+                      <VAL>43/50 otáček za minutu</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Rozměry</PARAM_NAME>
+                      <VAL>176 × 286 × 445 cm</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Příkon</PARAM_NAME>
+                      <VAL>200 W</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Váha</PARAM_NAME>
+                      <VAL>6,5 kg</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Výrobce</PARAM_NAME>
+                      <VAL>Hurom</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Možnost mytí v myčce </PARAM_NAME>
+                      <VAL>ano</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Protiskluzové nožičky</PARAM_NAME>
+                      <VAL>ano</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Počet rychlostí</PARAM_NAME>
+                      <VAL>1</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Objem nádoby na šťávu</PARAM_NAME>
+                      <VAL>1 l</VAL>
+                    </PARAM>
+
+     <MANUFACTURER>HUROM</MANUFACTURER>
+     <DELIVERY_DATE>0</DELIVERY_DATE>
+     <EAN></EAN>
      <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
      <CATEGORY>
         <CATEGORY_ID>954</CATEGORY_ID>
@@ -844,11 +997,11 @@
    </SHOPITEM>
 
 <SHOPITEM>
-     <ITEM_ID>c370def0f2ca015</ITEM_ID>
-     <PRODUCTNAME>HUROM | One stop H-AI | red</PRODUCTNAME>
-     <PRODUCT>HUROM | One stop H-AI | red</PRODUCT>
+     <ITEM_ID>c370def0f2ca</ITEM_ID>
+     <PRODUCTNAME>HUROM | H-AI One stop  | red</PRODUCTNAME>
+     <PRODUCT>HUROM | H-AI One stop  | red</PRODUCT>
      <DESCRIPTION>Vyzkoušejte sílu prémiového šnekového odšťavňovače Hurom H-AI H34. Jedinečný zážitek z čerstvých přírodních šťáv, kdykoliv a přímo u vás doma.</DESCRIPTION>
-     <URL>https://hurom.cz/odstavnovac/one-stop-h-ai?variant=red</URL>
+     <URL>https://hurom.cz/odstavnovac/h-ai-one-stop?variant=red</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/50d2f48bde67b4958b6b6664b0d8e19dd32bb564-819x1094.jpg</IMGURL>
      <PRICE_VAT>13990</PRICE_VAT>
      
@@ -930,11 +1083,11 @@
    </SHOPITEM>
 
 <SHOPITEM>
-     <ITEM_ID>ee9eb4216798115</ITEM_ID>
-     <PRODUCTNAME>HUROM | One stop H-AI | platinum</PRODUCTNAME>
-     <PRODUCT>HUROM | One stop H-AI | platinum</PRODUCT>
+     <ITEM_ID>ee9eb4216798</ITEM_ID>
+     <PRODUCTNAME>HUROM | H-AI One stop  | platinum</PRODUCTNAME>
+     <PRODUCT>HUROM | H-AI One stop  | platinum</PRODUCT>
      <DESCRIPTION>Vyzkoušejte sílu prémiového šnekového odšťavňovače Hurom H-AI H34. Jedinečný zážitek z čerstvých přírodních šťáv, kdykoliv a přímo u vás doma.</DESCRIPTION>
-     <URL>https://hurom.cz/odstavnovac/one-stop-h-ai?variant=platinum</URL>
+     <URL>https://hurom.cz/odstavnovac/h-ai-one-stop?variant=platinum</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/3e59d27194f9e9617bb0e247d1e58b4e28cd523b-819x1094.jpg</IMGURL>
      <PRICE_VAT>13990</PRICE_VAT>
      
