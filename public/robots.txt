@@ -1,4 +1,2 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://hurom.cz/sitemap.xml

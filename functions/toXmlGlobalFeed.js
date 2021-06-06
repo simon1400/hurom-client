@@ -34,7 +34,7 @@ const toXml = data => {
                         <LABEL>${article.label}</LABEL>
                         <IMG>${article.image}</IMG>
                         <TITLE>${article.title}</TITLE>
-                        ${article.videoEmbedCode && `<VIDEO_EMBEDED_CODE>${article.videoEmbedCode}</VIDEO_EMBEDED_CODE>`}
+                        ${!!article.videoEmbedCode ? `<VIDEO_EMBEDED_CODE>${article.videoEmbedCode}</VIDEO_EMBEDED_CODE>` : ''}
                       \n</ITEM>\n`
       })
     }
@@ -48,7 +48,7 @@ const toXml = data => {
      <URL>${item.link}</URL>
      <IMGURL>${item.image_link}</IMGURL>
      ${slide}
-     ${!!galery.length && `<GALERY>${galery}</GALERY>`}
+     ${!!galery.length ? `<GALERY>${galery}</GALERY>` : ''}
      <VAT>21%</VAT>
      <TEXT>${item.globalText}</TEXT>
      <PRICE_VAT>${item.price}</PRICE_VAT>

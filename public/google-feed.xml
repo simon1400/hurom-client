@@ -30,18 +30,6 @@
      <g:brand>HUROM</g:brand>
    </item>
 <item>
-     <g:id>1c7a9bbb-f6a2-482f-ae21-7e487732fb6b</g:id>
-     <title>HF 1. generace</title>
-     <description>Vychutnejte si čerstvé šťávy v pohodlí domova s elegantním nízkootáčkovým šnekovým odšťavňovačem Hurom HF.</description>
-     <link>https://hurom.cz/odstavnovac/hf-1-generace</link>
-     <g:image_link>https://cdn.sanity.io/images/bvwt1scq/production/7245346ff270aa6091c853242550bbc466f25c70-835x1307.jpg</g:image_link>
-     <g:availability>in stock</g:availability>
-     <g:price>9490</g:price>
-     <g:mpn>1c7a9bbbf6a2482fae217e487732fb6b</g:mpn>
-     <g:gtin>8809069588175</g:gtin>
-     <g:brand>HUROM</g:brand>
-   </item>
-<item>
      <g:id>d7d8cfa8b2c6</g:id>
      <title>HV 2. generace | stříbrný</title>
      <description>Zdravé ovocné a zeleninové šťávy během chvilky, přímo u vás doma. Nízkootáčkový šnekový odšťavňovač Hurom HV 2. generace je to pravé pro vás!</description>
@@ -114,18 +102,6 @@
      <g:brand>HUROM</g:brand>
    </item>
 <item>
-     <g:id>6660e61b-ef9f-49d2-965b-2ac512604e31</g:id>
-     <title>HH 1. generace</title>
-     <description>Vychutnejte si zdravé ovocné a zeleninové šťávy v pohodlí domova s vínovým nízkootáčkovým šnekovým odšťavňovačem Hurom HH.</description>
-     <link>https://hurom.cz/odstavnovac/hh-1-generace</link>
-     <g:image_link>https://cdn.sanity.io/images/bvwt1scq/production/10ba1847518fd7bd7103fcce4f1bbaaca96fcb9a-952x1270.jpg</g:image_link>
-     <g:availability>in stock</g:availability>
-     <g:price>8490</g:price>
-     <g:mpn>6660e61bef9f49d2965b2ac512604e31</g:mpn>
-     <g:gtin>8809069587796</g:gtin>
-     <g:brand>HUROM</g:brand>
-   </item>
-<item>
      <g:id>681f0761-ffb1-4672-8f4f-f9299f2e893f</g:id>
      <title>HT 2. generace</title>
      <description>Zdravé ovocné a zeleninové šťávy během chvilky, přímo u vás doma. Nízkootáčkový šnekový odšťavňovač Hurom HT 2. generace si zamilujete!</description>
@@ -138,15 +114,15 @@
      <g:brand>HUROM</g:brand>
    </item>
 <item>
-     <g:id>70b40f4baf58</g:id>
-     <title>H 200 | bílý</title>
+     <g:id>18298fbe94ed</g:id>
+     <title>H 200 | titanově šedý</title>
      <description>Získejte to nejlepší z čerstvého ovoce a zeleniny, díky pomalé extrakci. Vylisujte si čerstvou šťávu v pohodlí domova a během několika okamžiků.</description>
-     <link>https://hurom.cz/odstavnovac/h-200?variant=bily</link>
-     <g:image_link>https://cdn.sanity.io/images/bvwt1scq/production/bb43c144e1855488372e355a8d32364a6592d9d6-683x1024.webp</g:image_link>
+     <link>https://hurom.cz/odstavnovac/h-200?variant=titanove-sedy</link>
+     <g:image_link>https://cdn.sanity.io/images/bvwt1scq/production/007343617488f5f43be23f4541eaa2b05a3619e5-768x1024.jpg</g:image_link>
      <g:availability>in stock</g:availability>
      <g:price>15990</g:price>
-     <g:mpn>70b40f4baf58</g:mpn>
-     <g:gtin>8809686400089</g:gtin>
+     <g:mpn>18298fbe94ed</g:mpn>
+     <g:gtin>8809686400065</g:gtin>
      <g:brand>HUROM</g:brand>
    </item>
 <item>
@@ -162,15 +138,27 @@
      <g:brand>HUROM</g:brand>
    </item>
 <item>
-     <g:id>18298fbe94ed</g:id>
-     <title>H 200 | titanově šedý</title>
+     <g:id>70b40f4baf58</g:id>
+     <title>H 200 | bílý</title>
      <description>Získejte to nejlepší z čerstvého ovoce a zeleniny, díky pomalé extrakci. Vylisujte si čerstvou šťávu v pohodlí domova a během několika okamžiků.</description>
-     <link>https://hurom.cz/odstavnovac/h-200?variant=titanove-sedy</link>
-     <g:image_link>https://cdn.sanity.io/images/bvwt1scq/production/007343617488f5f43be23f4541eaa2b05a3619e5-768x1024.jpg</g:image_link>
+     <link>https://hurom.cz/odstavnovac/h-200?variant=bily</link>
+     <g:image_link>https://cdn.sanity.io/images/bvwt1scq/production/bb43c144e1855488372e355a8d32364a6592d9d6-683x1024.webp</g:image_link>
      <g:availability>in stock</g:availability>
      <g:price>15990</g:price>
-     <g:mpn>18298fbe94ed</g:mpn>
-     
+     <g:mpn>70b40f4baf58</g:mpn>
+     <g:gtin>8809686400089</g:gtin>
+     <g:brand>HUROM</g:brand>
+   </item>
+<item>
+     <g:id>2185fa869cbf</g:id>
+     <title>H 200 | červený</title>
+     <description>Získejte to nejlepší z čerstvého ovoce a zeleniny, díky pomalé extrakci. Vylisujte si čerstvou šťávu v pohodlí domova a během několika okamžiků.</description>
+     <link>https://hurom.cz/odstavnovac/h-200?variant=cerveny</link>
+     <g:image_link>https://cdn.sanity.io/images/bvwt1scq/production/76fab5642dee552f2cbdac4ea131cd46b907dcb7-1200x1200.png</g:image_link>
+     <g:availability>in stock</g:availability>
+     <g:price>15990</g:price>
+     <g:mpn>2185fa869cbf</g:mpn>
+     <g:gtin>8809069580384</g:gtin>
      <g:brand>HUROM</g:brand>
    </item>
 <item>
@@ -187,12 +175,12 @@
    </item>
 <item>
      <g:id>c370def0f2ca</g:id>
-     <title>H-AI One stop | ;red</title>
+     <title>H-AI One stop | red</title>
      <description>Vyzkoušejte sílu prémiového šnekového odšťavňovače Hurom H-AI H34. Jedinečný zážitek z čerstvých přírodních šťáv, kdykoliv a přímo u vás doma.</description>
-     <link>https://hurom.cz/odstavnovac/h-ai-one-stop?variant=;red</link>
+     <link>https://hurom.cz/odstavnovac/h-ai-one-stop?variant=red</link>
      <g:image_link>https://cdn.sanity.io/images/bvwt1scq/production/50d2f48bde67b4958b6b6664b0d8e19dd32bb564-819x1094.jpg</g:image_link>
      <g:availability>in stock</g:availability>
-     <g:price>13990</g:price>
+     <g:price>14990</g:price>
      <g:mpn>c370def0f2ca</g:mpn>
      <g:gtin>8809069584641</g:gtin>
      <g:brand>HUROM</g:brand>
@@ -204,7 +192,7 @@
      <link>https://hurom.cz/odstavnovac/h-ai-one-stop?variant=platinum</link>
      <g:image_link>https://cdn.sanity.io/images/bvwt1scq/production/3e59d27194f9e9617bb0e247d1e58b4e28cd523b-819x1094.jpg</g:image_link>
      <g:availability>in stock</g:availability>
-     <g:price>13990</g:price>
+     <g:price>14990</g:price>
      <g:mpn>ee9eb4216798</g:mpn>
      <g:gtin>8809069584634</g:gtin>
      <g:brand>HUROM</g:brand>
