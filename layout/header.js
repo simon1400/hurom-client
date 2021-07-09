@@ -44,7 +44,7 @@ const Header = () => {
                   <Link href="/recepty"><a><span>Recepty</span></a></Link>
                 </li>
                 <li className={urlParse().indexOf('novinky') >= 0 ? 'active-menu' : ''} onClick={() => setMenu(!menu)}>
-                  <Link href="/novinky"><a><span>Novinky</span></a></Link>
+                  <Link href="/novinky"><a><span>Blog</span></a></Link>
                 </li>
                 <li className={urlParse().indexOf('kontakt') >= 0 ? 'active-menu' : ''} onClick={() => setMenu(!menu)}>
                   <Link href="/clanek/kontakt"><a><span>Kontakt</span></a></Link>
@@ -69,7 +69,7 @@ const Header = () => {
                 <Link href="/recepty"><a>Recepty</a></Link>
               </li>
               <li className={urlParse().indexOf('novinky') >= 0 ? 'active-menu' : ''}>
-                <Link href="/novinky"><a>Novinky</a></Link>
+                <Link href="/novinky"><a>Blog</a></Link>
               </li>
               <li className={urlParse().indexOf('kontakt') >= 0 ? 'active-menu' : ''}>
                 <Link href="/clanek/kontakt"><a>Kontakt</a></Link>
