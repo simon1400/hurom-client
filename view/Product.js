@@ -37,7 +37,6 @@ const Product = ({
   buy
 }) => {
 
-
   const [variantImages, setVariantImages] = useState([])
 
   useEffect(() => {
@@ -165,6 +164,7 @@ const Product = ({
           {!!product.param?.length && <li><a href="#">parametry</a></li>}
           {!!product.galery?.length && <li><a href="#">galerie</a></li>}
           {!!product.accessories?.length && <li><a href="#">příslušenství</a></li>}
+          {!!product.recenze?.length && <li><a href="#">Recenze</a></li>}
         </ul>
 
         <ul className="uk-switcher">
@@ -211,6 +211,30 @@ const Product = ({
               </div>
             </div>
           </li>}
+
+          {!!product.recenze?.length && <li className="product-content switcher-content">
+            <div className="uk-container uk-container-small uk-margin-large-top uk-margin-large-bottom">
+
+              {product.recenze.map((item, index) => <div key={index} className="recenze-item">
+                <div className="star-wrap">
+                  <ul className={`star-${item.value}`}>
+                    <li><img className="uk-svg" src="/assets/star.svg" uk-svg="" /></li>
+                    <li><img className="uk-svg" src="/assets/star.svg" uk-svg="" /></li>
+                    <li><img className="uk-svg" src="/assets/star.svg" uk-svg="" /></li>
+                    <li><img className="uk-svg" src="/assets/star.svg" uk-svg="" /></li>
+                    <li><img className="uk-svg" src="/assets/star.svg" uk-svg="" /></li>
+                  </ul>
+                </div>
+                <div className="recenze-name">
+                  <span className="uk-label">{item.name}</span>
+                </div>
+                <div className="recenze-content">
+                  <BlockContent blocks={item.content} />
+                </div>
+              </div>)}
+            </div>
+          </li>}
+
         </ul>
 
       </div>

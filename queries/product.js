@@ -18,5 +18,6 @@ export default `*[_type in ["product", 'accessories'] && slug.current == $url]{
   },
   galery,
   "accessories": *[_type == 'accessories' && _id in ^.accessories[]._ref]{title, image, "slug": slug.current, price},
-  meta
+  meta,
+  recenze
 }[0...1]`

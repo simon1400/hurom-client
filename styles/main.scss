@@ -22,6 +22,59 @@
   }
 }
 
+.recenze-item{
+  text-align: center;
+  margin-bottom: 50px;
+  .star-wrap{
+    ul{
+      padding-left: 0;
+      li{
+        display: inline-block;
+        margin-right: 2px;
+        margin-left: 2px;
+        &:before{
+          display: none;
+        }
+        img, svg{
+          fill: rgba($accent, .25);
+          color: rgba($accent, .25);
+        }
+      }
+      &.star-1 li:nth-child(-n+1){
+        img, svg {
+          color: $accent;
+        }
+      }
+      &.star-2 li:nth-child(-n+2){
+        img, svg {
+          color: $accent;
+        }
+      }
+      &.star-3 li:nth-child(-n+3){
+        img, svg {
+          color: $accent;
+        }
+      }
+      &.star-4 li:nth-child(-n+4){
+        img, svg {
+          color: $accent;
+        }
+      }
+      &.star-5{
+        img, svg {
+          color: $accent;
+        }
+      }
+    }
+  }
+  .recenze-name{
+    margin-bottom: 20px;
+  }
+  .recenze-content{
+
+  }
+}
+
 .gift-img{
   max-width: 200px;
   margin-left: auto;
