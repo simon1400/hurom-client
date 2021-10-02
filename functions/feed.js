@@ -7,11 +7,14 @@ const imageUrlBuilder = require("@sanity/image-url");
 const axios = require('axios')
 const imageBuilder = imageUrlBuilder(sanityClient);
 const urlFor = (source) => imageBuilder.image(source)
+const feedWrite = require("./feedWrite").default
 const toXmlHeureka = require('./toXmlHeurekaFeed').default
 const toXmlGoogle = require('./toXmlGoogleFeed').default
 const toXmlZbozi = require('./toXmlZboziFeed').default
 const toXmlFacebook = require('./toXmlFacebookFeed').default
 const toXmlGlobal = require('./toXmlGlobalFeed').default
+const toXmlMall = require('./toXmlMall').default
+// const toXmlMallAvail = require('./toXmlGlobalFeed').default
 fs = require('fs');
 
 function toPlainText(blocks = []) {
@@ -30,12 +33,12 @@ async function generateFeed() {
       title,
       slug,
       image,
+      slider,
       ean,
       variants,
       descriptions,
       content,
       benefits,
-      slider,
       price,
       parametry,
       "gift": *[_type == 'gift' && _id == ^.gift._ref]{title, image},
@@ -54,19 +57,25 @@ async function generateFeed() {
           articleItem = {}
           dataObj = {
             id: products[i].variants[a]._key,
+            parentId: products[i]._id,
+            parentTitle: products[i].title,
             title: products[i].title + ' | ' + products[i].variants[a].title,
             description: products[i].meta ? products[i].meta.description : '',
             link: 'https://hurom.cz/odstavnovac/' + products[i].slug.current + '?variant=' + products[i].variants[a].title.toLowerCase().split(' ').join('-').normalize("NFD").replace(/[\u0300-\u036f]/g, ""),
             image_link: urlFor(products[i].variants[a].image).url(),
             params: products[i].param,
             globalText: toPlainText(products[i].content),
-            slider: products[i].variants[a].galery.map(item => urlFor(item).url()),
-            galeryAll: products[i].galery.map(item => urlFor(item).url()),
             parametry: products[i].parametry,
             price: products[i].price,
             mpn: products[i].variants[a]._key.split('-').join(''),
             ean: products[i].variants[a].ean ? products[i].variants[a].ean : '',
             gift: products[i].gift
+          }
+          if(products[i].variants[a].galery && products[i].variants[a].galery.length) {
+            dataObj.slider = products[i].variants[a].galery.map(item => urlFor(item).url())
+          }
+          if(products[i].galery && products[i].galery.length){
+            dataObj.galeryAll = products[i].galery.map(item => urlFor(item).url())
           }
           if(products[i].descriptions && products[i].descriptions.length){
             dataObj.articles = products[i].descriptions.map(item => {
@@ -92,6 +101,7 @@ async function generateFeed() {
           description: products[i].meta ? products[i].meta.description : '',
           link: 'https://hurom.cz/odstavnovac/' + products[i].slug.current ,
           image_link: urlFor(products[i].image).url(),
+          global_image_link: urlFor(products[i].image).url(),
           params: products[i].param,
           globalText: toPlainText(products[i].content),
           parametry: products[i].parametry,
@@ -131,33 +141,21 @@ async function generateFeed() {
     const xmlZbozi = toXmlZbozi(productsData)
     const xmlFacebook = toXmlFacebook(productsData)
     const xmlGlobal = toXmlGlobal(productsData)
+    const xmlMall = toXmlMall(productsData)
 
     var pathHeureka = './public/heureka-feed.xml'
     var pathGoogle = './public/google-feed.xml'
     var pathZbozi = './public/zbozi-feed.xml'
     var pathFacebook = './public/facebook-feed.xml'
     var pathGlobal = './public/global-feed.xml'
+    var pathMall = './public/mall-feed.xml'
 
-    fs.writeFile(pathHeureka, xmlHeureka, (err) => {
-      if (err) return console.log(err);
-      console.log(`Xml write in --> ${pathHeureka}`);
-    });
-    fs.writeFile(pathGoogle, xmlGoogle, (err) => {
-      if (err) return console.log(err);
-      console.log(`Xml write in --> ${pathGoogle}`);
-    });
-    fs.writeFile(pathZbozi, xmlZbozi, (err) => {
-      if (err) return console.log(err);
-      console.log(`Xml write in --> ${pathZbozi}`);
-    });
-    fs.writeFile(pathFacebook, xmlFacebook, (err) => {
-      if (err) return console.log(err);
-      console.log(`Xml write in --> ${pathFacebook}`);
-    });
-    fs.writeFile(pathGlobal, xmlGlobal, (err) => {
-      if (err) return console.log(err);
-      console.log(`Xml write in --> ${pathGlobal}`);
-    });
+    feedWrite(pathHeureka, xmlHeureka)
+    feedWrite(pathGoogle, xmlGoogle)
+    feedWrite(pathZbozi, xmlZbozi)
+    feedWrite(pathFacebook, xmlFacebook)
+    feedWrite(pathGlobal, xmlGlobal)
+    feedWrite(pathMall, xmlMall)
 
   }catch(e){
     console.log(e);

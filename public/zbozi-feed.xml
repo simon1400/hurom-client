@@ -470,6 +470,80 @@
    </SHOPITEM>
 
 <SHOPITEM>
+     <ITEM_ID>31cfcd0a929c</ITEM_ID>
+     <PRODUCTNAME>HUROM | S 13 | stříbrný</PRODUCTNAME>
+     <PRODUCT>S 13 | stříbrný</PRODUCT>
+     <DESCRIPTION>Nový přírustek do rodiny HUROM za bezkonkurenční cenu. Kvalitní šťáva plná vitamínu dostupná pro každého.</DESCRIPTION>
+     <URL>https://hurom.cz/odstavnovac/s-13?variant=stribrny</URL>
+     <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/67e4e802132cf5ef336cf0a204c527d619f36652-1725x4043.png</IMGURL>
+     <PRICE_VAT>7990</PRICE_VAT>
+     
+<PARAM>
+                      <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
+                      <VAL>šnekový</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Uložení šneku</PARAM_NAME>
+                      <VAL>vertikální</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Otáčky</PARAM_NAME>
+                      <VAL>70 otáček za minutu</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Rozměry</PARAM_NAME>
+                      <VAL>17,3 x 23,7 x 43,0 cm</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Příkon</PARAM_NAME>
+                      <VAL>150 W</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Váha</PARAM_NAME>
+                      <VAL>6,5 kg</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Výrobce</PARAM_NAME>
+                      <VAL>Hurom</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Možnost mytí v myčce </PARAM_NAME>
+                      <VAL>ano</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Protiskluzové nožičky</PARAM_NAME>
+                      <VAL>ano</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Počet rychlostí</PARAM_NAME>
+                      <VAL>1</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Objem nádoby na šťávu</PARAM_NAME>
+                      <VAL>0,5 l</VAL>
+                    </PARAM>
+
+     <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
+     <DELIVERY_DATE>0</DELIVERY_DATE>
+     <EAN></EAN>
+     <PRODUCTNO></PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
+   </SHOPITEM>
+
+<SHOPITEM>
      <ITEM_ID>628249e4-669e-461a-8b43-d828988f6766</ITEM_ID>
      <PRODUCTNAME>HUROM | Citrusovač CJ-B01BSS</PRODUCTNAME>
      <PRODUCT>Citrusovač CJ-B01BSS</PRODUCT>
