@@ -14,8 +14,7 @@ const toXmlZbozi = require('./toXmlZboziFeed').default
 const toXmlFacebook = require('./toXmlFacebookFeed').default
 const toXmlGlobal = require('./toXmlGlobalFeed').default
 const toXmlMall = require('./toXmlMall').default
-// const toXmlMallAvail = require('./toXmlGlobalFeed').default
-fs = require('fs');
+const toXmlMallStock = require('./toXmlMallStock').default
 
 function toPlainText(blocks = []) {
   return blocks.map(block => {
@@ -35,6 +34,7 @@ async function generateFeed() {
       image,
       slider,
       ean,
+      stock,
       variants,
       descriptions,
       content,
@@ -66,6 +66,7 @@ async function generateFeed() {
             params: products[i].param,
             globalText: toPlainText(products[i].content),
             parametry: products[i].parametry,
+            stock: products[i].variants[a].stock,
             price: products[i].price,
             mpn: products[i].variants[a]._key.split('-').join(''),
             ean: products[i].variants[a].ean ? products[i].variants[a].ean : '',
@@ -105,6 +106,7 @@ async function generateFeed() {
           params: products[i].param,
           globalText: toPlainText(products[i].content),
           parametry: products[i].parametry,
+          stock: products[i].stock,
           ean: products[i].ean ? products[i].ean : '',
           price: products[i].price,
           mpn: products[i]._id.split('-').join(''),
@@ -142,6 +144,7 @@ async function generateFeed() {
     const xmlFacebook = toXmlFacebook(productsData)
     const xmlGlobal = toXmlGlobal(productsData)
     const xmlMall = toXmlMall(productsData)
+    const xmlMallStock = toXmlMallStock(productsData)
 
     var pathHeureka = './public/heureka-feed.xml'
     var pathGoogle = './public/google-feed.xml'
@@ -149,6 +152,7 @@ async function generateFeed() {
     var pathFacebook = './public/facebook-feed.xml'
     var pathGlobal = './public/global-feed.xml'
     var pathMall = './public/mall-feed.xml'
+    var pathMallStock = './public/mall-stock.xml'
 
     feedWrite(pathHeureka, xmlHeureka)
     feedWrite(pathGoogle, xmlGoogle)
@@ -156,6 +160,7 @@ async function generateFeed() {
     feedWrite(pathFacebook, xmlFacebook)
     feedWrite(pathGlobal, xmlGlobal)
     feedWrite(pathMall, xmlMall)
+    feedWrite(pathMallStock, xmlMallStock)
 
   }catch(e){
     console.log(e);
