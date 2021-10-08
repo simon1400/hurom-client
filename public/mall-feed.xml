@@ -89,7 +89,7 @@ Otočné ovládání Jog Dial zaručuje snadné a pohodlné použití šnekovéh
      <RRP>12490</RRP>
      
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>JUICERS_TYPE</NAME>
                       <VALUE>šnekový</VALUE>
                     </PARAM>
 
@@ -99,7 +99,7 @@ Otočné ovládání Jog Dial zaručuje snadné a pohodlné použití šnekovéh
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>TURN_PER_MIN</NAME>
                       <VALUE>43 otáček za minutu</VALUE>
                     </PARAM>
 
@@ -109,7 +109,7 @@ Otočné ovládání Jog Dial zaručuje snadné a pohodlné použití šnekovéh
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>INPUT</NAME>
                       <VALUE>150 W</VALUE>
                     </PARAM>
 
@@ -134,12 +134,12 @@ Otočné ovládání Jog Dial zaručuje snadné a pohodlné použití šnekovéh
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>NUMBER_SPEEDS</NAME>
                       <VALUE>1</VALUE>
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
                       <VALUE>0,6 l</VALUE>
                     </PARAM>
 
@@ -254,7 +254,7 @@ Otočné ovládání Jog Dial zaručuje snadné a pohodlné použití šnekovéh
      <RRP>12490</RRP>
      
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>JUICERS_TYPE</NAME>
                       <VALUE>šnekový</VALUE>
                     </PARAM>
 
@@ -264,7 +264,7 @@ Otočné ovládání Jog Dial zaručuje snadné a pohodlné použití šnekovéh
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>TURN_PER_MIN</NAME>
                       <VALUE>43 otáček za minutu</VALUE>
                     </PARAM>
 
@@ -274,7 +274,7 @@ Otočné ovládání Jog Dial zaručuje snadné a pohodlné použití šnekovéh
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>INPUT</NAME>
                       <VALUE>150 W</VALUE>
                     </PARAM>
 
@@ -299,12 +299,12 @@ Otočné ovládání Jog Dial zaručuje snadné a pohodlné použití šnekovéh
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>NUMBER_SPEEDS</NAME>
                       <VALUE>1</VALUE>
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
                       <VALUE>0,6 l</VALUE>
                     </PARAM>
 
@@ -424,7 +424,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
      <RRP>9990</RRP>
      
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>JUICERS_TYPE</NAME>
                       <VALUE>šnekový</VALUE>
                     </PARAM>
 
@@ -434,7 +434,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>INPUT</NAME>
                       <VALUE>150  W</VALUE>
                     </PARAM>
 
@@ -454,12 +454,12 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>NUMBER_SPEEDS</NAME>
                       <VALUE>1</VALUE>
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
                       <VALUE>1 l</VALUE>
                     </PARAM>
 
@@ -559,7 +559,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
      <RRP>9990</RRP>
      
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>JUICERS_TYPE</NAME>
                       <VALUE>šnekový</VALUE>
                     </PARAM>
 
@@ -569,7 +569,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>INPUT</NAME>
                       <VALUE>150  W</VALUE>
                     </PARAM>
 
@@ -589,12 +589,12 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>NUMBER_SPEEDS</NAME>
                       <VALUE>1</VALUE>
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
                       <VALUE>1 l</VALUE>
                     </PARAM>
 
@@ -742,7 +742,7 @@ Velmi jednoduché ovládání přístroje. Mixovací proces spustíte a zastaví
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>TURN_PER_MIN</NAME>
                       <VALUE>20000 otáček za minutu</VALUE>
                     </PARAM>
 
@@ -752,7 +752,7 @@ Velmi jednoduché ovládání přístroje. Mixovací proces spustíte a zastaví
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>INPUT</NAME>
                       <VALUE>200 W</VALUE>
                     </PARAM>
 
@@ -885,7 +885,7 @@ Velmi jednoduché ovládání přístroje. Mixovací proces spustíte a zastaví
      <RRP>10490</RRP>
      
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>JUICERS_TYPE</NAME>
                       <VALUE>šnekové</VALUE>
                     </PARAM>
 
@@ -895,7 +895,7 @@ Velmi jednoduché ovládání přístroje. Mixovací proces spustíte a zastaví
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>TURN_PER_MIN</NAME>
                       <VALUE>64 otáček za minutu</VALUE>
                     </PARAM>
 
@@ -905,7 +905,7 @@ Velmi jednoduché ovládání přístroje. Mixovací proces spustíte a zastaví
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>INPUT</NAME>
                       <VALUE>150 W</VALUE>
                     </PARAM>
 
@@ -1013,7 +1013,7 @@ Velmi jednoduché ovládání přístroje. Mixovací proces spustíte a zastaví
      <RRP>10490</RRP>
      
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>JUICERS_TYPE</NAME>
                       <VALUE>šnekové</VALUE>
                     </PARAM>
 
@@ -1023,7 +1023,7 @@ Velmi jednoduché ovládání přístroje. Mixovací proces spustíte a zastaví
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>TURN_PER_MIN</NAME>
                       <VALUE>64 otáček za minutu</VALUE>
                     </PARAM>
 
@@ -1033,7 +1033,7 @@ Velmi jednoduché ovládání přístroje. Mixovací proces spustíte a zastaví
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>INPUT</NAME>
                       <VALUE>150 W</VALUE>
                     </PARAM>
 
@@ -1184,7 +1184,7 @@ Model S13, charakteristický řadami jednoduchých linií a  křivek, učiní va
      <RRP>7990</RRP>
      
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>JUICERS_TYPE</NAME>
                       <VALUE>šnekový</VALUE>
                     </PARAM>
 
@@ -1194,7 +1194,7 @@ Model S13, charakteristický řadami jednoduchých linií a  křivek, učiní va
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>TURN_PER_MIN</NAME>
                       <VALUE>70 otáček za minutu</VALUE>
                     </PARAM>
 
@@ -1204,7 +1204,7 @@ Model S13, charakteristický řadami jednoduchých linií a  křivek, učiní va
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>INPUT</NAME>
                       <VALUE>150 W</VALUE>
                     </PARAM>
 
@@ -1229,12 +1229,12 @@ Model S13, charakteristický řadami jednoduchých linií a  křivek, učiní va
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>NUMBER_SPEEDS</NAME>
                       <VALUE>1</VALUE>
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
                       <VALUE>0,5 l</VALUE>
                     </PARAM>
 
@@ -1425,7 +1425,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
      <RRP>11990</RRP>
      
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>JUICERS_TYPE</NAME>
                       <VALUE>šnekový</VALUE>
                     </PARAM>
 
@@ -1435,7 +1435,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>INPUT</NAME>
                       <VALUE>150  W</VALUE>
                     </PARAM>
 
@@ -1455,12 +1455,12 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>NUMBER_SPEEDS</NAME>
                       <VALUE>1</VALUE>
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
                       <VALUE>1 l</VALUE>
                     </PARAM>
 
@@ -1551,7 +1551,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
      <RRP>15990</RRP>
      
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>JUICERS_TYPE</NAME>
                       <VALUE>šnekový</VALUE>
                     </PARAM>
 
@@ -1561,7 +1561,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>TURN_PER_MIN</NAME>
                       <VALUE>43/50 otáček za minutu</VALUE>
                     </PARAM>
 
@@ -1571,7 +1571,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>INPUT</NAME>
                       <VALUE>200 W</VALUE>
                     </PARAM>
 
@@ -1596,12 +1596,12 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>NUMBER_SPEEDS</NAME>
                       <VALUE>1</VALUE>
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
                       <VALUE>1 l</VALUE>
                     </PARAM>
 
@@ -1697,7 +1697,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
      <RRP>15990</RRP>
      
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>JUICERS_TYPE</NAME>
                       <VALUE>šnekový</VALUE>
                     </PARAM>
 
@@ -1707,7 +1707,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>TURN_PER_MIN</NAME>
                       <VALUE>43/50 otáček za minutu</VALUE>
                     </PARAM>
 
@@ -1717,7 +1717,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>INPUT</NAME>
                       <VALUE>200 W</VALUE>
                     </PARAM>
 
@@ -1742,12 +1742,12 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>NUMBER_SPEEDS</NAME>
                       <VALUE>1</VALUE>
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
                       <VALUE>1 l</VALUE>
                     </PARAM>
 
@@ -1838,7 +1838,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
      <RRP>15990</RRP>
      
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>JUICERS_TYPE</NAME>
                       <VALUE>šnekový</VALUE>
                     </PARAM>
 
@@ -1848,7 +1848,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>TURN_PER_MIN</NAME>
                       <VALUE>43/50 otáček za minutu</VALUE>
                     </PARAM>
 
@@ -1858,7 +1858,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>INPUT</NAME>
                       <VALUE>200 W</VALUE>
                     </PARAM>
 
@@ -1883,12 +1883,12 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>NUMBER_SPEEDS</NAME>
                       <VALUE>1</VALUE>
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
                       <VALUE>1 l</VALUE>
                     </PARAM>
 
@@ -1989,7 +1989,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
      <RRP>15990</RRP>
      
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>JUICERS_TYPE</NAME>
                       <VALUE>šnekový</VALUE>
                     </PARAM>
 
@@ -1999,7 +1999,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>TURN_PER_MIN</NAME>
                       <VALUE>43/50 otáček za minutu</VALUE>
                     </PARAM>
 
@@ -2009,7 +2009,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>INPUT</NAME>
                       <VALUE>200 W</VALUE>
                     </PARAM>
 
@@ -2034,12 +2034,12 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>NUMBER_SPEEDS</NAME>
                       <VALUE>1</VALUE>
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
                       <VALUE>1 l</VALUE>
                     </PARAM>
 
@@ -2109,7 +2109,7 @@ Dopřejte svým zákazníkům i sobě možnost volby a připravte si skvělou š
      <RRP>36179</RRP>
      
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>JUICERS_TYPE</NAME>
                       <VALUE>vertikální šnekový</VALUE>
                     </PARAM>
 
@@ -2119,7 +2119,7 @@ Dopřejte svým zákazníkům i sobě možnost volby a připravte si skvělou š
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>TURN_PER_MIN</NAME>
                       <VALUE>43/60 otáček za minutu</VALUE>
                     </PARAM>
 
@@ -2129,7 +2129,7 @@ Dopřejte svým zákazníkům i sobě možnost volby a připravte si skvělou š
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>INPUT</NAME>
                       <VALUE>150 W</VALUE>
                     </PARAM>
 
@@ -2154,12 +2154,12 @@ Dopřejte svým zákazníkům i sobě možnost volby a připravte si skvělou š
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>NUMBER_SPEEDS</NAME>
                       <VALUE>1</VALUE>
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
                       <VALUE>1 l</VALUE>
                     </PARAM>
 
@@ -2294,7 +2294,7 @@ Sítka a šnek jsou vyrobeny z materiálu Ultem, který se vyznačuje osmkrát v
      <RRP>14990</RRP>
      
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>JUICERS_TYPE</NAME>
                       <VALUE>šnekový</VALUE>
                     </PARAM>
 
@@ -2304,7 +2304,7 @@ Sítka a šnek jsou vyrobeny z materiálu Ultem, který se vyznačuje osmkrát v
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>TURN_PER_MIN</NAME>
                       <VALUE>60/23 otáček za minutu</VALUE>
                     </PARAM>
 
@@ -2314,7 +2314,7 @@ Sítka a šnek jsou vyrobeny z materiálu Ultem, který se vyznačuje osmkrát v
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>INPUT</NAME>
                       <VALUE>200  W</VALUE>
                     </PARAM>
 
@@ -2339,12 +2339,12 @@ Sítka a šnek jsou vyrobeny z materiálu Ultem, který se vyznačuje osmkrát v
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>NUMBER_SPEEDS</NAME>
                       <VALUE>1</VALUE>
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
                       <VALUE>0,9 l</VALUE>
                     </PARAM>
 
@@ -2494,7 +2494,7 @@ Sítka a šnek jsou vyrobeny z materiálu Ultem, který se vyznačuje osmkrát v
      <RRP>14990</RRP>
      
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>JUICERS_TYPE</NAME>
                       <VALUE>šnekový</VALUE>
                     </PARAM>
 
@@ -2504,7 +2504,7 @@ Sítka a šnek jsou vyrobeny z materiálu Ultem, který se vyznačuje osmkrát v
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>TURN_PER_MIN</NAME>
                       <VALUE>60/23 otáček za minutu</VALUE>
                     </PARAM>
 
@@ -2514,7 +2514,7 @@ Sítka a šnek jsou vyrobeny z materiálu Ultem, který se vyznačuje osmkrát v
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>INPUT</NAME>
                       <VALUE>200  W</VALUE>
                     </PARAM>
 
@@ -2539,12 +2539,12 @@ Sítka a šnek jsou vyrobeny z materiálu Ultem, který se vyznačuje osmkrát v
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>NUMBER_SPEEDS</NAME>
                       <VALUE>1</VALUE>
                     </PARAM>
 
 <PARAM>
-                      <NAME>undefined</NAME>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
                       <VALUE>0,9 l</VALUE>
                     </PARAM>
 

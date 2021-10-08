@@ -6,6 +6,7 @@ const toXml = data => {
     paramStr = ''
     slide = ''
     articles = ''
+    console.log(item.params);
     if(item.parametry && item.parametry.length){
       item.parametry.map(itemParameter => {
         var valueTypeParameters = item.params.filter(param => param._id === itemParameter.parameter._ref)[0].value
