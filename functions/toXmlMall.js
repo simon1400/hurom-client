@@ -30,7 +30,7 @@ const toXml = data => {
       item.articles.map(article => {
         articles += `\n<div>\n
                         <h2>${article.title}</h2>\n
-                        <img src="${article.image}">\n
+                        <img src="${article.image}" />\n
                         <p>${article.text}</p>\n
                       \n</div>\n`
       })
