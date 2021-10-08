@@ -3,25 +3,25 @@
 
 <AVAILABILITY>
      <ID>112c11215d24</ID>
-     <IN_STOCK>undefined</IN_STOCK>
+     <IN_STOCK>88</IN_STOCK>
      <ACTIVE>true</ACTIVE>
    </AVAILABILITY>
 
 <AVAILABILITY>
      <ID>9113cb2571e1</ID>
-     <IN_STOCK>undefined</IN_STOCK>
+     <IN_STOCK>88</IN_STOCK>
      <ACTIVE>true</ACTIVE>
    </AVAILABILITY>
 
 <AVAILABILITY>
      <ID>d7d8cfa8b2c6</ID>
-     <IN_STOCK>undefined</IN_STOCK>
+     <IN_STOCK>99</IN_STOCK>
      <ACTIVE>true</ACTIVE>
    </AVAILABILITY>
 
 <AVAILABILITY>
      <ID>996e55605eb2</ID>
-     <IN_STOCK>undefined</IN_STOCK>
+     <IN_STOCK>99</IN_STOCK>
      <ACTIVE>true</ACTIVE>
    </AVAILABILITY>
 
@@ -33,19 +33,19 @@
 
 <AVAILABILITY>
      <ID>f1ac605b7b52</ID>
-     <IN_STOCK>undefined</IN_STOCK>
+     <IN_STOCK>99</IN_STOCK>
      <ACTIVE>true</ACTIVE>
    </AVAILABILITY>
 
 <AVAILABILITY>
      <ID>a629510933c1</ID>
-     <IN_STOCK>undefined</IN_STOCK>
+     <IN_STOCK>99</IN_STOCK>
      <ACTIVE>true</ACTIVE>
    </AVAILABILITY>
 
 <AVAILABILITY>
      <ID>31cfcd0a929c</ID>
-     <IN_STOCK>undefined</IN_STOCK>
+     <IN_STOCK>99</IN_STOCK>
      <ACTIVE>true</ACTIVE>
    </AVAILABILITY>
 
@@ -57,31 +57,31 @@
 
 <AVAILABILITY>
      <ID>681f0761-ffb1-4672-8f4f-f9299f2e893f</ID>
-     <IN_STOCK>99</IN_STOCK>
+     <IN_STOCK>88</IN_STOCK>
      <ACTIVE>true</ACTIVE>
    </AVAILABILITY>
 
 <AVAILABILITY>
      <ID>18298fbe94ed</ID>
-     <IN_STOCK>undefined</IN_STOCK>
+     <IN_STOCK>77</IN_STOCK>
      <ACTIVE>true</ACTIVE>
    </AVAILABILITY>
 
 <AVAILABILITY>
      <ID>0fedce748329</ID>
-     <IN_STOCK>undefined</IN_STOCK>
+     <IN_STOCK>77</IN_STOCK>
      <ACTIVE>true</ACTIVE>
    </AVAILABILITY>
 
 <AVAILABILITY>
      <ID>70b40f4baf58</ID>
-     <IN_STOCK>undefined</IN_STOCK>
+     <IN_STOCK>77</IN_STOCK>
      <ACTIVE>true</ACTIVE>
    </AVAILABILITY>
 
 <AVAILABILITY>
      <ID>2185fa869cbf</ID>
-     <IN_STOCK>undefined</IN_STOCK>
+     <IN_STOCK>77</IN_STOCK>
      <ACTIVE>true</ACTIVE>
    </AVAILABILITY>
 
@@ -93,13 +93,13 @@
 
 <AVAILABILITY>
      <ID>c370def0f2ca</ID>
-     <IN_STOCK>undefined</IN_STOCK>
+     <IN_STOCK>99</IN_STOCK>
      <ACTIVE>true</ACTIVE>
    </AVAILABILITY>
 
 <AVAILABILITY>
      <ID>ee9eb4216798</ID>
-     <IN_STOCK>undefined</IN_STOCK>
+     <IN_STOCK>99</IN_STOCK>
      <ACTIVE>true</ACTIVE>
    </AVAILABILITY>
 </AVAILABILITIES>
