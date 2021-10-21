@@ -6,6 +6,7 @@ const toXml = data => {
     paramStr = ''
     slide = ''
     articles = ''
+    console.log(item.params);
     if(item.parametry && item.parametry.length){
       item.parametry.map(itemParameter => {
         var valueTypeParameters = item.params.filter(param => param._id === itemParameter.parameter._ref)[0].value
@@ -38,10 +39,10 @@ const toXml = data => {
 
    return result + `\n<ITEM>
      <ID>${item.id}</ID>
-     <CATEGORY_ID>EB034</CATEGORY_ID>
-     <BRAND_ID>HUROM</BRAND_ID>
      ${!!item.parentId ? `<ITEMGROUP_ID>${item.parentId}</ITEMGROUP_ID>` : ''}
      ${!!item.parentTitle ? `<ITEMGROUP_TITLE>${item.parentTitle}</ITEMGROUP_TITLE>` : ''}
+     <CATEGORY_ID>EB034</CATEGORY_ID>
+     <BRAND_ID>HUROM</BRAND_ID>
      <TITLE>${item.title}</TITLE>
      <SHORTDESC>${item.globalText}</SHORTDESC>
      <LONGDESC>${articles}</LONGDESC>
@@ -51,11 +52,11 @@ const toXml = data => {
      <PRICE>${item.price}</PRICE>
      <VAT>21</VAT>
      <RRP>${item.price}</RRP>
+     ${paramStr}
      <MEDIA>
-      <URL>${item.global_image_link}</URL>
+      <URL>${item.image_link}</URL>
       <MAIN>true</MAIN>
      </MEDIA>
-     ${paramStr}
      ${slide}
      <DELIVERY_DELAY>0</DELIVERY_DELAY>
    </ITEM>\n`
