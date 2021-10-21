@@ -62,7 +62,7 @@
      <g:availability>in stock</g:availability>
      <g:price>2490</g:price>
      <g:mpn>3c4a70f175854f909a0a6457f7803d54</g:mpn>
-     
+     <g:gtin>8809069580254</g:gtin>
      <g:brand>HUROM</g:brand>
    </item>
 <item>
@@ -90,15 +90,15 @@
      <g:brand>HUROM</g:brand>
    </item>
 <item>
-     <g:id>31cfcd0a929c</g:id>
-     <title>S 13 | stříbrný</title>
+     <g:id>540db812-26e7-4b76-a63d-9ae2e5fd37de</g:id>
+     <title>S 13</title>
      <description>Nový přírustek do rodiny HUROM za bezkonkurenční cenu. Kvalitní šťáva plná vitamínu dostupná pro každého.</description>
-     <link>https://hurom.cz/odstavnovac/s-13?variant=stribrny</link>
-     <g:image_link>https://cdn.sanity.io/images/bvwt1scq/production/67e4e802132cf5ef336cf0a204c527d619f36652-1725x4043.png</g:image_link>
+     <link>https://hurom.cz/odstavnovac/s-13</link>
+     <g:image_link>https://cdn.sanity.io/images/bvwt1scq/production/5114859c6adffb0aa9f1d23241aa78fd7ad814e7-1945x3839.png</g:image_link>
      <g:availability>in stock</g:availability>
      <g:price>7990</g:price>
-     <g:mpn>31cfcd0a929c</g:mpn>
-     
+     <g:mpn>540db81226e74b76a63d9ae2e5fd37de</g:mpn>
+     <g:gtin>8809069581220</g:gtin>
      <g:brand>HUROM</g:brand>
    </item>
 <item>

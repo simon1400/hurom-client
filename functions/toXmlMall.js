@@ -9,10 +9,10 @@ const toXml = data => {
     if(item.parametry && item.parametry.length){
       item.parametry.map(itemParameter => {
         var valueTypeParameters = item.params.filter(param => param._id === itemParameter.parameter._ref)[0].value
-        paramStr += `\n<PARAM>
+        paramStr += !!item.params.filter(param => param._id === itemParameter.parameter._ref)[0].mallName ? `\n<PARAM>
                       <NAME>${item.params.filter(param => param._id === itemParameter.parameter._ref)[0].mallName}</NAME>
-                      <VALUE>${itemParameter.value}${valueTypeParameters ? ' ' + valueTypeParameters : ''}</VALUE>
-                    </PARAM>\n`
+                      <VALUE>${itemParameter.value}</VALUE>
+                    </PARAM>\n` : ''
       })
     }
 
@@ -27,11 +27,11 @@ const toXml = data => {
 
     if(item.articles && item.articles.length){
       item.articles.map(article => {
-        articles += `\n<div>\n
-                        <h2>${article.title}</h2>\n
-                        <img src="${article.image}" />\n
-                        <p>${article.text}</p>\n
-                      \n</div>\n`
+        articles += `\n&lt;div&gt; \n
+                        &lt;h2&gt; ${article.title}&lt;/h2&gt; \n
+                        &lt;img src="${article.image}" /&gt; \n
+                        &lt;p&gt; ${article.text}&lt;/p&gt; \n
+                      \n&lt;/div&gt; \n`
       })
     }
 

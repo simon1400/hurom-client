@@ -324,8 +324,8 @@
      <MANUFACTURER>HUROM</MANUFACTURER>
      <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
-     <EAN></EAN>
-     <PRODUCTNO></PRODUCTNO>
+     <EAN>8809069580254</EAN>
+     <PRODUCTNO>8809069580254</PRODUCTNO>
      <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
      
      
@@ -470,12 +470,12 @@
    </SHOPITEM>
 
 <SHOPITEM>
-     <ITEM_ID>31cfcd0a929c</ITEM_ID>
-     <PRODUCTNAME>HUROM | S 13 | stříbrný</PRODUCTNAME>
-     <PRODUCT>S 13 | stříbrný</PRODUCT>
+     <ITEM_ID>540db812-26e7-4b76-a63d-9ae2e5fd37de</ITEM_ID>
+     <PRODUCTNAME>HUROM | S 13</PRODUCTNAME>
+     <PRODUCT>S 13</PRODUCT>
      <DESCRIPTION>Nový přírustek do rodiny HUROM za bezkonkurenční cenu. Kvalitní šťáva plná vitamínu dostupná pro každého.</DESCRIPTION>
-     <URL>https://hurom.cz/odstavnovac/s-13?variant=stribrny</URL>
-     <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/67e4e802132cf5ef336cf0a204c527d619f36652-1725x4043.png</IMGURL>
+     <URL>https://hurom.cz/odstavnovac/s-13</URL>
+     <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/5114859c6adffb0aa9f1d23241aa78fd7ad814e7-1945x3839.png</IMGURL>
      <PRICE_VAT>7990</PRICE_VAT>
      
 <PARAM>
@@ -536,8 +536,8 @@
      <MANUFACTURER>HUROM</MANUFACTURER>
      <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
-     <EAN></EAN>
-     <PRODUCTNO></PRODUCTNO>
+     <EAN>8809069581220</EAN>
+     <PRODUCTNO>8809069581220</PRODUCTNO>
      <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
      <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
      <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
@@ -691,7 +691,7 @@
      <EAN>8809686400065</EAN>
      <PRODUCTNO>8809686400065</PRODUCTNO>
      <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
-     <FREE_GIFT_TEXT>Záslepka na výrobu zmrzliny a sorbetu v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
      <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 
@@ -765,7 +765,7 @@
      <EAN>8809686400003</EAN>
      <PRODUCTNO>8809686400003</PRODUCTNO>
      <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
-     <FREE_GIFT_TEXT>Záslepka na výrobu zmrzliny a sorbetu v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
      <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 
@@ -839,7 +839,7 @@
      <EAN>8809686400089</EAN>
      <PRODUCTNO>8809686400089</PRODUCTNO>
      <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
-     <FREE_GIFT_TEXT>Záslepka na výrobu zmrzliny a sorbetu v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
      <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 
@@ -913,7 +913,7 @@
      <EAN>8809069580384</EAN>
      <PRODUCTNO>8809069580384</PRODUCTNO>
      <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
-     <FREE_GIFT_TEXT>Záslepka na výrobu zmrzliny a sorbetu v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
      <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 
