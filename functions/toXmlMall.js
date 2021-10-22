@@ -9,7 +9,6 @@ const toXml = data => {
     console.log(item.params);
     if(item.parametry && item.parametry.length){
       item.parametry.map(itemParameter => {
-        var valueTypeParameters = item.params.filter(param => param._id === itemParameter.parameter._ref)[0].value
         paramStr += !!item.params.filter(param => param._id === itemParameter.parameter._ref)[0].mallName ? `\n<PARAM>
                       <NAME>${item.params.filter(param => param._id === itemParameter.parameter._ref)[0].mallName}</NAME>
                       <VALUE>${itemParameter.value}</VALUE>
@@ -39,6 +38,7 @@ const toXml = data => {
 
    return result + `\n<ITEM>
      <ID>${item.id}</ID>
+     <STAGE>draft</STAGE>
      ${!!item.parentId ? `<ITEMGROUP_ID>${item.parentId}</ITEMGROUP_ID>` : ''}
      ${!!item.parentTitle ? `<ITEMGROUP_TITLE>${item.parentTitle}</ITEMGROUP_TITLE>` : ''}
      <CATEGORY_ID>EB034</CATEGORY_ID>
