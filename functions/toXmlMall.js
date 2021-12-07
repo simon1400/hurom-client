@@ -19,7 +19,7 @@ const toXml = data => {
     if(item.slider && item.slider.length){
       item.slider.map(itemSlider => {
         slide += `\n<MEDIA>
-                      <URL>${itemSlider+'?w=500'}</URL>
+                      <URL>${itemSlider}</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>\n`
       })
@@ -28,9 +28,9 @@ const toXml = data => {
     if(item.articles && item.articles.length){
       item.articles.map(article => {
         articles += `\n&lt;div&gt; \n
-                        &lt;h2&gt; ${article.title}&lt;/h2&gt; \n
-                        &lt;img src="${article.image+'?w=500'}" /&gt; \n
-                        &lt;p&gt; ${article.text}&lt;/p&gt; \n
+                        ${article.title ? `&lt;h2&gt; ${article.title}&lt;/h2&gt; \n` : ""}
+                        ${article.image ? `&lt;img src="${article.image+'?w=500'}" /&gt; \n` : ""}
+                        ${article.text ? `&lt;p&gt; ${article.text}&lt;/p&gt; \n` : ""}
                       \n&lt;/div&gt; \n`
       })
     }
@@ -54,7 +54,7 @@ const toXml = data => {
      <RRP>${item.price}</RRP>
      ${paramStr}
      <MEDIA>
-      <URL>${item.image_link+'?w=500'}</URL>
+      <URL>${item.image_link}</URL>
       <MAIN>true</MAIN>
      </MEDIA>
      ${slide}
