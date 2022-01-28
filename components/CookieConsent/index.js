@@ -7,7 +7,7 @@ export default function CookieConsent() {
       const cc = window.initCookieConsent();
 
       cc.run({
-        autorun: true,
+        autorun: false,
         current_lang: 'cs',
         theme_css: 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.css',
         autoclear_cookies: true,
@@ -73,7 +73,7 @@ export default function CookieConsent() {
                   title: 'Nastavení cookies',
                   save_settings_btn: 'Souhlasím s vybranými cookies',
                   accept_all_btn: 'Souhlasím se všemi cookies',
-                  reject_all_btn: 'Odmítnout',
+                  reject_all_btn: false,
                   close_btn_label: 'Zavřít',
                   blocks: [
                       {

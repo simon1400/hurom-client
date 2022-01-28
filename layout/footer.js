@@ -18,6 +18,12 @@ const Footer = () => {
     sanityClient.fetch(query).then(data => setFooter(data[1]))
   }, [])
 
+  const handleCookies = (e) => {
+    e.preventDefault()
+    const cc = window.initCookieConsent();
+    cc.showSettings(200)
+  }
+
   if(footer){
     let linkAction = ''
 
@@ -90,6 +96,7 @@ const Footer = () => {
                 <ul>
                   <li><a href="/clanek/obchodni-podminky">Obchodní podmínky</a></li>
                   <li><a href="/clanek/ochrana-osobnich-udaju">Ochrana osobních údajů</a></li>
+                  <li><a onClick={(e) => handleCookies(e)} href="/">Nastavení cookies</a></li>
                 </ul>
               </div>
               <div>
