@@ -7,7 +7,7 @@ export default function CookieConsent() {
       const cc = window.initCookieConsent();
 
       cc.run({
-        autorun: false,
+        autorun: true,
         current_lang: 'cs',
         theme_css: 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.css',
         autoclear_cookies: true,
