@@ -66,6 +66,15 @@ const Page = ({
           })(window,document,'script','dataLayer','GTM-WJJLLH9');`}} />
         {/* <!-- End Google Tag Manager --> */}
 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJN3SG2FPF"></script>
+        <script dangerouslySetInnerHTML={{__html: `window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-DJN3SG2FPF');
+          gtag('config', 'AW-465988455');`}} />
+
+
         <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.js"></script>
 
         <meta charSet="utf-8" />
