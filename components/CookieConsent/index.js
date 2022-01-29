@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const contactUs = "info@pellwood.com"
+const contactUs = "freshjuice@freshjuice.cz"
 
 export default function CookieConsent() {
     useEffect(() => {
