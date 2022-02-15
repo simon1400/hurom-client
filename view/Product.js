@@ -127,6 +127,7 @@ const Product = ({
               {product.price > 0 && <p className="price">{product.price.toLocaleString()} Kč</p>}
               <div className="product-buy-wrap uk-margin-medium-top uk-margin-large-bottom">
                 {!!product.variants?.length && <div className="uk-inline uk-width-1-1">
+                  {error && <span className="uk-text-danger">Vyberte barvu</span>}
                   <button className={`select ${error && 'uk-form-danger'}`} type="button">{selectValue.name} <img src="/assets/chevron-down.svg" alt="down" uk-svg="" /></button>
                   <div id="color-select" uk-dropdown="mode: click; pos: bottom-justify; offset: 0">
                     <ul>

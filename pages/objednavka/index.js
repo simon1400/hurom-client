@@ -3,6 +3,7 @@ import loadable from '@loadable/component'
 import { DataStateContext } from '../../context/dataStateContext'
 import {AxiosAPI} from '../../restClient'
 import validationForm from '../../function/validationForm'
+import router from 'next/router'
 
 const Checkout = loadable(() => import('../../view/Checkout'))
 
@@ -128,8 +129,7 @@ const CheckoutWrap = () => {
     sale: false
   })
 
-  useEffect(() => {
-    setBasketItems(dataContextState.basket)
+  const handleStratSum = () => {
     var newStartSum = 0
     dataContextState.basket.map(item => {
       newStartSum += +item.price * +item.count
@@ -141,7 +141,17 @@ const CheckoutWrap = () => {
       newPayMethod.map(item => item.value = 0)
     }
     setStartSum(newStartSum)
+    return newStartSum
+  }
+
+  useEffect(() => {
+    setBasketItems(dataContextState.basket)
+    if(!dataContextState.basket.length) {
+      router.push('/')
+    }
+    handleStratSum()
   }, [])
+
 
   useEffect(() => {
     if(sale.value){
@@ -178,15 +188,23 @@ const CheckoutWrap = () => {
     setError({...error, payMethod: false})
   }, [payMethod])
 
-  useEffect(() => {
+  const sumWithOptions = () => {
     const checkDelivery = deliveryMethod.filter(item => item.check)[0]
     const checkPayment = payMethod.filter(item => item.check)[0]
     var sum = startSum
     sum += +checkDelivery?.value || 0
     sum += +checkPayment?.value || 0
-    setSum(sum)
-  }, [deliveryMethod, payMethod])
+    return sum
+  }
 
+  useEffect(() => {
+    setSum(handleStratSum())
+    sumWithOptions()
+  }, [dataContextState.basket])
+
+  useEffect(() => {
+    setSum(sumWithOptions(startSum))
+  }, [deliveryMethod, payMethod])
 
   const onBlur = (type) => {
     if(validationForm(type, contactInfo, error, setError)) {

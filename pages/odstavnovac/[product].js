@@ -98,7 +98,9 @@ const ProductWrap = ({dataBread, startSelectValue, product, idsGTM}) => {
       localBasket.push(newLocalBasket)
     }
 
-    setAddToCardGTM(newLocalBasket.id)
+    // console.log(newLocalBasket);
+
+    setAddToCardGTM(localBasket.id)
 
     dataContextDispatch({ state: localBasket, type: 'basket' })
     offcanvas('#canvas').show();

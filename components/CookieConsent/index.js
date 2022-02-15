@@ -60,7 +60,7 @@ export default function CookieConsent() {
             'cs': {
                 consent_modal: {
                     title: 'Aby web správně fungoval používáme cookies',
-                    description: 'Cookies používáme ke zlepšení prohlížení webu a poskytování dalších funkcí. Souhlas udělíte kliknutím na tlačítko "Povolit vše" nebo ho můžete odmítnout <button type="button" data-cc="accept-necessary" class="cc-link">zde</button>.',
+                    description: 'Cookies používáme ke zlepšení prohlížení webu a poskytování dalších funkcí. Souhlas udělíte kliknutím na tlačítko "Povolit vše" nebo ho můžete odmítnout <button type="button" data-cc="accept-all" class="cc-link">zde</button>.',
                     primary_btn: {
                         text: 'Povolit vše',
                         role: 'accept_all'              // 'accept_selected' or 'accept_all'
