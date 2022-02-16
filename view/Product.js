@@ -81,7 +81,7 @@ const Product = ({
 
   return(
     <Page title={product?.meta?.head} description={product?.meta?.description} image={urlFor(product.image).url()} >
-      <Head>
+      {/* <Head>
         <script dangerouslySetInnerHTML={{__html: `gtag('event','view_item', {
           'value': ${product.price},
           'items': [
@@ -102,7 +102,7 @@ const Product = ({
               }
             ]
           });`}} />}
-      </Head>
+      </Head> */}
       <Breadcrumb data={dataBread} />
       <div className="uk-container uk-margin-large-top">
         <div className="uk-grid uk-child-width-1-1 uk-child-width-1-2@m" uk-grid="">

@@ -84,7 +84,7 @@ const Category = ({globalCategory, items, dataBread, meta, match, valueGTM, idsG
             image={globalCategory?.imageUrl}
           >
 
-      {!!valueGTM && <Head>
+      {/* {!!valueGTM && <Head>
          <script dangerouslySetInnerHTML={{__html: `gtag('event','view_item_list', {
           'value': ${valueGTM},
           'items': [
@@ -96,7 +96,7 @@ const Category = ({globalCategory, items, dataBread, meta, match, valueGTM, idsG
             })}
             ]
           });`}} />
-      </Head>}
+      </Head>} */}
       <PageHead data={globalCategory} dataBread={dataBread} className="category-head" />
       <div className="uk-container uk-margin-medium-bottom">
         <div className="uk-grid uk-child-width-1-2 uk-child-width-1-3@m" uk-grid="" uk-height-match="target: > div > .card > .card-content-wrap">
