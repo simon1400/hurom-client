@@ -1,6 +1,7 @@
 import React, {useState, useEffect, useContext} from 'react'
 import loadable from '@loadable/component'
 import { DataStateContext } from '../../context/dataStateContext'
+import Link from 'next/link'
 
 const CanvasItem = loadable(() => import('../../components/canvasItem'))
 
@@ -56,7 +57,7 @@ const Canvas = () => {
         </table>}
         {!!canvasItems.length && <div className="canvas-buttons-wrap uk-margin-top uk-flex uk-flex-between">
           {/* <a href="/kosik" className="button border-button">Do košíku</a> */}
-          <a href="/objednavka" className="button primary">K objednávce</a>
+          <Link href="/objednavka"><a className="button primary">K objednávce</a></Link>
         </div>}
       </div>
     </div>
