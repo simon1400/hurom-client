@@ -1,11 +1,11 @@
 import {useState, useEffect, useContext} from 'react'
-import loadable from '@loadable/component'
 import { DataStateContext } from '../../context/dataStateContext'
 import {AxiosAPI} from '../../restClient'
 import validationForm from '../../function/validationForm'
 import router from 'next/router'
+import Page from '../../layout/page'
 
-const Checkout = loadable(() => import('../../view/Checkout'))
+import Checkout from '../../view/Checkout'
 
 const CheckoutWrap = () => {
 

@@ -1,13 +1,9 @@
 import React, {useState, useEffect, useContext} from 'react'
-import loadable from '@loadable/component'
 import {AxiosAPI} from '../../restClient'
 import { DataStateContext } from '../../context/dataStateContext'
-import getUrl from '../../function/getSearch'
-// import dataSend from '../../function/gtag'
 import Head from 'next/head'
-
-const Button = loadable(() => import('../../components/Button'))
-const Page = loadable(() => import('../../layout/page'))
+import Page from '../../layout/page'
+import Button from '../../components/Button'
 
 const script = (order) => {
 

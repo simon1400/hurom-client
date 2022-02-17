@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import sanityClient from "../lib/sanity.js";
 import imageUrlBuilder from "@sanity/image-url";
-
+import Head from 'next/head'
 import query from '../queries/homepage'
 
 import Page from '../layout/page'
@@ -55,6 +55,9 @@ const Homepage = ({homepage}) => {
 
   return (
     <Page title={homepage?.meta?.head} description={homepage?.meta?.description} image={urlFor(homepage.image).url()}>
+      <Head>
+        <meta name="facebook-domain-verification" content="4f4qsko4ma7tqfey9dnsz59m9aqzok" />
+      </Head>
       <div className="uk-inline uk-width-1-1 uk-margin-large-bottom">
         <div className="uk-cover-container uk-height-large container-height-top">
           <img
