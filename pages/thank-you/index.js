@@ -78,43 +78,43 @@ const ThankYou = ({order, orderBasket}) => {
     dataContextDispatch({ state: [], type: 'basket' })
     dataContextDispatch({ state: 0, type: 'basketCount' })
 
+    const data = {
+      transaction_id: order.idOrder,
+      affiliation: "Hurom",
+      value: order.sum - (order.sum * 0.21),
+      currency: 'CZK',
+      tax: order.sum * 0.21,
+      shipping: order.deliveryPrice,
+      items: orderBasket
+    }
+
     if(order.payOnline) {
       setStatus(order.status)
       if(order.status !== 'PENDING' && order.status !== 'CANCELLED'){
         setPrice(order.sum)
-        // document.body.appendChild(script(order));
+        if(window !== undefined){
+          window.dataLayer?.push({
+            event: 'purchase',
+            ...data,
+          });
+        }
       }
     }else{
       setStatus('dobirka')
       setPrice(order.sum)
-      // document.body.appendChild(script(order));
-    }
-
-    if(window !== undefined){
-      const data = {
-        transaction_id: order.idOrder,
-        affiliation: "Hurom",
-        value: order.sum - (order.sum * 0.21),
-        currency: 'CZK',
-        tax: order.sum * 0.21,
-        shipping: order.deliveryPrice,
-        items: orderBasket
+      if(window !== undefined){
+        window.dataLayer?.push({
+          event: 'purchase',
+          ...data,
+        });
       }
-      window.dataLayer?.push({
-        event: 'purchase',
-        ...data,
-      });
-    }
-
-    return () => {
-      // document.body.removeChild(script);
     }
 
   }, [])
 
   return(
     <Page title="Dokončená objednávka">
-      <Head>
+      {/* <Head> */}
         {/* {price > 0 && <script dangerouslySetInnerHTML={{__html: `var seznam_cId = 100071362; var seznam_value = ${price};`}} />} */}
         {/* {price > 0 && <script type="text/javascript" src="https://www.seznam.cz/rs/static/rc.js" async></script>} */}
         {/* <script dangerouslySetInnerHTML={{__html: `gtag('event', 'purchase', {
@@ -126,7 +126,7 @@ const ThankYou = ({order, orderBasket}) => {
           shipping: ${order.deliveryPrice},
           items: ${JSON.stringify(orderBasket)}
         })`}} /> */}
-      </Head>
+      {/* </Head> */}
       <div className="uk-container uk-margin-xlarge-top">
         <div className="uk-grid uk-child-width-1-1" uk-grid="">
           <div className="uk-text-center">

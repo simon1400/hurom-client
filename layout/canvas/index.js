@@ -57,7 +57,7 @@ const Canvas = () => {
         </table>}
         {!!canvasItems.length && <div className="canvas-buttons-wrap uk-margin-top uk-flex uk-flex-between">
           {/* <a href="/kosik" className="button border-button">Do košíku</a> */}
-          <Link href="/objednavka"><a className="button primary">K objednávce</a></Link>
+          <a href="/objednavka" className="button primary">K objednávce</a>
         </div>}
       </div>
     </div>
