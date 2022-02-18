@@ -5,20 +5,20 @@ import Icons from 'uikit/dist/js/uikit-icons';
 UIkit.use(Icons);
 
 import { DataProvider } from '../context/dataStateContext'
-// import { useEffect } from 'react';
-// import { GTMPageView } from '../functions/gtm';
-// import { Router } from 'next/router';
+import { useEffect } from 'react';
+import { GTMPageView } from '../functions/gtm';
+import { Router } from 'next/router';
 
 const App = ({ Component, pageProps }) => {
 
-  // // Initiate GTM
-  // useEffect(() => {
-  //   const handleRouteChange = (url) => GTMPageView(url);
-  //   Router.events.on('routeChangeComplete', handleRouteChange);
-  //   return () => {
-  //     Router.events.off('routeChangeComplete', handleRouteChange);
-  //   };
-  // }, []);
+  // Initiate GTM
+  useEffect(() => {
+    const handleRouteChange = (url) => GTMPageView(url);
+    Router.events.on('routeChangeComplete', handleRouteChange);
+    return () => {
+      Router.events.off('routeChangeComplete', handleRouteChange);
+    };
+  }, []);
 
   return <DataProvider><Component {...pageProps} /></DataProvider>
 }
