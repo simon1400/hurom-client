@@ -1,13 +1,8 @@
 import React, {useState, useEffect, useContext} from 'react'
-import loadable from '@loadable/component'
 import {AxiosAPI} from '../../restClient'
 import { DataStateContext } from '../../context/dataStateContext'
-import getUrl from '../../function/getSearch'
-// import dataSend from '../../function/gtag'
-import Head from 'next/head'
-
-const Button = loadable(() => import('../../components/Button'))
-const Page = loadable(() => import('../../layout/page'))
+import Page from '../../layout/page'
+import Button from '../../components/Button'
 
 const script = (order) => {
 
@@ -82,39 +77,42 @@ const ThankYou = ({order, orderBasket}) => {
     dataContextDispatch({ state: [], type: 'basket' })
     dataContextDispatch({ state: 0, type: 'basketCount' })
 
+    const data = {
+      transaction_id: order.idOrder,
+      affiliation: "Hurom",
+      value: order.sum - (order.sum * 0.21),
+      currency: 'CZK',
+      tax: order.sum * 0.21,
+      shipping: order.deliveryPrice,
+      items: orderBasket
+    }
+
     if(order.payOnline) {
       setStatus(order.status)
       if(order.status !== 'PENDING' && order.status !== 'CANCELLED'){
         setPrice(order.sum)
-        document.body.appendChild(script(order));
+        if(window !== undefined){
+          window.dataLayer?.push({
+            event: 'purchase',
+            ...data,
+          });
+        }
       }
     }else{
       setStatus('dobirka')
       setPrice(order.sum)
-      document.body.appendChild(script(order));
-    }
-
-    return () => {
-      document.body.removeChild(script);
+      if(window !== undefined){
+        window.dataLayer?.push({
+          event: 'purchase',
+          ...data,
+        });
+      }
     }
 
   }, [])
 
   return(
     <Page title="Dokončená objednávka">
-      <Head>
-        {price > 0 && <script dangerouslySetInnerHTML={{__html: `var seznam_cId = 100071362; var seznam_value = ${price};`}} />}
-        {price > 0 && <script type="text/javascript" src="https://www.seznam.cz/rs/static/rc.js" async></script>}
-        <script dangerouslySetInnerHTML={{__html: `gtag('event', 'purchase', {
-          transaction_id: ${order.idOrder},
-          affiliation: "Hurom",
-          value: ${order.sum - (order.sum * 0.21)},
-          currency: 'CZK',
-          tax: ${order.sum * 0.21},
-          shipping: ${order.deliveryPrice},
-          items: ${JSON.stringify(orderBasket)}
-        })`}} />
-      </Head>
       <div className="uk-container uk-margin-xlarge-top">
         <div className="uk-grid uk-child-width-1-1" uk-grid="">
           <div className="uk-text-center">
