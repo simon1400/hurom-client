@@ -12,13 +12,13 @@ import { Router } from 'next/router';
 const App = ({ Component, pageProps }) => {
 
   // Initiate GTM
-  useEffect(() => {
-    const handleRouteChange = (url) => GTMPageView(url);
-    Router.events.on('routeChangeComplete', handleRouteChange);
-    return () => {
-      Router.events.off('routeChangeComplete', handleRouteChange);
-    };
-  }, []);
+  // useEffect(() => {
+  //   const handleRouteChange = (url) => GTMPageView(url);
+  //   Router.events.on('routeChangeComplete', handleRouteChange);
+  //   return () => {
+  //     Router.events.off('routeChangeComplete', handleRouteChange);
+  //   };
+  // }, []);
 
   return <DataProvider><Component {...pageProps} /></DataProvider>
 }
