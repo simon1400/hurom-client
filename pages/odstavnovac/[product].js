@@ -96,11 +96,10 @@ const ProductWrap = ({dataBread, startSelectValue, product, idsGTM}) => {
         newLocalBasket.imageUrl = urlFor(product.variants.filter(item => item._key === selectValue.id)[0].image).format('webp').url()
       }
       localBasket.push(newLocalBasket)
+      setAddToCardGTM(newLocalBasket.id)
     }
 
     // console.log(newLocalBasket);
-
-    setAddToCardGTM(localBasket.id)
 
     dataContextDispatch({ state: localBasket, type: 'basket' })
     offcanvas('#canvas').show();

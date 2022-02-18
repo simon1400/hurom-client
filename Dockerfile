@@ -1,5 +1,5 @@
 
-FROM node:10-alpine
+FROM node:12-alpine
 
 RUN mkdir -p /var/www/hurom/client/node_modules && chown -R node:node /var/www/hurom/client
 
