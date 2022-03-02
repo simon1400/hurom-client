@@ -1,11 +1,10 @@
 import {useState, useEffect} from 'react'
 import sanityClient from "../lib/sanity.js";
 import imageUrlBuilder from "@sanity/image-url";
-import loadable from '@loadable/component'
 
 import query from '../queries/footer'
 
-const Button = loadable(() => import('../components/Button'))
+import Button from '../components/Button'
 
 const imageBuilder = imageUrlBuilder(sanityClient);
 const urlFor = source => imageBuilder.image(source);
@@ -20,6 +19,7 @@ const Footer = () => {
 
   const handleCookies = (e) => {
     e.preventDefault()
+    console.log(window.initCookieConsent());
     const cc = window.initCookieConsent();
     cc.showSettings(200)
   }

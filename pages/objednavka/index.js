@@ -3,7 +3,6 @@ import { DataStateContext } from '../../context/dataStateContext'
 import {AxiosAPI} from '../../restClient'
 import validationForm from '../../function/validationForm'
 import router from 'next/router'
-import Page from '../../layout/page'
 
 import Checkout from '../../view/Checkout'
 

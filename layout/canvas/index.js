@@ -1,9 +1,8 @@
 import React, {useState, useEffect, useContext} from 'react'
-import loadable from '@loadable/component'
 import { DataStateContext } from '../../context/dataStateContext'
-import Link from 'next/link'
-
-const CanvasItem = loadable(() => import('../../components/canvasItem'))
+import {offcanvas} from 'uikit'
+import CanvasItem from '../../components/canvasItem'
+import router from 'next/router'
 
 const Canvas = () => {
 
@@ -20,6 +19,12 @@ const Canvas = () => {
     })
     setSum(startSum)
   }, [dataContextState, dataContextState.basket.length])
+
+  const handleLink = async (e) => {
+    e.preventDefault()
+    await offcanvas('#canvas').hide();
+    await router.push('/objednavka')
+  }
 
   return (
     <div id="canvas" className="uk-offcanvas" uk-offcanvas="flip: true; overlay: true">
@@ -57,7 +62,7 @@ const Canvas = () => {
         </table>}
         {!!canvasItems.length && <div className="canvas-buttons-wrap uk-margin-top uk-flex uk-flex-between">
           {/* <a href="/kosik" className="button border-button">Do košíku</a> */}
-          <a href="/objednavka" className="button primary">K objednávce</a>
+          <a href="/" onClick={e => handleLink(e)} className="button primary">K objednávce</a>
         </div>}
       </div>
     </div>

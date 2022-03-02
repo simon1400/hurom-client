@@ -100,9 +100,6 @@ const ProductWrap = ({dataBread, startSelectValue, product, idsGTM}) => {
     }
 
     // console.log(newLocalBasket);
-
-    
-
     dataContextDispatch({ state: localBasket, type: 'basket' })
     offcanvas('#canvas').show();
   }

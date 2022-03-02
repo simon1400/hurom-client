@@ -1,7 +1,6 @@
 import React, {useState, useEffect, useContext} from 'react'
 import {AxiosAPI} from '../../restClient'
 import { DataStateContext } from '../../context/dataStateContext'
-import Head from 'next/head'
 import Page from '../../layout/page'
 import Button from '../../components/Button'
 
