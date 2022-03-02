@@ -3,6 +3,7 @@ import {AxiosAPI} from '../../restClient'
 import { DataStateContext } from '../../context/dataStateContext'
 import Page from '../../layout/page'
 import Button from '../../components/Button'
+import Head from 'next/head'
 
 const script = (order) => {
 
@@ -119,7 +120,7 @@ const ThankYou = ({order, orderBasket}) => {
     <Page title="Dokončená objednávka">
       <Head>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJN3SG2FPF"></script>
-        <script dangerouslySetInnerHTML={{__html: `window.dataLayer = window.dataLayer || [];
+        <script async dangerouslySetInnerHTML={{__html: `window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
@@ -127,7 +128,7 @@ const ThankYou = ({order, orderBasket}) => {
           gtag('config', 'AW-465988455');`}} />
         {/* {price > 0 && <script dangerouslySetInnerHTML={{__html: `var seznam_cId = 100071362; var seznam_value = ${price};`}} />} */}
         {/* {price > 0 && <script type="text/javascript" src="https://www.seznam.cz/rs/static/rc.js" async></script>} */}
-        <script dangerouslySetInnerHTML={{__html: `gtag('event', 'purchase', {
+        <script async dangerouslySetInnerHTML={{__html: `gtag('event', 'purchase', {
           transaction_id: ${order.idOrder},
           affiliation: "Hurom",
           value: ${order.sum - (order.sum * 0.21)},
