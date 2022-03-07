@@ -86,8 +86,6 @@ const ThankYou = ({order, orderBasket}) => {
       tax: order.sum * 0.21,
       shipping: order.deliveryPrice,
       items: orderBasket
-
-
     }
 
     if(order.payOnline) {
@@ -96,7 +94,7 @@ const ThankYou = ({order, orderBasket}) => {
         setPrice(order.sum)
         if(window !== undefined){
           window.dataLayer?.push({
-            event: 'purchase',
+            Event: 'purchase',
             ...data,
           });
         }
@@ -106,7 +104,7 @@ const ThankYou = ({order, orderBasket}) => {
       setPrice(order.sum)
       if(window !== undefined){
         window.dataLayer?.push({
-          event: 'purchase',
+          Event: 'purchase',
           ...data,
         });
       }
@@ -119,16 +117,16 @@ const ThankYou = ({order, orderBasket}) => {
   return(
     <Page title="Dokončená objednávka">
       <Head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJN3SG2FPF"></script>
+        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJN3SG2FPF"></script>
         <script async dangerouslySetInnerHTML={{__html: `window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', 'G-DJN3SG2FPF');
-          gtag('config', 'AW-465988455');`}} />
+          gtag('config', 'AW-465988455');`}} /> */}
         {/* {price > 0 && <script dangerouslySetInnerHTML={{__html: `var seznam_cId = 100071362; var seznam_value = ${price};`}} />} */}
         {/* {price > 0 && <script type="text/javascript" src="https://www.seznam.cz/rs/static/rc.js" async></script>} */}
-        <script async dangerouslySetInnerHTML={{__html: `gtag('event', 'purchase', {
+        {/* <script async dangerouslySetInnerHTML={{__html: `gtag('event', 'purchase', {
           transaction_id: ${order.idOrder},
           affiliation: "Hurom",
           value: ${order.sum - (order.sum * 0.21)},
@@ -136,7 +134,7 @@ const ThankYou = ({order, orderBasket}) => {
           tax: ${order.sum * 0.21},
           shipping: ${order.deliveryPrice},
           items: ${JSON.stringify(orderBasket)}
-        })`}} />
+        })`}} /> */}
       </Head>
       <div className="uk-container uk-margin-xlarge-top">
         <div className="uk-grid uk-child-width-1-1" uk-grid="">
