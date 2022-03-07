@@ -94,7 +94,7 @@ const ThankYou = ({order, orderBasket}) => {
         setPrice(order.sum)
         if(window !== undefined){
           window.dataLayer?.push({
-            Event: 'purchase',
+            event: 'purchase',
             ...data,
           });
         }
@@ -104,7 +104,7 @@ const ThankYou = ({order, orderBasket}) => {
       setPrice(order.sum)
       if(window !== undefined){
         window.dataLayer?.push({
-          Event: 'purchase',
+          event: 'purchase',
           ...data,
         });
       }
