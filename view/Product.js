@@ -125,7 +125,10 @@ const Product = ({
               {!!product?.label?.length && <label className="action-label">{product.label}</label>}
               <label className="uk-label">HUROM</label>
               <h1 className="uk-h3 uk-margin-medium-bottom">{product.title}</h1>
-              {product.price > 0 && <p className="price">{product.price.toLocaleString()} Kč</p>}
+              {product.price > 0 && <p className="price">
+                {!!product?.priceBeforeSale?.length && <span className="before-sale">{(product.priceBeforeSale).toLocaleString()} Kč</span>}
+                {product.price.toLocaleString()} Kč
+              </p>}
               <div className="product-buy-wrap uk-margin-medium-top uk-margin-large-bottom">
                 {!!product.variants?.length && <div className="uk-inline uk-width-1-1">
                   {error && <span className="uk-text-danger">Vyberte barvu</span>}

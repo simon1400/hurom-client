@@ -384,8 +384,20 @@ $global-2xlarge-font-size: $head_1;
   .container-height-top{
     max-height: 500px;
   }
+  .before-sale{
+    font-size: 14px;
+  }
   .card .card-content-wrap{
     padding: 20px 25px;
+    span{
+      .before-sale{
+        font-size: 11px;
+        letter-spacing: 1.1px;
+        display: block;
+        margin-right: 0;
+        margin-top: 15px;
+      }
+    }
   }
   .card .card-img-wrap{
     padding: 20px;

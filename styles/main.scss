@@ -137,6 +137,15 @@ header{
   }
 }
 
+.before-sale{
+  color: rgba(77, 77, 77, 0.5);
+  font-size: 17px;
+  letter-spacing: 1.7px;
+  text-decoration: line-through;
+  display: inline-block;
+  margin-right: 20px;
+}
+
 .action-label{
   background-color: rgba(255, 197, 0, 0.76);
   color: #4d4d4d;
@@ -181,6 +190,7 @@ header{
     top: 30px;
     left: 0;
     transform: translateX(0);
+    z-index: 11;
   }
   .gift-short{
     width: 47px;
@@ -221,6 +231,12 @@ header{
       color: $accent;
       font-weight: $ff_bold;
       font-size: $text;
+      .before-sale{
+        font-size: 14px;
+        letter-spacing: 1.4px;
+        color: rgba(77, 77, 77, 0.5);
+        margin-right: 10px;
+      }
     }
     p{
       font-size: $text_small;

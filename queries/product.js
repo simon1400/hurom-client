@@ -6,6 +6,7 @@ export default `*[_type in ["product", 'accessories'] && slug.current == $url]{
   variants,
   benefits,
   price,
+  priceBeforeSale,
   label,
   "gift": *[_type == 'gift' && _id == ^.gift._ref]{title, image},
   descriptions,

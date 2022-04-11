@@ -26,7 +26,10 @@ const Card = ({data}) => {
         </div>
         <div className="card-content-wrap">
           <h4>{data.title}</h4>
-          {data.price > 0 && <span>{data?.price.toLocaleString()} Kč</span>}
+          {data.price > 0 && <span>
+            {!!data?.priceBeforeSale?.length && <span className="before-sale">{(data.priceBeforeSale).toLocaleString()} Kč</span>}
+            {data?.price.toLocaleString()} Kč
+          </span>}
         </div>
         {!!data.variants?.length && <div className="card-variants">
           <ul>
