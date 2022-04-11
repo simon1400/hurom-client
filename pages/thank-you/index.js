@@ -3,28 +3,8 @@ import {AxiosAPI} from '../../restClient'
 import { DataStateContext } from '../../context/dataStateContext'
 import Page from '../../layout/page'
 import Button from '../../components/Button'
-
-const script = (order) => {
-
-  const script = document.createElement('script');
-
-  script.async = true;
-  var products = ''
-  order.basket.map(item => products += `_hrq.push(['addProduct', '${item.nameProduct}${item.variantProduct ? ' - ' + item.variantProduct : ''}', '${item.price}', '${item.count}', '${item.id}']);`)
-  script.innerHTML = `var _hrq = _hrq || [];
-      _hrq.push(['setKey', '982154816664C09B9691FCFA69037EE7']);
-      _hrq.push(['setOrderId', ${order.idOrder}]);
-      ${products}
-      _hrq.push(['trackOrder']);
-
-    (function() {
-        var ho = document.createElement('script'); ho.type = 'text/javascript'; ho.async = true;
-        ho.src = 'https://im9.cz/js/ext/1-roi-async.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ho, s);
-    })();`;
-
-    return script
-}
+import Head from 'next/head'
+import TagManager from 'react-gtm-module'
 
 export async function getServerSideProps({query}) {
 
@@ -87,32 +67,49 @@ const ThankYou = ({order, orderBasket}) => {
       items: orderBasket
     }
 
+    const tagManagerArgs = {
+      dataLayer: {
+        event: 'purchase',
+        ...data
+      }
+  }
+
     if(order.payOnline) {
       setStatus(order.status)
       if(order.status !== 'PENDING' && order.status !== 'CANCELLED'){
         setPrice(order.sum)
-        if(window !== undefined){
-          window.dataLayer?.push({
-            event: 'purchase',
-            ...data,
-          });
-        }
+        TagManager.dataLayer(tagManagerArgs)
       }
     }else{
       setStatus('dobirka')
       setPrice(order.sum)
-      if(window !== undefined){
-        window.dataLayer?.push({
-          event: 'purchase',
-          ...data,
-        });
-      }
+      TagManager.dataLayer(tagManagerArgs)
     }
 
   }, [])
 
   return(
     <Page title="Dokončená objednávka">
+      <Head>
+        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJN3SG2FPF"></script>
+        <script async dangerouslySetInnerHTML={{__html: `window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-DJN3SG2FPF');
+          gtag('config', 'AW-465988455');`}} /> */}
+        {/* {price > 0 && <script dangerouslySetInnerHTML={{__html: `var seznam_cId = 100071362; var seznam_value = ${price};`}} />} */}
+        {/* {price > 0 && <script type="text/javascript" src="https://www.seznam.cz/rs/static/rc.js" async></script>} */}
+        {/* <script async dangerouslySetInnerHTML={{__html: `gtag('event', 'purchase', {
+          transaction_id: ${order.idOrder},
+          affiliation: "Hurom",
+          value: ${order.sum - (order.sum * 0.21)},
+          currency: 'CZK',
+          tax: ${order.sum * 0.21},
+          shipping: ${order.deliveryPrice},
+          items: ${JSON.stringify(orderBasket)}
+        })`}} /> */}
+      </Head>
       <div className="uk-container uk-margin-xlarge-top">
         <div className="uk-grid uk-child-width-1-1" uk-grid="">
           <div className="uk-text-center">
