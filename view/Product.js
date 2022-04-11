@@ -122,6 +122,7 @@ const Product = ({
           </div>
           <div>
             <div className="product-base-info">
+              {!!product?.label?.length && <label className="action-label">{product.label}</label>}
               <label className="uk-label">HUROM</label>
               <h1 className="uk-h3 uk-margin-medium-bottom">{product.title}</h1>
               {product.price > 0 && <p className="price">{product.price.toLocaleString()} Kč</p>}

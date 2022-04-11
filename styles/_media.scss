@@ -161,6 +161,18 @@ $global-2xlarge-font-size: $head_1;
     }
   }
 
+  .action-label{
+    padding: 5px 10px;
+    font-size: 11px;
+    z-index: 11;
+    left: 0;
+    transform: translateX(0);
+  }
+
+  .card .action-label{
+    top: 12px;
+  }
+
   .card .gift-short{
     width: 30px;
     height: 30px;

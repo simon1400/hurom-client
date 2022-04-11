@@ -8,7 +8,8 @@ const Card = ({data}) => {
 
   return(
     <Link href={`/odstavnovac/${data.slug}`}>
-      <a  className="card">
+      <a className="card">
+        {!!data?.label?.length && <label className="action-label">{data.label}</label>}
         {!!data?.gift?.length && <div className="gift-short" uk-tooltip="title: Dárek zdarma; pos: bottom">
           <img src="/assets/gift.svg" uk-svg="" />
         </div>}

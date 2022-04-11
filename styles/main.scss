@@ -137,6 +137,20 @@ header{
   }
 }
 
+.action-label{
+  background-color: rgba(255, 197, 0, 0.76);
+  color: #4d4d4d;
+  line-height: 1;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .card{
   text-decoration: none;
   box-shadow: $shadow;
@@ -163,13 +177,16 @@ header{
       width: 100%;
     }
   }
+  .action-label{
+    top: 30px;
+    left: 0;
+    transform: translateX(0);
+  }
   .gift-short{
     width: 47px;
     height: 47px;
     border-radius: 50%;
     background-color: rgba($accent, .1);
-    display: -webkit-flex;
-    display: -ms-flex;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,6 +273,8 @@ header{
     }
   }
 }
+
+
 
 svg{
   -webkit-font-smoothing: none;
@@ -902,6 +921,7 @@ textarea{
   box-shadow: $shadow;
   padding: 60px;
   text-align: center;
+  position: relative;
   .price{
     color: $accent;
     font-size: 22px;
