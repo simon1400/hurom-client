@@ -42,6 +42,7 @@ const toXml = data => {
 
    return result + `\n<SHOPITEM>
      <ITEM_ID>${item.id}</ITEM_ID>
+     <IN_STOCK>${item.stock}</IN_STOCK>
      <PRODUCTNAME>HUROM | ${item.title}</PRODUCTNAME>
      <PRODUCT>HUROM | ${item.title}</PRODUCT>
      <DESCRIPTION>${item.description}</DESCRIPTION>
