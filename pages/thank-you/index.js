@@ -72,7 +72,7 @@ const ThankYou = ({order, orderBasket}) => {
         event: 'purchase',
         ...data
       }
-  }
+    }
 
     if(order.payOnline) {
       setStatus(order.status)
