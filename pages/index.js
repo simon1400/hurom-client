@@ -57,6 +57,7 @@ const Homepage = ({homepage}) => {
     <Page title={homepage?.meta?.head} description={homepage?.meta?.description} image={urlFor(homepage.image).url()}>
       <Head>
         <meta name="facebook-domain-verification" content="4f4qsko4ma7tqfey9dnsz59m9aqzok" />
+        <meta name="google-site-verification" content="su2uX9qqw6aaN9oFzigGJKVgFbbsjWO_oh79jyXm1KI" />
       </Head>
       <div className="uk-inline uk-width-1-1 uk-margin-large-bottom">
         <div className="uk-cover-container uk-height-large container-height-top">
