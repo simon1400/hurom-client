@@ -52,7 +52,7 @@ const toXml = data => {
      ${!!galery.length ? `<GALERY>${galery}</GALERY>` : ''}
      <VAT>21%</VAT>
      <TEXT>${item.globalText}</TEXT>
-     <PRICE_VAT>${item.price}</PRICE_VAT>
+     <PRICE_VAT>${item.priceAlza}</PRICE_VAT>
      <ARTICLES>${articles}</ARTICLES>
      ${paramStr}
      <MANUFACTURER>HUROM</MANUFACTURER>

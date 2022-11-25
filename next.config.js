@@ -14,16 +14,11 @@ module.exports = (phase) => {
 
   console.log(`isDev:${isDev}  isProd:${isProd}   isStaging:${isStaging}`)
 
-  const env = {
-    APP_API: (() => {
-      if (isDev) return 'http://localhost:9001'
-      if (isProd) return 'https://api.hurom.cz'
-      return 'RESTURL_SPEAKERS:not (isDev,isProd && !isStaging,isProd && isStaging)'
-    })()
-  }
-
   // next.config.js object
   return {
-    env,
+    env: {
+      APP_API: process.env.APP_API,
+      HEUREKA_API: process.env.HEUREKA_API,
+    }
   }
 }

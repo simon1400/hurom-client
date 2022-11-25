@@ -5,6 +5,7 @@ import Page from '../../layout/page'
 import Button from '../../components/Button'
 import Head from 'next/head'
 import TagManager from 'react-gtm-module'
+import axios from 'axios'
 
 export async function getServerSideProps({query}) {
 
@@ -85,31 +86,17 @@ const ThankYou = ({order, orderBasket}) => {
       setPrice(order.sum)
       TagManager.dataLayer(tagManagerArgs)
     }
+    axios.post('https://api.heureka.cz/shop-certification/v2/order/order', {
+      "apiKey": process.env.HEUREKA_API,
+      "email": order.email,
+      "orderId": order.idOrder,
+      "productItemIds": orderBasket.map(item => item.id)
+    })
 
   }, [])
 
   return(
     <Page title="Dokončená objednávka">
-      <Head>
-        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJN3SG2FPF"></script>
-        <script async dangerouslySetInnerHTML={{__html: `window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-DJN3SG2FPF');
-          gtag('config', 'AW-465988455');`}} /> */}
-        {/* {price > 0 && <script dangerouslySetInnerHTML={{__html: `var seznam_cId = 100071362; var seznam_value = ${price};`}} />} */}
-        {/* {price > 0 && <script type="text/javascript" src="https://www.seznam.cz/rs/static/rc.js" async></script>} */}
-        {/* <script async dangerouslySetInnerHTML={{__html: `gtag('event', 'purchase', {
-          transaction_id: ${order.idOrder},
-          affiliation: "Hurom",
-          value: ${order.sum - (order.sum * 0.21)},
-          currency: 'CZK',
-          tax: ${order.sum * 0.21},
-          shipping: ${order.deliveryPrice},
-          items: ${JSON.stringify(orderBasket)}
-        })`}} /> */}
-      </Head>
       <div className="uk-container uk-margin-xlarge-top">
         <div className="uk-grid uk-child-width-1-1" uk-grid="">
           <div className="uk-text-center">
