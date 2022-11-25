@@ -54,15 +54,6 @@ const CheckoutWrap = () => {
     },
     {
       name: 'payment',
-      label: 'Platba na tři splátky bez navýšení',
-      value: '0',
-      check: false,
-      disabled: false,
-      payOnline: true,
-      method: 'LATER_ALL'
-    },
-    {
-      name: 'payment',
       label: 'Na dobírkou při převzetí zásilky',
       value: '30',
       check: false,
@@ -74,6 +65,15 @@ const CheckoutWrap = () => {
       value: '0',
       check: false,
       disabled: false
+    },
+    {
+      name: 'payment',
+      label: 'Platba na tři splátky bez navýšení',
+      value: '0',
+      check: false,
+      disabled: false,
+      payOnline: true,
+      method: 'LATER_ALL'
     }
   ])
 
