@@ -40,6 +40,7 @@ async function generateFeed() {
       content,
       benefits,
       price,
+      priceAlza,
       parametry,
       "gift": *[_type == 'gift' && _id == ^.gift._ref]{title, image},
       "param": *[_type == 'param' && _id in ^.parametry[].parameter._ref]{head, mallName, value, _id},
@@ -68,6 +69,7 @@ async function generateFeed() {
             parametry: products[i].parametry,
             stock: products[i].variants[a].stock,
             price: products[i].price,
+            priceAlza: products[i].priceAlza,
             mpn: products[i].variants[a]._key.split('-').join(''),
             ean: products[i].variants[a].ean ? products[i].variants[a].ean : '',
             gift: products[i].gift
@@ -108,6 +110,7 @@ async function generateFeed() {
           stock: products[i].stock,
           ean: products[i].ean ? products[i].ean : '',
           price: products[i].price,
+          priceAlza: products[i].priceAlza,
           mpn: products[i]._id.split('-').join(''),
           gift: products[i].gift
         }
