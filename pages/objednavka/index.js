@@ -275,13 +275,14 @@ const CheckoutWrap = () => {
       sum: sum
     }
 
-    await AxiosAPI.post(`/order`, dataSend).then(res => {
+    await axios.post(`https://api.hurom.cz/order`, dataSend).then(res => {
+
       if(dataSend.payOnline && res.data.data.redirect !== undefined){
         window.location.href = decodeURIComponent(res.data.data.redirect)
       }else{
         window.location.href = `/thank-you?refId=${res.data.data.idOrder}&dobirka=true`
       }
-    })
+    }).catch(err => console.log('Order error', err))
   }
 
   return (
