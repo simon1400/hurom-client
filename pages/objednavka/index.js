@@ -1,6 +1,7 @@
 import {useState, useEffect, useContext} from 'react'
 import { DataStateContext } from '../../context/dataStateContext'
 import {AxiosAPI} from '../../restClient'
+import axios from 'axios'
 import validationForm from '../../function/validationForm'
 import router from 'next/router'
 
