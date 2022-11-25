@@ -87,20 +87,6 @@ const ThankYou = ({order, orderBasket}) => {
       TagManager.dataLayer(tagManagerArgs)
     }
 
-
-    axios.post('https://api.heureka.cz/shop-certification/v2/order/log', {
-      "apiKey": process.env.HEUREKA_API,
-      "email": order.email,
-      "orderId": order.idOrder,
-      "productItemIds": orderBasket.map(item => item.id)
-    }, {
-      headers: {
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*'
-      }
-    }).then(res => console.log('res', res.data))
-    .catch(err => console.log('err', err))
-
   }, [])
 
   return(
