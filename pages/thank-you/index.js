@@ -86,12 +86,15 @@ const ThankYou = ({order, orderBasket}) => {
       setPrice(order.sum)
       TagManager.dataLayer(tagManagerArgs)
     }
-    axios.post('https://api.heureka.cz/shop-certification/v2/order/order', {
+
+    
+    axios.post('https://api.heureka.cz/shop-certification/v2/order/log', {
       "apiKey": process.env.HEUREKA_API,
       "email": order.email,
       "orderId": order.idOrder,
       "productItemIds": orderBasket.map(item => item.id)
-    })
+    }).then(res => console.log('res', res.data))
+    .catch(err => console.log('err', err))
 
   }, [])
 
