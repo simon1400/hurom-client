@@ -171,6 +171,9 @@ $global-2xlarge-font-size: $head_1;
 
   .card .action-label{
     top: 12px;
+    &.green {
+      top: 36px;
+    }
   }
 
   .card .gift-short{

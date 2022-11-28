@@ -148,6 +148,8 @@ header{
 
 .action-label-wrap {
   display: flex;
+  width: 100%;
+  justify-content: center;
   position: absolute;
   top: 0;
   left: 50%;
@@ -166,7 +168,7 @@ header{
   }
 }
 
-.action-label{
+.action-label {
   background-color: rgba(255, 197, 0, 0.76);
   color: #4d4d4d;
   line-height: 1;

@@ -181,7 +181,7 @@ const Product = ({
             <div className="uk-container uk-container-small uk-margin-large-top uk-margin-large-bottom">
               <div className="uk-grid uk-child-width-1-2" uk-grid="masonry: true" uk-lightbox="animation: fade">
                 {product.galery.map((item, index) => <div key={index}>
-                  <a className="uk-inline uk-width-1-1" href={urlFor(item).auto('format').url()}>
+                  <a className="uk-inline uk-width-1-1" href={urlFor(item).auto('format').width(1000).url()}>
                     <img src={urlFor(item).width(540).auto('format').url()} alt="adfdsf" className="uk-width-1-1" />
                   </a>
                 </div>)}
