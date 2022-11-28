@@ -146,6 +146,26 @@ header{
   margin-right: 20px;
 }
 
+.action-label-wrap {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  .action-label{
+    position: relative;
+    display: inline-block;
+    transform: translateX(0);
+    left: 0;
+    &:first-child {
+      margin-right: 5px;
+    }
+    &:first-child {
+      margin-left: 5px;
+    }
+  }
+}
+
 .action-label{
   background-color: rgba(255, 197, 0, 0.76);
   color: #4d4d4d;
@@ -158,6 +178,9 @@ header{
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+  &.green {
+    background-color: rgba($accent, 0.76);
+  }
 }
 
 .card{
@@ -191,6 +214,9 @@ header{
     left: 0;
     transform: translateX(0);
     z-index: 11;
+    &.green {
+      top: 68px;
+    }
   }
   .gift-short{
     width: 47px;

@@ -83,20 +83,6 @@ const Category = ({globalCategory, items, dataBread, meta, match, valueGTM, idsG
             description={meta.description}
             image={globalCategory?.imageUrl}
           >
-
-      {/* {!!valueGTM && <Head>
-         <script dangerouslySetInnerHTML={{__html: `gtag('event','view_item_list', {
-          'value': ${valueGTM},
-          'items': [
-            ${idsGTM.map(item => {
-              return `{
-                'id': '${item}',
-                'google_business_vertical': 'retail'
-              }`
-            })}
-            ]
-          });`}} />
-      </Head>} */}
       <PageHead data={globalCategory} dataBread={dataBread} className="category-head" />
       <div className="uk-container uk-margin-medium-bottom">
         <div className="uk-grid uk-child-width-1-2 uk-child-width-1-3@m" uk-grid="" uk-height-match="target: > div > .card > .card-content-wrap">

@@ -19,6 +19,8 @@ export default `*[_type == "homepage"]{
     _id,
     image,
     "slug": slug.current,
+    label,
+    label2,
     title,
     "gift": *[_type == 'gift' && _id == ^.gift._ref]{title, image},
     price,

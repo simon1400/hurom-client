@@ -1,12 +1,12 @@
 import {useState, useEffect} from 'react'
 import {dropdown} from 'uikit'
-import Head from 'next/head'
+// import Head from 'next/head'
 import BlockContent from "@sanity/block-content-to-react";
 
 import Page from '../layout/page'
 import ArticleShort from '../components/Article'
 import Breadcrumb from '../components/breadcrump'
-import Button from '../components/Button'
+// import Button from '../components/Button'
 import Card from '../components/Card'
 
 const GalerySlider = ({item, urlFor, title}) => {
@@ -81,28 +81,6 @@ const Product = ({
 
   return(
     <Page title={product?.meta?.head} description={product?.meta?.description} image={urlFor(product.image).url()} >
-      {/* <Head>
-        <script dangerouslySetInnerHTML={{__html: `gtag('event','view_item', {
-          'value': ${product.price},
-          'items': [
-            ${idsGTM.map(item => {
-              return `{
-                'id': '${item}',
-                'google_business_vertical': 'retail'
-              }`
-            })}
-            ]
-          });`}} />
-        {addToCardGTM &&<script dangerouslySetInnerHTML={{__html: `gtag('event','add_to_cart', {
-          'value': ${product.price},
-          'items': [
-              {
-                'id': '${addToCardGTM}',
-                'google_business_vertical': 'retail'
-              }
-            ]
-          });`}} />}
-      </Head> */}
       <Breadcrumb data={dataBread} />
       <div className="uk-container uk-margin-large-top">
         <div className="uk-grid uk-child-width-1-1 uk-child-width-1-2@m" uk-grid="">
@@ -122,7 +100,10 @@ const Product = ({
           </div>
           <div>
             <div className="product-base-info">
-              {!!product?.label?.length && <label className="action-label">{product.label}</label>}
+              <div className="action-label-wrap">
+                {!!product?.label?.length && <label className="action-label">{product.label}</label>}
+                {!!product?.label2?.length && <label className="action-label green">{product.label2}</label>}
+              </div>
               <label className="uk-label">HUROM</label>
               <h1 className="uk-h3 uk-margin-medium-bottom">{product.title}</h1>
               {product.price > 0 && <p className="price">

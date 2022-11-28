@@ -10,6 +10,7 @@ const Card = ({data}) => {
     <Link href={`/odstavnovac/${data.slug}`}>
       <a className="card">
         {!!data?.label?.length && <label className="action-label">{data.label}</label>}
+        {!!data?.label2?.length && <label className="action-label green">{data.label2}</label>}
         {!!data?.gift?.length && <div className="gift-short" uk-tooltip="title: Dárek zdarma; pos: bottom">
           <img src="/assets/gift.svg" uk-svg="" />
         </div>}

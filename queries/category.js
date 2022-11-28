@@ -18,6 +18,7 @@ const queryProducts = `*[_type == "product"]{
   price,
   priceBeforeSale,
   label,
+  label2,
   "gift": *[_type == 'gift' && _id == ^.gift._ref]{title, image},
   "imageUrl": image.asset->url,
   "categorySlug": *[_type == "category-products" && _id == ^.categoryP._ref].slug.current[0],
