@@ -140,6 +140,14 @@ $global-2xlarge-font-size: $head_1;
 
 @media (max-width: $breakpoint-small){
 
+  .available{
+    margin-bottom: -15px;
+    margin-top: 15px;
+    span{
+      font-size: 14px!important;
+    }
+  }
+
   .cookies{
     padding: 10px 15px;
     width: calc(100% - 30px);

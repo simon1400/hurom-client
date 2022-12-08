@@ -3,6 +3,7 @@ export default `*[_type in ["product", 'accessories'] && slug.current == $url]{
   title,
   slug,
   image,
+  stock,
   variants,
   benefits,
   price,

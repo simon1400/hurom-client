@@ -168,6 +168,23 @@ header{
   }
 }
 
+.available{
+  margin-bottom: -30px;
+  margin-top: 30px;
+  span{
+    font-size: 18px!important;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .yellow{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFC500;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+  }
+}
+
 .action-label {
   background-color: rgba(255, 197, 0, 0.76);
   color: #4d4d4d;

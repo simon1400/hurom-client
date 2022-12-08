@@ -122,7 +122,12 @@ const Product = ({
                 </div>}
 
                 {product.price > 0 && <a href="/" className="button primary" onClick={e => buy(e)}>koupit</a>}
+                <div className="available">
+                  {product.stock > 0 && <span className="price">Skladem</span>}
+                  {product.stock == 0 && <span className="yellow">Na objednávku do 14 dnů</span>}
+                </div>
               </div>
+              
               {!!product.benefits?.length && <ul>
                 {product.benefits.map((item, index) => <li key={index}><img src={
                   item.icon === 'apple' ? '/assets/benefits/apple-alt-regular.svg' :
