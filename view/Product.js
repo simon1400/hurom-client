@@ -38,8 +38,10 @@ const Product = ({
 }) => {
 
   const [variantImages, setVariantImages] = useState([])
+  const [available, setAvailable] = useState(product.available)
 
   useEffect(() => {
+    setAvailable(product.available)
     if(product.variants?.length){
       var varImg = []
       product.variants.map(item => {
@@ -55,6 +57,7 @@ const Product = ({
   }, [])
 
   useEffect(() => {
+    
     if(product.variants?.length){
       var varImg = []
       product.variants.map(item => {
@@ -62,6 +65,9 @@ const Product = ({
           return
         }
         varImg.push({image: item.image, title: item.title})
+        if(selectValue.id.length) {
+          setAvailable(item.available)
+        }
         if(item.galery){
           item.galery.map(galerItem => {
             varImg.push({image: galerItem, title: item.title})
@@ -123,8 +129,8 @@ const Product = ({
 
                 {product.price > 0 && <a href="/" className="button primary" onClick={e => buy(e)}>koupit</a>}
                 <div className="available">
-                  {product.stock > 0 && <span className="price">Skladem</span>}
-                  {product.stock == 0 && <span className="yellow">Na objednávku do 14 dnů</span>}
+                  {available && <span className="price">Skladem</span>}
+                  {!available && <span className="yellow">Na objednávku do 14 dnů</span>}
                 </div>
               </div>
               
