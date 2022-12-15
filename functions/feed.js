@@ -8,6 +8,7 @@ const axios = require('axios')
 const imageBuilder = imageUrlBuilder(sanityClient);
 const urlFor = (source) => imageBuilder.image(source)
 const feedWrite = require("./feedWrite").default
+
 const toXmlHeureka = require('./toXmlHeurekaFeed').default
 const toXmlGoogle = require('./toXmlGoogleFeed').default
 const toXmlZbozi = require('./toXmlZboziFeed').default
@@ -34,6 +35,7 @@ async function generateFeed() {
       image,
       slider,
       ean,
+      sku,
       stock,
       variants,
       descriptions,
@@ -72,6 +74,7 @@ async function generateFeed() {
             priceAlza: products[i].priceAlza,
             mpn: products[i].variants[a]._key.split('-').join(''),
             ean: products[i].variants[a].ean ? products[i].variants[a].ean : '',
+            sku: products[i].variants[a].sku ? products[i].variants[a].sku : '',
             gift: products[i].gift
           }
           if(products[i].variants[a].galery && products[i].variants[a].galery.length) {
@@ -109,6 +112,7 @@ async function generateFeed() {
           parametry: products[i].parametry,
           stock: products[i].stock,
           ean: products[i].ean ? products[i].ean : '',
+          sku: products[i].sku ? products[i].sku : '',
           price: products[i].price,
           priceAlza: products[i].priceAlza,
           mpn: products[i]._id.split('-').join(''),

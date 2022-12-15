@@ -41,7 +41,7 @@ const toXml = data => {
 
 
    return result + `\n<SHOPITEM>
-     <ITEM_ID>${item.id}</ITEM_ID>
+     <ITEM_ID>${item.sku}</ITEM_ID>
      <IN_STOCK>${item.stock}</IN_STOCK>
      <PRODUCTNAME>HUROM | ${item.title}</PRODUCTNAME>
      <PRODUCT>HUROM | ${item.title}</PRODUCT>
@@ -52,7 +52,7 @@ const toXml = data => {
      ${!!galery.length ? `<GALERY>${galery}</GALERY>` : ''}
      <VAT>21%</VAT>
      <TEXT>${item.globalText}</TEXT>
-     <PRICE_VAT>${item.priceAlza}</PRICE_VAT>
+     <PRICE_VAT>${item.price}</PRICE_VAT>
      <ARTICLES>${articles}</ARTICLES>
      ${paramStr}
      <MANUFACTURER>HUROM</MANUFACTURER>
