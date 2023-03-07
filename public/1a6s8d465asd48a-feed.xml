@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-  <SHOP>
+  <SHOP xmlns="http://www.zbozi.cz/ns/offer/1.0">
 
 <SHOPITEM>
      <ITEM_ID>112c11215d24</ITEM_ID>
      <PRODUCTNAME>HUROM | Odšťavňovač H 100 | platinově stříbrný</PRODUCTNAME>
-     <PRODUCT>HUROM | Odšťavňovač H 100 | platinově stříbrný</PRODUCT>
+     <PRODUCT>Odšťavňovač H 100 | platinově stříbrný</PRODUCT>
      <DESCRIPTION>Dopřejte vašemu organismu čerstvé osvěžující šťávy s pomocí produktů od značky Hurom. Dejte svému tělu to nejlepší!</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-100?variant=platinove-stribrny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/4f4389798d30d51d22da50830e157834986a8b12-789x1252.jpg</IMGURL>
@@ -71,21 +71,19 @@
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>8809069585921</EAN>
-     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
-     <CATEGORY>
-        <CATEGORY_ID>954</CATEGORY_ID>
-        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
-        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
-     </CATEGORY>
-     <GIFT>ultra lehká termo láhev v hodnotě 500 Kč</GIFT>
+     <PRODUCTNO>8809069585921</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 
 <SHOPITEM>
      <ITEM_ID>9113cb2571e1</ITEM_ID>
      <PRODUCTNAME>HUROM | Odšťavňovač H 100 | černý</PRODUCTNAME>
-     <PRODUCT>HUROM | Odšťavňovač H 100 | černý</PRODUCT>
+     <PRODUCT>Odšťavňovač H 100 | černý</PRODUCT>
      <DESCRIPTION>Dopřejte vašemu organismu čerstvé osvěžující šťávy s pomocí produktů od značky Hurom. Dejte svému tělu to nejlepší!</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-100?variant=cerny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/57b8ac64480a171f0e6c73da9045a45bf6a4c533-702x1000.jpg</IMGURL>
@@ -152,21 +150,19 @@
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>8809069585914</EAN>
-     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
-     <CATEGORY>
-        <CATEGORY_ID>954</CATEGORY_ID>
-        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
-        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
-     </CATEGORY>
-     <GIFT>ultra lehká termo láhev v hodnotě 500 Kč</GIFT>
+     <PRODUCTNO>8809069585914</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 
 <SHOPITEM>
      <ITEM_ID>3c4a70f1-7585-4f90-9a0a-6457f7803d54</ITEM_ID>
      <PRODUCTNAME>HUROM | Mixér Mini blender DIVA</PRODUCTNAME>
-     <PRODUCT>HUROM | Mixér Mini blender DIVA</PRODUCT>
+     <PRODUCT>Mixér Mini blender DIVA</PRODUCT>
      <DESCRIPTION>Dokonalý a elegantní malý mixér. Velmi praktický pomocník do každé moderní domácnosti</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/mini-blender-diva</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/d648b72356068da3c5900e1e8b7aa28ce2e9287e-1133x2000.jpg</IMGURL>
@@ -208,21 +204,19 @@
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>8809069580254</EAN>
-     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
-     <CATEGORY>
-        <CATEGORY_ID>954</CATEGORY_ID>
-        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
-        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
-     </CATEGORY>
+     <PRODUCTNO>8809069580254</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     
      
    </SHOPITEM>
 
 <SHOPITEM>
      <ITEM_ID>25d5a6ff0a72</ITEM_ID>
      <PRODUCTNAME>HUROM | Odšťavňovač GI Chef | černý</PRODUCTNAME>
-     <PRODUCT>HUROM | Odšťavňovač GI Chef | černý</PRODUCT>
+     <PRODUCT>Odšťavňovač GI Chef | černý</PRODUCT>
      <DESCRIPTION>Usnadněte si práci v kuchyni a seznamte se s jedinečným pomocníkem, kterého potřebuje jednoduše každá kuchyně.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/gi-chef?variant=cerny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/693d72aeabcbabec970701267e6cf452851316fc-450x450.jpg</IMGURL>
@@ -279,21 +273,19 @@
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>880906956218</EAN>
-     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
-     <CATEGORY>
-        <CATEGORY_ID>954</CATEGORY_ID>
-        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
-        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
-     </CATEGORY>
-     <GIFT>ultra lehká termo láhev v hodnotě 500 Kč</GIFT>
+     <PRODUCTNO>880906956218</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 
 <SHOPITEM>
      <ITEM_ID>a696f3436998</ITEM_ID>
      <PRODUCTNAME>HUROM | Odšťavňovač GI Chef | stříbrný</PRODUCTNAME>
-     <PRODUCT>HUROM | Odšťavňovač GI Chef | stříbrný</PRODUCT>
+     <PRODUCT>Odšťavňovač GI Chef | stříbrný</PRODUCT>
      <DESCRIPTION>Usnadněte si práci v kuchyni a seznamte se s jedinečným pomocníkem, kterého potřebuje jednoduše každá kuchyně.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/gi-chef?variant=stribrny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/2daa9ca579ce8e26a2cadfbe7be26e9dddaadd26-1500x1500.jpg</IMGURL>
@@ -350,21 +342,19 @@
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>8809069585402</EAN>
-     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
-     <CATEGORY>
-        <CATEGORY_ID>954</CATEGORY_ID>
-        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
-        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
-     </CATEGORY>
-     <GIFT>ultra lehká termo láhev v hodnotě 500 Kč</GIFT>
+     <PRODUCTNO>8809069585402</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 
 <SHOPITEM>
      <ITEM_ID>540db812-26e7-4b76-a63d-9ae2e5fd37de</ITEM_ID>
      <PRODUCTNAME>HUROM | Odšťavňovač S 13</PRODUCTNAME>
-     <PRODUCT>HUROM | Odšťavňovač S 13</PRODUCT>
+     <PRODUCT>Odšťavňovač S 13</PRODUCT>
      <DESCRIPTION>Nový přírustek do rodiny HUROM za bezkonkurenční cenu. Kvalitní šťáva plná vitamínu dostupná pro každého.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/s-13</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/a054da1b9f47c61dee8a575c93ff81980d09533f-1013x2000.jpg</IMGURL>
@@ -426,21 +416,19 @@
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>8809069581220</EAN>
-     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
-     <CATEGORY>
-        <CATEGORY_ID>954</CATEGORY_ID>
-        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
-        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
-     </CATEGORY>
+     <PRODUCTNO>8809069581220</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     
      
    </SHOPITEM>
 
 <SHOPITEM>
      <ITEM_ID>681f0761-ffb1-4672-8f4f-f9299f2e893f</ITEM_ID>
      <PRODUCTNAME>HUROM | Odšťavňovač HT 2. generace</PRODUCTNAME>
-     <PRODUCT>HUROM | Odšťavňovač HT 2. generace</PRODUCT>
+     <PRODUCT>Odšťavňovač HT 2. generace</PRODUCT>
      <DESCRIPTION>Zdravé ovocné a zeleninové šťávy během chvilky, přímo u vás doma. Nízkootáčkový šnekový odšťavňovač Hurom HT 2. generace si zamilujete!</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/ht-2-generace</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/9fee713f0cf5180ba675adaa07cf353acaa9dac6-1083x2000.jpg</IMGURL>
@@ -487,25 +475,23 @@
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>8809069581824</EAN>
-     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
-     <CATEGORY>
-        <CATEGORY_ID>954</CATEGORY_ID>
-        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
-        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
-     </CATEGORY>
-     <GIFT>ultra lehká termo láhev v hodnotě 500 Kč</GIFT>
+     <PRODUCTNO>8809069581824</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 
 <SHOPITEM>
      <ITEM_ID>70b40f4baf58</ITEM_ID>
      <PRODUCTNAME>HUROM | Odšťavňovač H 200 | bílý</PRODUCTNAME>
-     <PRODUCT>HUROM | Odšťavňovač H 200 | bílý</PRODUCT>
+     <PRODUCT>Odšťavňovač H 200 | bílý</PRODUCT>
      <DESCRIPTION>Získejte to nejlepší z čerstvého ovoce a zeleniny, díky pomalé extrakci. Vylisujte si čerstvou šťávu v pohodlí domova a během několika okamžiků.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-200?variant=bily</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/bb43c144e1855488372e355a8d32364a6592d9d6-683x1024.webp</IMGURL>
-     <PRICE_VAT>14990</PRICE_VAT>
+     <PRICE_VAT>15990</PRICE_VAT>
      
 <PARAM>
                       <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
@@ -563,25 +549,23 @@
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>8809686400089</EAN>
-     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
-     <CATEGORY>
-        <CATEGORY_ID>954</CATEGORY_ID>
-        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
-        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
-     </CATEGORY>
-     <GIFT>Záslepka na výrobu zmrzliny a sorbetu v hodnotě 500 Kč</GIFT>
+     <PRODUCTNO>8809686400089</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     <FREE_GIFT_TEXT>Záslepka na výrobu zmrzliny a sorbetu v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 
 <SHOPITEM>
      <ITEM_ID>2185fa869cbf</ITEM_ID>
      <PRODUCTNAME>HUROM | Odšťavňovač H 200 | červený</PRODUCTNAME>
-     <PRODUCT>HUROM | Odšťavňovač H 200 | červený</PRODUCT>
+     <PRODUCT>Odšťavňovač H 200 | červený</PRODUCT>
      <DESCRIPTION>Získejte to nejlepší z čerstvého ovoce a zeleniny, díky pomalé extrakci. Vylisujte si čerstvou šťávu v pohodlí domova a během několika okamžiků.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-200?variant=cerveny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/76fab5642dee552f2cbdac4ea131cd46b907dcb7-1200x1200.png</IMGURL>
-     <PRICE_VAT>14990</PRICE_VAT>
+     <PRICE_VAT>15990</PRICE_VAT>
      
 <PARAM>
                       <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
@@ -639,25 +623,23 @@
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>8809069580384</EAN>
-     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
-     <CATEGORY>
-        <CATEGORY_ID>954</CATEGORY_ID>
-        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
-        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
-     </CATEGORY>
-     <GIFT>Záslepka na výrobu zmrzliny a sorbetu v hodnotě 500 Kč</GIFT>
+     <PRODUCTNO>8809069580384</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     <FREE_GIFT_TEXT>Záslepka na výrobu zmrzliny a sorbetu v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 
 <SHOPITEM>
      <ITEM_ID>adaa16363dc6</ITEM_ID>
      <PRODUCTNAME>HUROM | Odšťavňovač H 200 | stříbrný</PRODUCTNAME>
-     <PRODUCT>HUROM | Odšťavňovač H 200 | stříbrný</PRODUCT>
+     <PRODUCT>Odšťavňovač H 200 | stříbrný</PRODUCT>
      <DESCRIPTION>Získejte to nejlepší z čerstvého ovoce a zeleniny, díky pomalé extrakci. Vylisujte si čerstvou šťávu v pohodlí domova a během několika okamžiků.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-200?variant=stribrny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/9292dd3014a45369c84095a09b738ec70facdf9a-600x600.jpg</IMGURL>
-     <PRICE_VAT>14990</PRICE_VAT>
+     <PRICE_VAT>15990</PRICE_VAT>
      
 <PARAM>
                       <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
@@ -715,21 +697,19 @@
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>8809686400065</EAN>
-     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
-     <CATEGORY>
-        <CATEGORY_ID>954</CATEGORY_ID>
-        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
-        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
-     </CATEGORY>
-     <GIFT>Záslepka na výrobu zmrzliny a sorbetu v hodnotě 500 Kč</GIFT>
+     <PRODUCTNO>8809686400065</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     <FREE_GIFT_TEXT>Záslepka na výrobu zmrzliny a sorbetu v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 
 <SHOPITEM>
      <ITEM_ID>a064d3ab-16f0-4645-a58a-453454ebf204</ITEM_ID>
      <PRODUCTNAME>HUROM | Odšťavňovač HW  - commercial</PRODUCTNAME>
-     <PRODUCT>HUROM | Odšťavňovač HW  - commercial</PRODUCT>
+     <PRODUCT>Odšťavňovač HW  - commercial</PRODUCT>
      <DESCRIPTION>Čerstvé ovocné a zeleninové šťávy během chvilky kdykoliv. Nízkootáčkový šnekový odšťavňovač Hurom HW 2. generace je správná volba!</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/hw-commercial</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/ac23c1779baff240143b228eaad9862ce6ba3273-1000x1000.jpg</IMGURL>
@@ -796,25 +776,23 @@
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>8809069582173</EAN>
-     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
-     <CATEGORY>
-        <CATEGORY_ID>954</CATEGORY_ID>
-        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
-        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
-     </CATEGORY>
-     <GIFT>ultra lehká termo láhev v hodnotě 500 Kč</GIFT>
+     <PRODUCTNO>8809069582173</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 
 <SHOPITEM>
      <ITEM_ID>bb7e47abe01e</ITEM_ID>
      <PRODUCTNAME>HUROM | Odšťavňovač H-AI One stop | platinum</PRODUCTNAME>
-     <PRODUCT>HUROM | Odšťavňovač H-AI One stop | platinum</PRODUCT>
+     <PRODUCT>Odšťavňovač H-AI One stop | platinum</PRODUCT>
      <DESCRIPTION>Vyzkoušejte sílu prémiového šnekového odšťavňovače Hurom H-AI H34. Jedinečný zážitek z čerstvých přírodních šťáv, kdykoliv a přímo u vás doma.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-ai-one-stop?variant=platinum</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/367f7063af028af1f06d08cae9689d8da0bc839d-855x855.jpg</IMGURL>
-     <PRICE_VAT>12990</PRICE_VAT>
+     <PRICE_VAT>14990</PRICE_VAT>
      
 <PARAM>
                       <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
@@ -882,21 +860,19 @@
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>8809069584634</EAN>
-     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
-     <CATEGORY>
-        <CATEGORY_ID>954</CATEGORY_ID>
-        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
-        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
-     </CATEGORY>
-     <GIFT>ultra lehká termo láhev v hodnotě 500 Kč</GIFT>
+     <PRODUCTNO>8809069584634</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 
 <SHOPITEM>
      <ITEM_ID>4d1932723e29</ITEM_ID>
      <PRODUCTNAME>HUROM | H 320 N | stříbrný</PRODUCTNAME>
-     <PRODUCT>HUROM | H 320 N | stříbrný</PRODUCT>
+     <PRODUCT>H 320 N | stříbrný</PRODUCT>
      <DESCRIPTION>Připravte si sklenici lahodné ovocné či zeleninové šťávy, aniž by jste museli použité suroviny krájet.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-320-n?variant=stribrny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/a224de9eb2c2f17a2394b95a7113ab6afa1c1d57-1200x1200.jpg</IMGURL>
@@ -958,21 +934,19 @@
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>8809686401079</EAN>
-     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
-     <CATEGORY>
-        <CATEGORY_ID>954</CATEGORY_ID>
-        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
-        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
-     </CATEGORY>
-     <GIFT>ultra lehká termo láhev v hodnotě 500 Kč</GIFT>
+     <PRODUCTNO>8809686401079</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 
 <SHOPITEM>
      <ITEM_ID>1193a3f02f16</ITEM_ID>
      <PRODUCTNAME>HUROM | H 320 N | černý</PRODUCTNAME>
-     <PRODUCT>HUROM | H 320 N | černý</PRODUCT>
+     <PRODUCT>H 320 N | černý</PRODUCT>
      <DESCRIPTION>Připravte si sklenici lahodné ovocné či zeleninové šťávy, aniž by jste museli použité suroviny krájet.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-320-n?variant=cerny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/16afbdd81c170e4e1bdb4ed1edb27d97a4e9754c-1200x1200.jpg</IMGURL>
@@ -1034,21 +1008,19 @@
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>8809686401055</EAN>
-     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
-     <CATEGORY>
-        <CATEGORY_ID>954</CATEGORY_ID>
-        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
-        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
-     </CATEGORY>
-     <GIFT>ultra lehká termo láhev v hodnotě 500 Kč</GIFT>
+     <PRODUCTNO>8809686401055</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 
 <SHOPITEM>
      <ITEM_ID>ffa2ea7d885c</ITEM_ID>
      <PRODUCTNAME>HUROM | H 320 N | bílý</PRODUCTNAME>
-     <PRODUCT>HUROM | H 320 N | bílý</PRODUCT>
+     <PRODUCT>H 320 N | bílý</PRODUCT>
      <DESCRIPTION>Připravte si sklenici lahodné ovocné či zeleninové šťávy, aniž by jste museli použité suroviny krájet.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-320-n?variant=bily</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/97fb62b26d4fc9ac3ad144ec9f22f5f7f78d1506-1200x1200.jpg</IMGURL>
@@ -1110,21 +1082,19 @@
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>8809686401062</EAN>
-     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
-     <CATEGORY>
-        <CATEGORY_ID>954</CATEGORY_ID>
-        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
-        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
-     </CATEGORY>
-     <GIFT>ultra lehká termo láhev v hodnotě 500 Kč</GIFT>
+     <PRODUCTNO>8809686401062</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 
 <SHOPITEM>
      <ITEM_ID>44797cba43a6</ITEM_ID>
      <PRODUCTNAME>HUROM | H 320 N | tmavě zelený</PRODUCTNAME>
-     <PRODUCT>HUROM | H 320 N | tmavě zelený</PRODUCT>
+     <PRODUCT>H 320 N | tmavě zelený</PRODUCT>
      <DESCRIPTION>Připravte si sklenici lahodné ovocné či zeleninové šťávy, aniž by jste museli použité suroviny krájet.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-320-n?variant=tmave-zeleny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/09c27650a4b61619d3ec1be9895540b290c0a674-2145x2108.jpg</IMGURL>
@@ -1186,14 +1156,12 @@
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>8809686401048</EAN>
-     <CATEGORYTEXT>Odšťavňovače</CATEGORYTEXT>
-     <CATEGORY>
-        <CATEGORY_ID>954</CATEGORY_ID>
-        <CATEGORY_NAME>Odšťavňovače</CATEGORY_NAME>
-        <CATEGORY_FULLNAME>Hurom.cz | Bílé zboží | Malé spotřebiče | Kuchyňské spotřebiče | Odšťavňovače</CATEGORY_FULLNAME>
-     </CATEGORY>
-     <GIFT>ultra lehká termo láhev v hodnotě 500 Kč</GIFT>
+     <PRODUCTNO>8809686401048</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
+     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
    </SHOPITEM>
 </SHOP>

@@ -12,6 +12,7 @@ const feedWrite = require("./feedWrite").default
 const toXmlHeureka = require('./toXmlHeurekaFeed').default
 const toXmlGoogle = require('./toXmlGoogleFeed').default
 const toXmlZbozi = require('./toXmlZboziFeed').default
+const toXmlCustom = require('./toXmlCustomFeed').default
 const toXmlFacebook = require('./toXmlFacebookFeed').default
 const toXmlGlobal = require('./toXmlGlobalFeed').default
 const toXmlMall = require('./toXmlMall').default
@@ -43,6 +44,7 @@ async function generateFeed() {
       benefits,
       price,
       priceAlza,
+      priceBeforeSale,
       parametry,
       "gift": *[_type == 'gift' && _id == ^.gift._ref]{title, image},
       "param": *[_type == 'param' && _id in ^.parametry[].parameter._ref]{head, mallName, value, _id},
@@ -71,6 +73,7 @@ async function generateFeed() {
             parametry: products[i].parametry,
             stock: products[i].variants[a].stock,
             price: products[i].price,
+            priceBeforeSale: products[i].priceBeforeSale ? products[i].priceBeforeSale : products[i].price,
             priceAlza: products[i].priceAlza,
             mpn: products[i].variants[a]._key.split('-').join(''),
             ean: products[i].variants[a].ean ? products[i].variants[a].ean : '',
@@ -114,6 +117,7 @@ async function generateFeed() {
           ean: products[i].ean ? products[i].ean : '',
           sku: products[i].sku ? products[i].sku : '',
           price: products[i].price,
+          priceBeforeSale: products[i].priceBeforeSale ? products[i].priceBeforeSale : products[i].price,
           priceAlza: products[i].priceAlza,
           mpn: products[i]._id.split('-').join(''),
           gift: products[i].gift
@@ -147,6 +151,7 @@ async function generateFeed() {
     const xmlHeureka = toXmlHeureka(productsData)
     const xmlGoogle = toXmlGoogle(productsData)
     const xmlZbozi = toXmlZbozi(productsData)
+    const xmlCustom = toXmlCustom(productsData)
     const xmlFacebook = toXmlFacebook(productsData)
     const xmlGlobal = toXmlGlobal(productsData)
     const xmlMall = toXmlMall(productsData)
@@ -155,6 +160,7 @@ async function generateFeed() {
     var pathHeureka = './public/heureka-feed.xml'
     var pathGoogle = './public/google-feed.xml'
     var pathZbozi = './public/zbozi-feed.xml'
+    var pathCustom = './public/1a6s8d465asd48a-feed.xml'
     var pathFacebook = './public/facebook-feed.xml'
     var pathGlobal = './public/global-feed.xml'
     var pathMall = './public/mall-feed.xml'
@@ -163,6 +169,7 @@ async function generateFeed() {
     feedWrite(pathHeureka, xmlHeureka)
     feedWrite(pathGoogle, xmlGoogle)
     feedWrite(pathZbozi, xmlZbozi)
+    feedWrite(pathCustom, xmlCustom)
     feedWrite(pathFacebook, xmlFacebook)
     feedWrite(pathGlobal, xmlGlobal)
     feedWrite(pathMall, xmlMall)

@@ -5,10 +5,10 @@
      <ID>112c11215d24</ID>
      <STAGE>draft</STAGE>
      <ITEMGROUP_ID>1802b7bf-5adf-4ca0-aadb-afd851577586</ITEMGROUP_ID>
-     <ITEMGROUP_TITLE>H 100</ITEMGROUP_TITLE>
+     <ITEMGROUP_TITLE>Odšťavňovač H 100</ITEMGROUP_TITLE>
      <CATEGORY_ID>EB034</CATEGORY_ID>
      <BRAND_ID>HUROM</BRAND_ID>
-     <TITLE>H 100 | platinově stříbrný</TITLE>
+     <TITLE>Odšťavňovač H 100 | platinově stříbrný</TITLE>
      <SHORTDESC>S revolučním odšťavňovačem Hurom H 100 ve své domácnosti naleznete nejen šikovného pomocníka, ale i krásný designový objekt. Tento model si zachovává všechny přednosti šnekových odšťavňovačů a zároveň nabízí jednoduchou montáž a snadné čištění.</SHORTDESC>
      <LONGDESC>
 &lt;div&gt; 
@@ -115,17 +115,17 @@ Otočné ovládání Jog Dial zaručuje snadné a pohodlné použití šnekovéh
                     </PARAM>
 
      <MEDIA>
-      <URL>https://cdn.sanity.io/images/bvwt1scq/production/4f4389798d30d51d22da50830e157834986a8b12-789x1252.jpg?w=500</URL>
+      <URL>https://cdn.sanity.io/images/bvwt1scq/production/4f4389798d30d51d22da50830e157834986a8b12-789x1252.jpg</URL>
       <MAIN>true</MAIN>
      </MEDIA>
      
 <MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/20160c6fb4217b801bb30cfa61cc8f2580c81d32-225x445.png?w=500</URL>
+                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/20160c6fb4217b801bb30cfa61cc8f2580c81d32-225x445.png</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>
 
 <MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/08231169e713e3faf48f46bfd542bab77cde5df5-211x445.png?w=500</URL>
+                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/08231169e713e3faf48f46bfd542bab77cde5df5-211x445.png</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>
 
@@ -136,10 +136,10 @@ Otočné ovládání Jog Dial zaručuje snadné a pohodlné použití šnekovéh
      <ID>9113cb2571e1</ID>
      <STAGE>draft</STAGE>
      <ITEMGROUP_ID>1802b7bf-5adf-4ca0-aadb-afd851577586</ITEMGROUP_ID>
-     <ITEMGROUP_TITLE>H 100</ITEMGROUP_TITLE>
+     <ITEMGROUP_TITLE>Odšťavňovač H 100</ITEMGROUP_TITLE>
      <CATEGORY_ID>EB034</CATEGORY_ID>
      <BRAND_ID>HUROM</BRAND_ID>
-     <TITLE>H 100 | černý</TITLE>
+     <TITLE>Odšťavňovač H 100 | černý</TITLE>
      <SHORTDESC>S revolučním odšťavňovačem Hurom H 100 ve své domácnosti naleznete nejen šikovného pomocníka, ale i krásný designový objekt. Tento model si zachovává všechny přednosti šnekových odšťavňovačů a zároveň nabízí jednoduchou montáž a snadné čištění.</SHORTDESC>
      <LONGDESC>
 &lt;div&gt; 
@@ -246,279 +246,25 @@ Otočné ovládání Jog Dial zaručuje snadné a pohodlné použití šnekovéh
                     </PARAM>
 
      <MEDIA>
-      <URL>https://cdn.sanity.io/images/bvwt1scq/production/57b8ac64480a171f0e6c73da9045a45bf6a4c533-702x1000.jpg?w=500</URL>
+      <URL>https://cdn.sanity.io/images/bvwt1scq/production/57b8ac64480a171f0e6c73da9045a45bf6a4c533-702x1000.jpg</URL>
       <MAIN>true</MAIN>
      </MEDIA>
      
 <MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/f07816e6097ba1ad1990d9c94ec1ed8c3895b726-281x444.png?w=500</URL>
+                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/f07816e6097ba1ad1990d9c94ec1ed8c3895b726-281x444.png</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>
 
 <MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/923429c4d9c37ebc6ae489c11f76d5afd1e39d4f-200x443.png?w=500</URL>
+                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/923429c4d9c37ebc6ae489c11f76d5afd1e39d4f-200x443.png</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>
 
 <MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/890396eae6d3103bcad0139c5a0af5bcf4648f11-200x445.png?w=500</URL>
+                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/890396eae6d3103bcad0139c5a0af5bcf4648f11-200x445.png</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>
 
-     <DELIVERY_DELAY>0</DELIVERY_DELAY>
-   </ITEM>
-
-<ITEM>
-     <ID>d7d8cfa8b2c6</ID>
-     <STAGE>draft</STAGE>
-     <ITEMGROUP_ID>1eca14f7-3991-4b6f-bb69-5ebbad72441e</ITEMGROUP_ID>
-     <ITEMGROUP_TITLE>HV 2. generace</ITEMGROUP_TITLE>
-     <CATEGORY_ID>EB034</CATEGORY_ID>
-     <BRAND_ID>HUROM</BRAND_ID>
-     <TITLE>HV 2. generace | stříbrný</TITLE>
-     <SHORTDESC>Inovativní nízkootáčkový šnekový odšťavňovač 2. generace si zamilujete pro jeho design a vysoký výkon spojený s dokonalou odšťavňovací schopností. V neposlední řadě i kvůli ceně.</SHORTDESC>
-     <LONGDESC>
-&lt;div&gt; 
-
-                        &lt;h2&gt; Vylepšení šnek&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/732b780f4ed703d0694ccf847322a3c39d5c6e62-886x952.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Po mnoha úvahách o tom, jak dokonale zachytit chuť přírody ve sklenici výživné šťávy, jsme se rozhodli snížit rychlost odšťavňovacích šneků v řadě 2. generace na polovinu a to z 80 otáček za minutu na 43 otáček za minutu. Náš nový šnek se dvěma noži je schopen vymačkat tekutinu z použité suroviny až do poslední kapky a zároveň účinně uvolnit všechny prospěšné enzymy a živiny vázané na vlákninu.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Zdokonalený systém druhé generace&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/3209a756b09dc6b2a739b3b4b9a80c6538a25150-813x813.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Komora
-Šnekové odšťavňovače Hurom HV jsou vybaveny výrazně větší komorou s objemem 500 ml ze zdravotně nezávadného plastu Tritan, který je známý pro svou trvanlivost.
-
-Jemné sítko
-Jemné sítko udržuje tekuté a pevné složky šťávy zcela odděleně uvnitř odšťavňovače, což umožňuje odšťavnit šťávu zcela bez nerozpustné vlákniny. Sítko je vyrobeno z vysoce odolné nerezové oceli a PEI plastu. Bylo navrženo tak, aby odolalo vysokému tlaku, který vytváří lisovací šnek.
-
-Otočné stěrky
-Abyste si mohli vychutnat ještě lepší chuť přírodních šťáv, přidali jsme do modelu Hurom HV další pár otočných stěrek. Tento vylepšený systém pomáhá ještě lépe promíchat pevné a tekuté složky uvnitř odšťavňovače a zajišťuje tak dokonalé oddělení tekutiny od nerozpustné vlákniny.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Ovládací páčka&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/d621407b1805837ba7d6996efc3ed38270305e0c-744x692.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Stejně jako všechny modely druhé generace je i model HV vybaven regulační páčkou, která reguluje tlak uvnitř odšťavňovací komory. S její pomocí docílíte většího tlaku a tím i jemné a kompaktnější chuti šťávy. S pomocí uzavřené regulační páčky snadno vyrobíte i „raw milk", milkshake či smoothie různých druhů. Díky této regulační páčce můžete upravovat objem nerozpustné vlákniny, která ze šnekového odšťavňovače vychází.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Usnadněte tělu přijímání zdravých potravin&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/712edc3c53131a9151c9b85308e31ce7b55d07e8-983x737.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Doplňte váš jídelníček o zdravou porci vlákniny, která je pro lidské tělo nezbytná. Pomalým odšťavněním získáte z ovoce to nejlepší i s ideálním poměrem vitamínů, minerálů a důležité vlákniny. Čisté ovocné a zeleninové šťávy jsou skvělé pro doplnění vitamínů a minerálů i u dětí, které běžně odmítají jíst čerstvé ovoce a zeleninu. Precizním odšťavněním získáte jemný a osvěžující džus, který vašim ratolestem bude chutnat. Vyzkoušejte naše jednoduché tipy a obohaťte dětský jídelníček o nové zdravé recepty.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Regulujte hustotu šťávy&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/6cc6b82cce271b6fb96447989fa0599100208e99-695x695.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Šťávy vyrobené z klasických druhů ovoce a zeleniny
-Nejprve odšťavněte část přísad s uzavřenou regulační páčkou, poté nastavte páčku do polohy polootevřeno a přidejte zbývající část ingrediencí a vše odšťavněte.
-(jablko, hruška, pomeranč, grapefruit, citron, celer, ananas, rajče, červená řepa, kapusta, špenát, atd.)
-
-Šťávy vyrobené z ovoce a zeleniny obsahující malá semínka 
-Začněte odšťavňovat ingredience s uzavřenou regulační páčkou, jakmile začne vytékat šťáva, nastavte páčku do polohy polootevřeno. (hrozny, granátové jablko, kiwi, malina, atd.)
-
-Ovocné šťávy s mlékem
-Odšťavněte ingredience s úplně uzavřeným vývodem.
-(banán, jahody, borůvky, atd.)&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; undefined&lt;/h2&gt; 
-
-                        &lt;img src="null?w=500" /&gt; 
-
-                        &lt;p&gt; Jedná se o nejlepší cenu druhé generace odšťavňovače v historii značky. Model Hurom HV je nepostradatelný pomocník při vytváření zdravých čerstvých šťáv z jakéhokoliv ovoce, zeleniny a dokonce i bylinek. Chcete vědět, čím se liší od odstředivých odšťavňovaců a proč je výjímečný?&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-</LONGDESC>
-     <PRIORITY>1</PRIORITY>
-     <PACKAGE_SIZE>smallbox</PACKAGE_SIZE>
-     <BARCODE>6957754804740</BARCODE>
-     <PRICE>9990</PRICE>
-     <VAT>21</VAT>
-     <RRP>9990</RRP>
-     
-<PARAM>
-                      <NAME>JUICERS_TYPE</NAME>
-                      <VALUE>šnekový</VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>INPUT</NAME>
-                      <VALUE>150 </VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>NUMBER_SPEEDS</NAME>
-                      <VALUE>1</VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
-                      <VALUE>1</VALUE>
-                    </PARAM>
-
-     <MEDIA>
-      <URL>https://cdn.sanity.io/images/bvwt1scq/production/445941f45151e5f10b2186c3927f29ebd2dc4c39-419x706.jpg?w=500</URL>
-      <MAIN>true</MAIN>
-     </MEDIA>
-     
-     <DELIVERY_DELAY>0</DELIVERY_DELAY>
-   </ITEM>
-
-<ITEM>
-     <ID>996e55605eb2</ID>
-     <STAGE>draft</STAGE>
-     <ITEMGROUP_ID>1eca14f7-3991-4b6f-bb69-5ebbad72441e</ITEMGROUP_ID>
-     <ITEMGROUP_TITLE>HV 2. generace</ITEMGROUP_TITLE>
-     <CATEGORY_ID>EB034</CATEGORY_ID>
-     <BRAND_ID>HUROM</BRAND_ID>
-     <TITLE>HV 2. generace | vínový</TITLE>
-     <SHORTDESC>Inovativní nízkootáčkový šnekový odšťavňovač 2. generace si zamilujete pro jeho design a vysoký výkon spojený s dokonalou odšťavňovací schopností. V neposlední řadě i kvůli ceně.</SHORTDESC>
-     <LONGDESC>
-&lt;div&gt; 
-
-                        &lt;h2&gt; Vylepšení šnek&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/732b780f4ed703d0694ccf847322a3c39d5c6e62-886x952.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Po mnoha úvahách o tom, jak dokonale zachytit chuť přírody ve sklenici výživné šťávy, jsme se rozhodli snížit rychlost odšťavňovacích šneků v řadě 2. generace na polovinu a to z 80 otáček za minutu na 43 otáček za minutu. Náš nový šnek se dvěma noži je schopen vymačkat tekutinu z použité suroviny až do poslední kapky a zároveň účinně uvolnit všechny prospěšné enzymy a živiny vázané na vlákninu.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Zdokonalený systém druhé generace&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/3209a756b09dc6b2a739b3b4b9a80c6538a25150-813x813.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Komora
-Šnekové odšťavňovače Hurom HV jsou vybaveny výrazně větší komorou s objemem 500 ml ze zdravotně nezávadného plastu Tritan, který je známý pro svou trvanlivost.
-
-Jemné sítko
-Jemné sítko udržuje tekuté a pevné složky šťávy zcela odděleně uvnitř odšťavňovače, což umožňuje odšťavnit šťávu zcela bez nerozpustné vlákniny. Sítko je vyrobeno z vysoce odolné nerezové oceli a PEI plastu. Bylo navrženo tak, aby odolalo vysokému tlaku, který vytváří lisovací šnek.
-
-Otočné stěrky
-Abyste si mohli vychutnat ještě lepší chuť přírodních šťáv, přidali jsme do modelu Hurom HV další pár otočných stěrek. Tento vylepšený systém pomáhá ještě lépe promíchat pevné a tekuté složky uvnitř odšťavňovače a zajišťuje tak dokonalé oddělení tekutiny od nerozpustné vlákniny.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Ovládací páčka&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/d621407b1805837ba7d6996efc3ed38270305e0c-744x692.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Stejně jako všechny modely druhé generace je i model HV vybaven regulační páčkou, která reguluje tlak uvnitř odšťavňovací komory. S její pomocí docílíte většího tlaku a tím i jemné a kompaktnější chuti šťávy. S pomocí uzavřené regulační páčky snadno vyrobíte i „raw milk", milkshake či smoothie různých druhů. Díky této regulační páčce můžete upravovat objem nerozpustné vlákniny, která ze šnekového odšťavňovače vychází.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Usnadněte tělu přijímání zdravých potravin&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/712edc3c53131a9151c9b85308e31ce7b55d07e8-983x737.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Doplňte váš jídelníček o zdravou porci vlákniny, která je pro lidské tělo nezbytná. Pomalým odšťavněním získáte z ovoce to nejlepší i s ideálním poměrem vitamínů, minerálů a důležité vlákniny. Čisté ovocné a zeleninové šťávy jsou skvělé pro doplnění vitamínů a minerálů i u dětí, které běžně odmítají jíst čerstvé ovoce a zeleninu. Precizním odšťavněním získáte jemný a osvěžující džus, který vašim ratolestem bude chutnat. Vyzkoušejte naše jednoduché tipy a obohaťte dětský jídelníček o nové zdravé recepty.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Regulujte hustotu šťávy&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/6cc6b82cce271b6fb96447989fa0599100208e99-695x695.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Šťávy vyrobené z klasických druhů ovoce a zeleniny
-Nejprve odšťavněte část přísad s uzavřenou regulační páčkou, poté nastavte páčku do polohy polootevřeno a přidejte zbývající část ingrediencí a vše odšťavněte.
-(jablko, hruška, pomeranč, grapefruit, citron, celer, ananas, rajče, červená řepa, kapusta, špenát, atd.)
-
-Šťávy vyrobené z ovoce a zeleniny obsahující malá semínka 
-Začněte odšťavňovat ingredience s uzavřenou regulační páčkou, jakmile začne vytékat šťáva, nastavte páčku do polohy polootevřeno. (hrozny, granátové jablko, kiwi, malina, atd.)
-
-Ovocné šťávy s mlékem
-Odšťavněte ingredience s úplně uzavřeným vývodem.
-(banán, jahody, borůvky, atd.)&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; undefined&lt;/h2&gt; 
-
-                        &lt;img src="null?w=500" /&gt; 
-
-                        &lt;p&gt; Jedná se o nejlepší cenu druhé generace odšťavňovače v historii značky. Model Hurom HV je nepostradatelný pomocník při vytváření zdravých čerstvých šťáv z jakéhokoliv ovoce, zeleniny a dokonce i bylinek. Chcete vědět, čím se liší od odstředivých odšťavňovaců a proč je výjímečný?&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-</LONGDESC>
-     <PRIORITY>1</PRIORITY>
-     <PACKAGE_SIZE>smallbox</PACKAGE_SIZE>
-     <BARCODE>6957754804733</BARCODE>
-     <PRICE>9990</PRICE>
-     <VAT>21</VAT>
-     <RRP>9990</RRP>
-     
-<PARAM>
-                      <NAME>JUICERS_TYPE</NAME>
-                      <VALUE>šnekový</VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>INPUT</NAME>
-                      <VALUE>150 </VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>NUMBER_SPEEDS</NAME>
-                      <VALUE>1</VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
-                      <VALUE>1</VALUE>
-                    </PARAM>
-
-     <MEDIA>
-      <URL>https://cdn.sanity.io/images/bvwt1scq/production/a0e2fa63743887f30c08cada6466d7fc117f1b37-466x800.jpg?w=500</URL>
-      <MAIN>true</MAIN>
-     </MEDIA>
-     
      <DELIVERY_DELAY>0</DELIVERY_DELAY>
    </ITEM>
 
@@ -529,7 +275,7 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
      
      <CATEGORY_ID>EB034</CATEGORY_ID>
      <BRAND_ID>HUROM</BRAND_ID>
-     <TITLE>Mini blender DIVA</TITLE>
+     <TITLE>Mixér Mini blender DIVA</TITLE>
      <SHORTDESC>Kompaktní - výkonný - bezpečný - inteligentní! V našem mini blenderu naleznete spoustu inovativních řešení. Od výkonného motoru, bezpečnostních prvků, intuitivního ovládání až po dokonalý design. To vše nabízí náš super praktický a super mini mixér, ideální pro každou moderní domácnost.</SHORTDESC>
      <LONGDESC>
 &lt;div&gt; 
@@ -658,57 +404,22 @@ Velmi jednoduché ovládání přístroje. Mixovací proces spustíte a zastaví
                     </PARAM>
 
      <MEDIA>
-      <URL>https://cdn.sanity.io/images/bvwt1scq/production/20eb97dd12eb05849149cf5238c161d993ac28d6-3460x3460.png?w=500</URL>
+      <URL>https://cdn.sanity.io/images/bvwt1scq/production/d648b72356068da3c5900e1e8b7aa28ce2e9287e-1133x2000.jpg</URL>
       <MAIN>true</MAIN>
      </MEDIA>
      
 <MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/e3ceb8f240b8f92772198d07b7d360f10b61b040-2900x2900.png?w=500</URL>
+                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/f59f1664d290a2b528230547608d8d40324cb363-1079x2000.jpg</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>
 
 <MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/14e6de0fe3d96f49fd1dc10b46430827bbf5195c-3537x3552.png?w=500</URL>
+                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/4d5c9e03e7ed127d380d271a4e90bbaaf3be6632-1043x2000.jpg</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>
 
 <MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/7ee31dcb87a73f8ef91768c2a8cdc904d0d177ce-3266x3266.png?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
-
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/4d9dae04e66bbee371b2aded6416a9b7c151738c-3422x3422.png?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
-
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/ae47a2ad3a909c619e1b339bec8c21461738b2e8-3132x3132.png?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
-
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/55c1a671258104b3916f3b61860ba2e5b26fa6e0-2748x2748.png?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
-
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/4de8a79f46b2872d61039632f559d05b55075dae-2798x2797.png?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
-
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/10c6b7e0bcd236833605ddb08ff0b4f17766bb6d-3028x3029.png?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
-
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/57a09ba619c17e60be9da1888208b249008c948d-1200x1200.jpg?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
-
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/25956d2528266ccd4efb607ceb2693504544dd9a-2313x2305.png?w=500</URL>
+                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/ef915ffea2053380ec2916bb8afedde3bc4ec8c1-941x2000.jpg</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>
 
@@ -716,26 +427,15 @@ Velmi jednoduché ovládání přístroje. Mixovací proces spustíte a zastaví
    </ITEM>
 
 <ITEM>
-     <ID>f1ac605b7b52</ID>
+     <ID>25d5a6ff0a72</ID>
      <STAGE>draft</STAGE>
      <ITEMGROUP_ID>485070cc-a2b1-4362-8744-2ae9a70b980d</ITEMGROUP_ID>
-     <ITEMGROUP_TITLE>GI Chef</ITEMGROUP_TITLE>
+     <ITEMGROUP_TITLE>Odšťavňovač GI Chef</ITEMGROUP_TITLE>
      <CATEGORY_ID>EB034</CATEGORY_ID>
      <BRAND_ID>HUROM</BRAND_ID>
-     <TITLE>GI Chef | stříbrný</TITLE>
+     <TITLE>Odšťavňovač GI Chef | černý</TITLE>
      <SHORTDESC>Objevte nové možnosti vašeho jídelníčku s jedinečným mutlifunkčním odšťavňovačem Hurom Chef. Získejte designový kuchyňský doplněk, který se snadno stane nepostradatelným pomocníkem.</SHORTDESC>
      <LONGDESC>
-&lt;div&gt; 
-
-                        &lt;h2&gt; undefined&lt;/h2&gt; 
-
-                        &lt;img src="null?w=500" /&gt; 
-
-                        &lt;p&gt; Díky tomuto inovativnímu odšťavňovači zvládnete během jednoho vaření i několik kuchařských disciplín, které by jinak vyžadovali spoustu času navíc i další složité stroje. Hurom Chef je vysoce univerzální řada odšťavňovačů, které které vám pomohou s přípravou různých pokrmů a to včetně polévek, těstovin, masových pokrmů a dezertů.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
 &lt;div&gt; 
 
                         &lt;h2&gt; Účinně vylisujte ovoce i zeleninu&lt;/h2&gt; 
@@ -776,6 +476,108 @@ Velmi jednoduché ovládání přístroje. Mixovací proces spustíte a zastaví
                         &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/73e0283645d843593887a881918a768603dabc07-750x750.jpg?w=500" /&gt; 
 
                         &lt;p&gt; Multifunkčí Hurom Chef s mlecí komorou vám pomůže připravit jakékoliv vlastní směsi koření a dokáže si poradit s ořechy i mákem! Nakombinujte si vaše oblíbené chutě, přesně podle potřeby a způsobu použití. Získejte nekonečné možnosti kombinací a povyšte i obyčejné grilování na jedinečný kulinářský zážitek!&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        
+                        
+                        &lt;p&gt; Díky tomuto inovativnímu odšťavňovači zvládnete během jednoho vaření i několik kuchařských disciplín, které by jinak vyžadovali spoustu času navíc i další složité stroje. Hurom Chef je vysoce univerzální řada odšťavňovačů, které které vám pomohou s přípravou různých pokrmů a to včetně polévek, těstovin, masových pokrmů a dezertů.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+</LONGDESC>
+     <PRIORITY>1</PRIORITY>
+     <PACKAGE_SIZE>smallbox</PACKAGE_SIZE>
+     <BARCODE>880906956218</BARCODE>
+     <PRICE>10490</PRICE>
+     <VAT>21</VAT>
+     <RRP>10490</RRP>
+     
+<PARAM>
+                      <NAME>JUICERS_TYPE</NAME>
+                      <VALUE>šnekové</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>TURN_PER_MIN</NAME>
+                      <VALUE>64</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>INPUT</NAME>
+                      <VALUE>150</VALUE>
+                    </PARAM>
+
+     <MEDIA>
+      <URL>https://cdn.sanity.io/images/bvwt1scq/production/693d72aeabcbabec970701267e6cf452851316fc-450x450.jpg</URL>
+      <MAIN>true</MAIN>
+     </MEDIA>
+     
+     <DELIVERY_DELAY>0</DELIVERY_DELAY>
+   </ITEM>
+
+<ITEM>
+     <ID>a696f3436998</ID>
+     <STAGE>draft</STAGE>
+     <ITEMGROUP_ID>485070cc-a2b1-4362-8744-2ae9a70b980d</ITEMGROUP_ID>
+     <ITEMGROUP_TITLE>Odšťavňovač GI Chef</ITEMGROUP_TITLE>
+     <CATEGORY_ID>EB034</CATEGORY_ID>
+     <BRAND_ID>HUROM</BRAND_ID>
+     <TITLE>Odšťavňovač GI Chef | stříbrný</TITLE>
+     <SHORTDESC>Objevte nové možnosti vašeho jídelníčku s jedinečným mutlifunkčním odšťavňovačem Hurom Chef. Získejte designový kuchyňský doplněk, který se snadno stane nepostradatelným pomocníkem.</SHORTDESC>
+     <LONGDESC>
+&lt;div&gt; 
+
+                        &lt;h2&gt; Účinně vylisujte ovoce i zeleninu&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/a1f2b3182e0db61a392629e381bd8fdd2ec6016f-750x750.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; Odšťavňovače Hurom jsou velmi šetrné k jakémukoli ovoci a zelenině, která je určená k vylisování. Naše výzkumné centrum společnosti Hurom dokázalo vyvinout jedinečný způsob extrakce čerstvé šťávy tak, aby jsi zachovala veškeré potřebné živiny a byla pro vaše tělo snadno stravitelná. Jemné sítko multifunkčního odšťavňovače Hurom Chef zajišťuje úplné oddělení všech živin od vláknitých částí ovoce a zeleniny a nabízí lepší strukturu hotové šťávy.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Ulehčete si přípravu těsta&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/7163664bb0b88ba0a074a91e8958802f8ac3cf37-750x750.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; Připravte si s pomocí Hurom Chef klasické domácí nadýchané knedlíky nebo si ulehčete práci připravte dokonale vláčný chléb. Už není nutné strávit dlouhé mituty namáhavým hnětením těsta, využijte svůj čas smysluplněji a věnujte se raději okamžikům, které vám dělají radost.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Pochutnejte si na domácích těstovinách&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/68e8827e8455ebfefb7c9a57e220f251386d3d1e-750x750.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; Hurom Chef je vybaven 4 nástavci pro snadnou výrobu domácí pasty. V balení naleznete různé druhy trysek s jejichž pomocí se čerstvá pasta může objevit i ve vaší kuchyni. K základnímu receptu přidejte i další přísady a vytvořte si tak chutné a zdravé pokrmy. Experimentujte a obohaťte svůj jídelníček o neotřelé kombinace, které pomohou vašemu tělu vstřebat ještě více zdravý prospěšných vitamínů a minerálů.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Poznejte svět koření&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/73e0283645d843593887a881918a768603dabc07-750x750.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; Multifunkčí Hurom Chef s mlecí komorou vám pomůže připravit jakékoliv vlastní směsi koření a dokáže si poradit s ořechy i mákem! Nakombinujte si vaše oblíbené chutě, přesně podle potřeby a způsobu použití. Získejte nekonečné možnosti kombinací a povyšte i obyčejné grilování na jedinečný kulinářský zážitek!&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        
+                        
+                        &lt;p&gt; Díky tomuto inovativnímu odšťavňovači zvládnete během jednoho vaření i několik kuchařských disciplín, které by jinak vyžadovali spoustu času navíc i další složité stroje. Hurom Chef je vysoce univerzální řada odšťavňovačů, které které vám pomohou s přípravou různých pokrmů a to včetně polévek, těstovin, masových pokrmů a dezertů.&lt;/p&gt; 
 
                       
 &lt;/div&gt; 
@@ -803,122 +605,12 @@ Velmi jednoduché ovládání přístroje. Mixovací proces spustíte a zastaví
                     </PARAM>
 
      <MEDIA>
-      <URL>https://cdn.sanity.io/images/bvwt1scq/production/9d73cd901edd8a57bfc486d783d63c1c6290ae31-1185x1482.jpg?w=500</URL>
+      <URL>https://cdn.sanity.io/images/bvwt1scq/production/2daa9ca579ce8e26a2cadfbe7be26e9dddaadd26-1500x1500.jpg</URL>
       <MAIN>true</MAIN>
      </MEDIA>
      
 <MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/869f7fa2f3b5c31c4673cc286e48e194ed597774-920x1406.jpg?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
-
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/eb5a478e425173fb67b1c0e8ba7357df66a76e7f-614x1389.jpg?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
-
-     <DELIVERY_DELAY>0</DELIVERY_DELAY>
-   </ITEM>
-
-<ITEM>
-     <ID>a629510933c1</ID>
-     <STAGE>draft</STAGE>
-     <ITEMGROUP_ID>485070cc-a2b1-4362-8744-2ae9a70b980d</ITEMGROUP_ID>
-     <ITEMGROUP_TITLE>GI Chef</ITEMGROUP_TITLE>
-     <CATEGORY_ID>EB034</CATEGORY_ID>
-     <BRAND_ID>HUROM</BRAND_ID>
-     <TITLE>GI Chef | černý</TITLE>
-     <SHORTDESC>Objevte nové možnosti vašeho jídelníčku s jedinečným mutlifunkčním odšťavňovačem Hurom Chef. Získejte designový kuchyňský doplněk, který se snadno stane nepostradatelným pomocníkem.</SHORTDESC>
-     <LONGDESC>
-&lt;div&gt; 
-
-                        &lt;h2&gt; undefined&lt;/h2&gt; 
-
-                        &lt;img src="null?w=500" /&gt; 
-
-                        &lt;p&gt; Díky tomuto inovativnímu odšťavňovači zvládnete během jednoho vaření i několik kuchařských disciplín, které by jinak vyžadovali spoustu času navíc i další složité stroje. Hurom Chef je vysoce univerzální řada odšťavňovačů, které které vám pomohou s přípravou různých pokrmů a to včetně polévek, těstovin, masových pokrmů a dezertů.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Účinně vylisujte ovoce i zeleninu&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/a1f2b3182e0db61a392629e381bd8fdd2ec6016f-750x750.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Odšťavňovače Hurom jsou velmi šetrné k jakémukoli ovoci a zelenině, která je určená k vylisování. Naše výzkumné centrum společnosti Hurom dokázalo vyvinout jedinečný způsob extrakce čerstvé šťávy tak, aby jsi zachovala veškeré potřebné živiny a byla pro vaše tělo snadno stravitelná. Jemné sítko multifunkčního odšťavňovače Hurom Chef zajišťuje úplné oddělení všech živin od vláknitých částí ovoce a zeleniny a nabízí lepší strukturu hotové šťávy.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Ulehčete si přípravu těsta&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/7163664bb0b88ba0a074a91e8958802f8ac3cf37-750x750.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Připravte si s pomocí Hurom Chef klasické domácí nadýchané knedlíky nebo si ulehčete práci připravte dokonale vláčný chléb. Už není nutné strávit dlouhé mituty namáhavým hnětením těsta, využijte svůj čas smysluplněji a věnujte se raději okamžikům, které vám dělají radost.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Pochutnejte si na domácích těstovinách&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/68e8827e8455ebfefb7c9a57e220f251386d3d1e-750x750.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Hurom Chef je vybaven 4 nástavci pro snadnou výrobu domácí pasty. V balení naleznete různé druhy trysek s jejichž pomocí se čerstvá pasta může objevit i ve vaší kuchyni. K základnímu receptu přidejte i další přísady a vytvořte si tak chutné a zdravé pokrmy. Experimentujte a obohaťte svůj jídelníček o neotřelé kombinace, které pomohou vašemu tělu vstřebat ještě více zdravý prospěšných vitamínů a minerálů.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Poznejte svět koření&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/73e0283645d843593887a881918a768603dabc07-750x750.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Multifunkčí Hurom Chef s mlecí komorou vám pomůže připravit jakékoliv vlastní směsi koření a dokáže si poradit s ořechy i mákem! Nakombinujte si vaše oblíbené chutě, přesně podle potřeby a způsobu použití. Získejte nekonečné možnosti kombinací a povyšte i obyčejné grilování na jedinečný kulinářský zážitek!&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-</LONGDESC>
-     <PRIORITY>1</PRIORITY>
-     <PACKAGE_SIZE>smallbox</PACKAGE_SIZE>
-     <BARCODE>8809069586218</BARCODE>
-     <PRICE>10490</PRICE>
-     <VAT>21</VAT>
-     <RRP>10490</RRP>
-     
-<PARAM>
-                      <NAME>JUICERS_TYPE</NAME>
-                      <VALUE>šnekové</VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>TURN_PER_MIN</NAME>
-                      <VALUE>64</VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>INPUT</NAME>
-                      <VALUE>150</VALUE>
-                    </PARAM>
-
-     <MEDIA>
-      <URL>https://cdn.sanity.io/images/bvwt1scq/production/171b6e96ad6f8ec1e9bfe2e08a300e3c9da72ad7-597x750.jpg?w=500</URL>
-      <MAIN>true</MAIN>
-     </MEDIA>
-     
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/6df7653b5a2bd770be78ffa2c5424e761e447633-264x410.jpg?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
-
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/ed773e0796a2ee120255b75e01c5539c526b1013-190x425.jpg?w=500</URL>
+                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/2daa9ca579ce8e26a2cadfbe7be26e9dddaadd26-1500x1500.jpg</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>
 
@@ -932,15 +624,13 @@ Velmi jednoduché ovládání přístroje. Mixovací proces spustíte a zastaví
      
      <CATEGORY_ID>EB034</CATEGORY_ID>
      <BRAND_ID>HUROM</BRAND_ID>
-     <TITLE>S 13</TITLE>
+     <TITLE>Odšťavňovač S 13</TITLE>
      <SHORTDESC>Hurom S13 je elegantní kombinace stylu a funkčnosti. Produkujte lahodnou šťávu plnou vitamínů a živin díky technologii nízkootáčkového odšťavňování s minimálním třením. A nyní za cenu, kterou si může dovolit opravdu každý. Světová kvalita nebyla nikdy dostupnější.</SHORTDESC>
      <LONGDESC>
 &lt;div&gt; 
 
-                        &lt;h2&gt; undefined&lt;/h2&gt; 
-
-                        &lt;img src="null?w=500" /&gt; 
-
+                        
+                        
                         &lt;p&gt; Nízkootáčková technologie extrakce šťávy: 70 ot./min., Nejoptimálnější rychlost, kterou Hurom objevil díky dlouholetému výzkumu, aby nabídl přirozenou chuť a zachoval výživovou hodnotu šťavy ze zeleniny a ovoce. Budete moci pít džus, který zachovává maximum chuti a zdraví prospěšných látek, díky nulovému teplu a oxidaci vznikající třením a vysokými otáčkami.
 
 Inteligentní regulační páčka: Ovládáním páčky lze ze všech druhů surovin  snadno vyrobit šťávu s optimálními vlastnostmi.
@@ -1031,9 +721,9 @@ Model S13, charakteristický řadami jednoduchých linií a  křivek, učiní va
      <PRIORITY>1</PRIORITY>
      <PACKAGE_SIZE>smallbox</PACKAGE_SIZE>
      <BARCODE>8809069581220</BARCODE>
-     <PRICE>7990</PRICE>
+     <PRICE>8990</PRICE>
      <VAT>21</VAT>
-     <RRP>7990</RRP>
+     <RRP>8990</RRP>
      
 <PARAM>
                       <NAME>JUICERS_TYPE</NAME>
@@ -1061,121 +751,30 @@ Model S13, charakteristický řadami jednoduchých linií a  křivek, učiní va
                     </PARAM>
 
      <MEDIA>
-      <URL>https://cdn.sanity.io/images/bvwt1scq/production/5114859c6adffb0aa9f1d23241aa78fd7ad814e7-1945x3839.png?w=500</URL>
+      <URL>https://cdn.sanity.io/images/bvwt1scq/production/a054da1b9f47c61dee8a575c93ff81980d09533f-1013x2000.jpg</URL>
       <MAIN>true</MAIN>
      </MEDIA>
      
 <MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/67e4e802132cf5ef336cf0a204c527d619f36652-1725x4043.png?w=500</URL>
+                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/acae4a6f82180c17d3a2b0dce7835cab69cd0aa8-853x2000.jpg</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>
 
 <MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/dc8f5de2fcba07d5f2b18353b70b9a6e51156c5f-2024x3509.png?w=500</URL>
+                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/8f7334349e070fd1464bb4d2af7932b6e476346f-1154x2000.jpg</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>
 
 <MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/e3eac0ac4c1a59744896c621aedd00567da922a1-2306x3860.png?w=500</URL>
+                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/25a2594856680bfd4ee6894271c1b395446e21d3-1195x2000.jpg</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>
 
 <MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/1b8d0933be76529c62f2ad09d892cc08ef1cfb7b-1598x3984.png?w=500</URL>
+                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/8106b65c4a41bc240145e63aeff5601c76a68294-802x2000.jpg</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>
 
-     <DELIVERY_DELAY>0</DELIVERY_DELAY>
-   </ITEM>
-
-<ITEM>
-     <ID>628249e4-669e-461a-8b43-d828988f6766</ID>
-     <STAGE>draft</STAGE>
-     
-     
-     <CATEGORY_ID>EB034</CATEGORY_ID>
-     <BRAND_ID>HUROM</BRAND_ID>
-     <TITLE>Citrusovač CJ-B01BSS</TITLE>
-     <SHORTDESC>Elektrický pákový citrusovač od značky HUROM vyrobený ze 100% BPA free materiálů a tedy zcela bezpečný pro zdraví.</SHORTDESC>
-     <LONGDESC>
-&lt;div&gt; 
-
-                        &lt;h2&gt; Citrusy není třeba loupat&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/f694d0f2259cba526d1d2a762e21764709ab7f51-445x500.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; S elektrickým citrusovačem Hurom od spolehlivého výrobce budete mít šťávu ze všech druhů citrusů během chvilky. Pomeranče, grepy ani citróny není třeba loupat, pouze je překrojíte a přiložíte na lisovací hrot. Ten se roztočí, jakmile sklopíte páku s lisovacím kloboukem dolů. Citrusovač není určený pro komerční provozy.
-
-Doporučeno na: všechny citrusové plody (pomeranče, grepy, citrony, limety, mandarinky).
-
-Nevhodné na: kořenovou zeleninu, listovou zeleninu, běžné druhy ovoce, bobuloviny.
-
-Pohodlné lisování bez nepořádku&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Funkční prvky z rodiny Hurom&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/6d6ecff6b5b9d1000a77e56df710026348b252bd-700x1500.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Citrusovač Hurom je opatřen krytem okolo otáčejícího se hrotu, který zamezí stříkání šťávy všude okolo.
-
-Síto zachytává oddělenou drť, kterou po lisování jednoduše spláchnete tekoucí vodou.
-
-Výsledkem lisování s citrusovačem Hurom je čistá kvalitní šťáva.
-
-Vhodný na všechny citrusy&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Jednoduchý a funkční&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/a096ccd0e24d6a6e096650ee1fa6a4ed9ba65bdb-956x1500.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Citrusovač Hurom je vybaven jedním univerzálním lisovacím hrotem, který vylisuje citrusy všech velikostí: pomeranče, grepy, mandarinky, citróny i limety.
-
-Při stlačování páky dolů je dobré udržet lehkou ruku, protože v případě přílišného tlačení se do šťávy dostane i hořká dužina.
-
-&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Snadná údržba samozřejmostí&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/ac544f565a634a994980aedcb4b7778243889e81-601x1500.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Citrusovač Hurom se skvěle hodí pro rychlé vylisování několika kusů citrusových plodů třeba ke snídani. Přístroj není vhodný do komerčního provozu.
-
-Motor pracuje rychlostí 90-120 otáček za minutu díky tomu je šťáva čirá, není napěněná jako u odstředivých odšťavňovačů.
-
-Po lisování stačí sejmout hrot, klobouk, vyndat síto a odšťavňovací komoru a opláchnout je pod tekoucí vodou.
-
-Díly nelze mýt v myčce, mohly by se zdeformovat.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-</LONGDESC>
-     <PRIORITY>1</PRIORITY>
-     <PACKAGE_SIZE>smallbox</PACKAGE_SIZE>
-     <BARCODE>8809069584207</BARCODE>
-     <PRICE>3690</PRICE>
-     <VAT>21</VAT>
-     <RRP>3690</RRP>
-     
-     <MEDIA>
-      <URL>https://cdn.sanity.io/images/bvwt1scq/production/f98fded15ba1cd7b8b2664d0e7ae92c2bfdde4fb-701x1500.jpg?w=500</URL>
-      <MAIN>true</MAIN>
-     </MEDIA>
-     
      <DELIVERY_DELAY>0</DELIVERY_DELAY>
    </ITEM>
 
@@ -1186,7 +785,7 @@ Díly nelze mýt v myčce, mohly by se zdeformovat.&lt;/p&gt;
      
      <CATEGORY_ID>EB034</CATEGORY_ID>
      <BRAND_ID>HUROM</BRAND_ID>
-     <TITLE>HT 2. generace</TITLE>
+     <TITLE>Odšťavňovač HT 2. generace</TITLE>
      <SHORTDESC>Designový model Hurom HT 2. generace je nízkootáčkový odšťavňovač, který je kompaktní a přesto velmi výkoný. Nepostradatelný kousek do každé domácnosti, které záleží na zdravém jídelníčku. Má široký dávkovací otvor pro ještě snažší obsluhu a díky nízkým otáčkám, odšťavňuje šťávy prvotřídní kvality.</SHORTDESC>
      <LONGDESC>
 &lt;div&gt; 
@@ -1263,10 +862,8 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
 
 &lt;div&gt; 
 
-                        &lt;h2&gt; undefined&lt;/h2&gt; 
-
-                        &lt;img src="null?w=500" /&gt; 
-
+                        
+                        
                         &lt;p&gt; Zajímá vás, čím se liší od odstředivých odšťavňovaců a proč si zvolit právě Hurom HT?&lt;/p&gt; 
 
                       
@@ -1300,263 +897,12 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
      <MEDIA>
-      <URL>https://cdn.sanity.io/images/bvwt1scq/production/925829530d47c8e84169fee35272647c58199a51-483x742.jpg?w=500</URL>
+      <URL>https://cdn.sanity.io/images/bvwt1scq/production/9fee713f0cf5180ba675adaa07cf353acaa9dac6-1083x2000.jpg</URL>
       <MAIN>true</MAIN>
      </MEDIA>
      
 <MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/2eca430dbf582fa8ec69f2b222d221fc28b4ce29-2800x4232.png?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
-
-     <DELIVERY_DELAY>0</DELIVERY_DELAY>
-   </ITEM>
-
-<ITEM>
-     <ID>18298fbe94ed</ID>
-     <STAGE>draft</STAGE>
-     <ITEMGROUP_ID>88311138-2efc-4387-893e-4fec4626cc6c</ITEMGROUP_ID>
-     <ITEMGROUP_TITLE>H 200</ITEMGROUP_TITLE>
-     <CATEGORY_ID>EB034</CATEGORY_ID>
-     <BRAND_ID>HUROM</BRAND_ID>
-     <TITLE>H 200 | titanově šedý</TITLE>
-     <SHORTDESC>Šnekový odšťavnovač Hurom H 200 se řadí mezi nejpropracovanější pomaloběžné odšťavňovače na trhu. Jedná se jednoznačně o uživatelsky nejpříjemnější model, co kdy společnost Hurom vyvinula.</SHORTDESC>
-     <LONGDESC>
-&lt;div&gt; 
-
-                        &lt;h2&gt; undefined&lt;/h2&gt; 
-
-                        &lt;img src="null?w=500" /&gt; 
-
-                        &lt;p&gt; Tento prémiový model byl navržený se stylovým a funkčním designem a je doplněn o automatický dávkovač surovin, včetně krájecího nože. Nový model Hurom H 200 pro vás vylisuje čersvé zdravé šťávy bez zdlouhavého krájení všech ingrediencí, od začátku do konce. Čersvé ovoce nebo zeleninu stačí jednoduše vložit do zásobníku a pomaloběžný odšťavňovač Hurom se postará o celý proces bez jakékoliv další pomoci.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Odšťavňování za nízkých otáček&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/320ad222430c82cc992d24664868575e8c988b9d-644x435.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Díky pomalé rotaci lisovacího šněku, se ze suvin extrahují jen ty nejlepší živiny, které jsou vhodné a snadno vstřebatelné pro lidský organismus. Nízské otáčky zaručují, že suroviny nebyly vystaveny působení tepla a tím si šťáva zachová svou přírodní chuť, barvu i tolik potřebné živiny. Jednotlivé části přístroje lze velmi snadno rozložit a dílčí části pohodlně umýt.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Revoluční systém sítka&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/2686dc5f26feae62919f08e416dbd6772d583d10-728x772.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Stejně jako u modelu H 100 je revoluční pojetí sítka. Na rozdíl od všech ostatních odšťavňovačů na trhu, nemají modely H 100 a H 200 klasická nerezová sítka s malými otvory, v nichž se časem usazují zbytky surovin a která se musí opravdu pečlivě čistit. Společnost Hurom přišla s geniálním řešením. Sítko je tvořeno dvěma díly, které do sebe zapadnou a vytvoří malé mezírky suplující klasické nerezové sítko. Tyto dva díly se snadno rozloží a díky tomu je čištění opravdu otázkou okamžiku. 
-
- &lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Více času pro vás&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/95df47d2d79a68eef5fcb32b1a405d1e9dd06fad-700x500.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Užívejte si každý okamžik a zkraťte nutné přípravy na minimum. Společnost Hurom ví, jak pro vás ještě více vylepšit celý odšťavňovací proces! Tento model H 200 je vybaven maximálně velkým otvorem do zásobníkové komory, na místo krájení každé suroviny zvlášť, zde můžete přímo vkládat celé kusy. Na menší či podlouhlé ingredience nebo na drobné bobulovité ovoce se hodí menší kulatý otvor, díky němu můžete pohodlně přidávat další suroviny i během odšťavňovacího procesu.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Nakrájené i odšťavněné&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/8b3c7070253099cb31f289c0d9c33e149ecc2521-537x494.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Zjednodušte lisování čerstvých šťáv a užijte si vylepšenou technologii, která urychlí celý proces. Tento model je vybaven krájecím nožem a důmyslným systémem automatického posunu surovin, díky kterému bude celý proces snažší a rychlejší.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Uživatelsky nejpříjemnější&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/a26c5a9e73dc2328c523132b132a05b40c4863ff-350x350.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Už si nemusíte lámat hlavu se složitým skládáním přístroje, kvůli jedné sklenici lahodné čerstvé šťávy. Model Hurom H 200 je zkonstruovaný tak, aby do sebe jednotlivé díly lehce zapadly, díky systému drážek, proto každé složení přístroje bude trvat jen několik vteřin.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-</LONGDESC>
-     <PRIORITY>1</PRIORITY>
-     <PACKAGE_SIZE>smallbox</PACKAGE_SIZE>
-     <BARCODE>8809686400065</BARCODE>
-     <PRICE>15990</PRICE>
-     <VAT>21</VAT>
-     <RRP>15990</RRP>
-     
-<PARAM>
-                      <NAME>JUICERS_TYPE</NAME>
-                      <VALUE>šnekový</VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>TURN_PER_MIN</NAME>
-                      <VALUE>43/50</VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>INPUT</NAME>
-                      <VALUE>200</VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>NUMBER_SPEEDS</NAME>
-                      <VALUE>1</VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
-                      <VALUE>1</VALUE>
-                    </PARAM>
-
-     <MEDIA>
-      <URL>https://cdn.sanity.io/images/bvwt1scq/production/007343617488f5f43be23f4541eaa2b05a3619e5-768x1024.jpg?w=500</URL>
-      <MAIN>true</MAIN>
-     </MEDIA>
-     
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/b39a1b49cf17c4cfdde5966a1ac8bf163eab8235-1125x1500.jpg?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
-
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/6bad5b49e2e29498d224961e7258bb7bedce0ffc-1125x1500.jpg?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
-
-     <DELIVERY_DELAY>0</DELIVERY_DELAY>
-   </ITEM>
-
-<ITEM>
-     <ID>0fedce748329</ID>
-     <STAGE>draft</STAGE>
-     <ITEMGROUP_ID>88311138-2efc-4387-893e-4fec4626cc6c</ITEMGROUP_ID>
-     <ITEMGROUP_TITLE>H 200</ITEMGROUP_TITLE>
-     <CATEGORY_ID>EB034</CATEGORY_ID>
-     <BRAND_ID>HUROM</BRAND_ID>
-     <TITLE>H 200 | matně černý</TITLE>
-     <SHORTDESC>Šnekový odšťavnovač Hurom H 200 se řadí mezi nejpropracovanější pomaloběžné odšťavňovače na trhu. Jedná se jednoznačně o uživatelsky nejpříjemnější model, co kdy společnost Hurom vyvinula.</SHORTDESC>
-     <LONGDESC>
-&lt;div&gt; 
-
-                        &lt;h2&gt; undefined&lt;/h2&gt; 
-
-                        &lt;img src="null?w=500" /&gt; 
-
-                        &lt;p&gt; Tento prémiový model byl navržený se stylovým a funkčním designem a je doplněn o automatický dávkovač surovin, včetně krájecího nože. Nový model Hurom H 200 pro vás vylisuje čersvé zdravé šťávy bez zdlouhavého krájení všech ingrediencí, od začátku do konce. Čersvé ovoce nebo zeleninu stačí jednoduše vložit do zásobníku a pomaloběžný odšťavňovač Hurom se postará o celý proces bez jakékoliv další pomoci.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Odšťavňování za nízkých otáček&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/320ad222430c82cc992d24664868575e8c988b9d-644x435.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Díky pomalé rotaci lisovacího šněku, se ze suvin extrahují jen ty nejlepší živiny, které jsou vhodné a snadno vstřebatelné pro lidský organismus. Nízské otáčky zaručují, že suroviny nebyly vystaveny působení tepla a tím si šťáva zachová svou přírodní chuť, barvu i tolik potřebné živiny. Jednotlivé části přístroje lze velmi snadno rozložit a dílčí části pohodlně umýt.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Revoluční systém sítka&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/2686dc5f26feae62919f08e416dbd6772d583d10-728x772.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Stejně jako u modelu H 100 je revoluční pojetí sítka. Na rozdíl od všech ostatních odšťavňovačů na trhu, nemají modely H 100 a H 200 klasická nerezová sítka s malými otvory, v nichž se časem usazují zbytky surovin a která se musí opravdu pečlivě čistit. Společnost Hurom přišla s geniálním řešením. Sítko je tvořeno dvěma díly, které do sebe zapadnou a vytvoří malé mezírky suplující klasické nerezové sítko. Tyto dva díly se snadno rozloží a díky tomu je čištění opravdu otázkou okamžiku. 
-
- &lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Více času pro vás&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/95df47d2d79a68eef5fcb32b1a405d1e9dd06fad-700x500.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Užívejte si každý okamžik a zkraťte nutné přípravy na minimum. Společnost Hurom ví, jak pro vás ještě více vylepšit celý odšťavňovací proces! Tento model H 200 je vybaven maximálně velkým otvorem do zásobníkové komory, na místo krájení každé suroviny zvlášť, zde můžete přímo vkládat celé kusy. Na menší či podlouhlé ingredience nebo na drobné bobulovité ovoce se hodí menší kulatý otvor, díky němu můžete pohodlně přidávat další suroviny i během odšťavňovacího procesu.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Nakrájené i odšťavněné&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/8b3c7070253099cb31f289c0d9c33e149ecc2521-537x494.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Zjednodušte lisování čerstvých šťáv a užijte si vylepšenou technologii, která urychlí celý proces. Tento model je vybaven krájecím nožem a důmyslným systémem automatického posunu surovin, díky kterému bude celý proces snažší a rychlejší.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Uživatelsky nejpříjemnější&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/a26c5a9e73dc2328c523132b132a05b40c4863ff-350x350.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Už si nemusíte lámat hlavu se složitým skládáním přístroje, kvůli jedné sklenici lahodné čerstvé šťávy. Model Hurom H 200 je zkonstruovaný tak, aby do sebe jednotlivé díly lehce zapadly, díky systému drážek, proto každé složení přístroje bude trvat jen několik vteřin.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-</LONGDESC>
-     <PRIORITY>1</PRIORITY>
-     <PACKAGE_SIZE>smallbox</PACKAGE_SIZE>
-     <BARCODE>8809686400003</BARCODE>
-     <PRICE>15990</PRICE>
-     <VAT>21</VAT>
-     <RRP>15990</RRP>
-     
-<PARAM>
-                      <NAME>JUICERS_TYPE</NAME>
-                      <VALUE>šnekový</VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>TURN_PER_MIN</NAME>
-                      <VALUE>43/50</VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>INPUT</NAME>
-                      <VALUE>200</VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>NUMBER_SPEEDS</NAME>
-                      <VALUE>1</VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
-                      <VALUE>1</VALUE>
-                    </PARAM>
-
-     <MEDIA>
-      <URL>https://cdn.sanity.io/images/bvwt1scq/production/02be3bad9e90ce08bc93244b681724d646d0e343-1125x1500.jpg?w=500</URL>
-      <MAIN>true</MAIN>
-     </MEDIA>
-     
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/9f50c55f5606487f98b2f40f93527112196e36fc-540x720.webp?w=500</URL>
+                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/4efb4e0b2687652538c15f85882d8883f43108a2-1137x2000.jpg</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>
 
@@ -1567,18 +913,16 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
      <ID>70b40f4baf58</ID>
      <STAGE>draft</STAGE>
      <ITEMGROUP_ID>88311138-2efc-4387-893e-4fec4626cc6c</ITEMGROUP_ID>
-     <ITEMGROUP_TITLE>H 200</ITEMGROUP_TITLE>
+     <ITEMGROUP_TITLE>Odšťavňovač H 200</ITEMGROUP_TITLE>
      <CATEGORY_ID>EB034</CATEGORY_ID>
      <BRAND_ID>HUROM</BRAND_ID>
-     <TITLE>H 200 | bílý</TITLE>
+     <TITLE>Odšťavňovač H 200 | bílý</TITLE>
      <SHORTDESC>Šnekový odšťavnovač Hurom H 200 se řadí mezi nejpropracovanější pomaloběžné odšťavňovače na trhu. Jedná se jednoznačně o uživatelsky nejpříjemnější model, co kdy společnost Hurom vyvinula.</SHORTDESC>
      <LONGDESC>
 &lt;div&gt; 
 
-                        &lt;h2&gt; undefined&lt;/h2&gt; 
-
-                        &lt;img src="null?w=500" /&gt; 
-
+                        
+                        
                         &lt;p&gt; Tento prémiový model byl navržený se stylovým a funkčním designem a je doplněn o automatický dávkovač surovin, včetně krájecího nože. Nový model Hurom H 200 pro vás vylisuje čersvé zdravé šťávy bez zdlouhavého krájení všech ingrediencí, od začátku do konce. Čersvé ovoce nebo zeleninu stačí jednoduše vložit do zásobníku a pomaloběžný odšťavňovač Hurom se postará o celý proces bez jakékoliv další pomoci.&lt;/p&gt; 
 
                       
@@ -1644,9 +988,9 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
      <PRIORITY>1</PRIORITY>
      <PACKAGE_SIZE>smallbox</PACKAGE_SIZE>
      <BARCODE>8809686400089</BARCODE>
-     <PRICE>15990</PRICE>
+     <PRICE>14990</PRICE>
      <VAT>21</VAT>
-     <RRP>15990</RRP>
+     <RRP>14990</RRP>
      
 <PARAM>
                       <NAME>JUICERS_TYPE</NAME>
@@ -1674,22 +1018,22 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
      <MEDIA>
-      <URL>https://cdn.sanity.io/images/bvwt1scq/production/bb43c144e1855488372e355a8d32364a6592d9d6-683x1024.webp?w=500</URL>
+      <URL>https://cdn.sanity.io/images/bvwt1scq/production/bb43c144e1855488372e355a8d32364a6592d9d6-683x1024.webp</URL>
       <MAIN>true</MAIN>
      </MEDIA>
      
 <MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/f3d95cf9c613e41e709dab556998c404eb101a9d-683x1024.webp?w=500</URL>
+                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/f3d95cf9c613e41e709dab556998c404eb101a9d-683x1024.webp</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>
 
 <MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/697264caa8eda2727b73079b80f322cfbe823fa3-683x1024.webp?w=500</URL>
+                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/697264caa8eda2727b73079b80f322cfbe823fa3-683x1024.webp</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>
 
 <MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/4a21608d57f254ee1f818817525c1e2360f7f563-683x1024.webp?w=500</URL>
+                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/4a21608d57f254ee1f818817525c1e2360f7f563-683x1024.webp</URL>
                       <MAIN>false</MAIN>
                     </MEDIA>
 
@@ -1700,18 +1044,16 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
      <ID>2185fa869cbf</ID>
      <STAGE>draft</STAGE>
      <ITEMGROUP_ID>88311138-2efc-4387-893e-4fec4626cc6c</ITEMGROUP_ID>
-     <ITEMGROUP_TITLE>H 200</ITEMGROUP_TITLE>
+     <ITEMGROUP_TITLE>Odšťavňovač H 200</ITEMGROUP_TITLE>
      <CATEGORY_ID>EB034</CATEGORY_ID>
      <BRAND_ID>HUROM</BRAND_ID>
-     <TITLE>H 200 | červený</TITLE>
+     <TITLE>Odšťavňovač H 200 | červený</TITLE>
      <SHORTDESC>Šnekový odšťavnovač Hurom H 200 se řadí mezi nejpropracovanější pomaloběžné odšťavňovače na trhu. Jedná se jednoznačně o uživatelsky nejpříjemnější model, co kdy společnost Hurom vyvinula.</SHORTDESC>
      <LONGDESC>
 &lt;div&gt; 
 
-                        &lt;h2&gt; undefined&lt;/h2&gt; 
-
-                        &lt;img src="null?w=500" /&gt; 
-
+                        
+                        
                         &lt;p&gt; Tento prémiový model byl navržený se stylovým a funkčním designem a je doplněn o automatický dávkovač surovin, včetně krájecího nože. Nový model Hurom H 200 pro vás vylisuje čersvé zdravé šťávy bez zdlouhavého krájení všech ingrediencí, od začátku do konce. Čersvé ovoce nebo zeleninu stačí jednoduše vložit do zásobníku a pomaloběžný odšťavňovač Hurom se postará o celý proces bez jakékoliv další pomoci.&lt;/p&gt; 
 
                       
@@ -1777,9 +1119,9 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
      <PRIORITY>1</PRIORITY>
      <PACKAGE_SIZE>smallbox</PACKAGE_SIZE>
      <BARCODE>8809069580384</BARCODE>
-     <PRICE>15990</PRICE>
+     <PRICE>14990</PRICE>
      <VAT>21</VAT>
-     <RRP>15990</RRP>
+     <RRP>14990</RRP>
      
 <PARAM>
                       <NAME>JUICERS_TYPE</NAME>
@@ -1807,7 +1149,123 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
                     </PARAM>
 
      <MEDIA>
-      <URL>https://cdn.sanity.io/images/bvwt1scq/production/76fab5642dee552f2cbdac4ea131cd46b907dcb7-1200x1200.png?w=500</URL>
+      <URL>https://cdn.sanity.io/images/bvwt1scq/production/76fab5642dee552f2cbdac4ea131cd46b907dcb7-1200x1200.png</URL>
+      <MAIN>true</MAIN>
+     </MEDIA>
+     
+     <DELIVERY_DELAY>0</DELIVERY_DELAY>
+   </ITEM>
+
+<ITEM>
+     <ID>adaa16363dc6</ID>
+     <STAGE>draft</STAGE>
+     <ITEMGROUP_ID>88311138-2efc-4387-893e-4fec4626cc6c</ITEMGROUP_ID>
+     <ITEMGROUP_TITLE>Odšťavňovač H 200</ITEMGROUP_TITLE>
+     <CATEGORY_ID>EB034</CATEGORY_ID>
+     <BRAND_ID>HUROM</BRAND_ID>
+     <TITLE>Odšťavňovač H 200 | stříbrný</TITLE>
+     <SHORTDESC>Šnekový odšťavnovač Hurom H 200 se řadí mezi nejpropracovanější pomaloběžné odšťavňovače na trhu. Jedná se jednoznačně o uživatelsky nejpříjemnější model, co kdy společnost Hurom vyvinula.</SHORTDESC>
+     <LONGDESC>
+&lt;div&gt; 
+
+                        
+                        
+                        &lt;p&gt; Tento prémiový model byl navržený se stylovým a funkčním designem a je doplněn o automatický dávkovač surovin, včetně krájecího nože. Nový model Hurom H 200 pro vás vylisuje čersvé zdravé šťávy bez zdlouhavého krájení všech ingrediencí, od začátku do konce. Čersvé ovoce nebo zeleninu stačí jednoduše vložit do zásobníku a pomaloběžný odšťavňovač Hurom se postará o celý proces bez jakékoliv další pomoci.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Odšťavňování za nízkých otáček&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/320ad222430c82cc992d24664868575e8c988b9d-644x435.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; Díky pomalé rotaci lisovacího šněku, se ze suvin extrahují jen ty nejlepší živiny, které jsou vhodné a snadno vstřebatelné pro lidský organismus. Nízské otáčky zaručují, že suroviny nebyly vystaveny působení tepla a tím si šťáva zachová svou přírodní chuť, barvu i tolik potřebné živiny. Jednotlivé části přístroje lze velmi snadno rozložit a dílčí části pohodlně umýt.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Revoluční systém sítka&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/2686dc5f26feae62919f08e416dbd6772d583d10-728x772.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; Stejně jako u modelu H 100 je revoluční pojetí sítka. Na rozdíl od všech ostatních odšťavňovačů na trhu, nemají modely H 100 a H 200 klasická nerezová sítka s malými otvory, v nichž se časem usazují zbytky surovin a která se musí opravdu pečlivě čistit. Společnost Hurom přišla s geniálním řešením. Sítko je tvořeno dvěma díly, které do sebe zapadnou a vytvoří malé mezírky suplující klasické nerezové sítko. Tyto dva díly se snadno rozloží a díky tomu je čištění opravdu otázkou okamžiku. 
+
+ &lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Více času pro vás&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/95df47d2d79a68eef5fcb32b1a405d1e9dd06fad-700x500.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; Užívejte si každý okamžik a zkraťte nutné přípravy na minimum. Společnost Hurom ví, jak pro vás ještě více vylepšit celý odšťavňovací proces! Tento model H 200 je vybaven maximálně velkým otvorem do zásobníkové komory, na místo krájení každé suroviny zvlášť, zde můžete přímo vkládat celé kusy. Na menší či podlouhlé ingredience nebo na drobné bobulovité ovoce se hodí menší kulatý otvor, díky němu můžete pohodlně přidávat další suroviny i během odšťavňovacího procesu.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Nakrájené i odšťavněné&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/8b3c7070253099cb31f289c0d9c33e149ecc2521-537x494.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; Zjednodušte lisování čerstvých šťáv a užijte si vylepšenou technologii, která urychlí celý proces. Tento model je vybaven krájecím nožem a důmyslným systémem automatického posunu surovin, díky kterému bude celý proces snažší a rychlejší.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Uživatelsky nejpříjemnější&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/a26c5a9e73dc2328c523132b132a05b40c4863ff-350x350.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; Už si nemusíte lámat hlavu se složitým skládáním přístroje, kvůli jedné sklenici lahodné čerstvé šťávy. Model Hurom H 200 je zkonstruovaný tak, aby do sebe jednotlivé díly lehce zapadly, díky systému drážek, proto každé složení přístroje bude trvat jen několik vteřin.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+</LONGDESC>
+     <PRIORITY>1</PRIORITY>
+     <PACKAGE_SIZE>smallbox</PACKAGE_SIZE>
+     <BARCODE>8809686400065</BARCODE>
+     <PRICE>14990</PRICE>
+     <VAT>21</VAT>
+     <RRP>14990</RRP>
+     
+<PARAM>
+                      <NAME>JUICERS_TYPE</NAME>
+                      <VALUE>šnekový</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>TURN_PER_MIN</NAME>
+                      <VALUE>43/50</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>INPUT</NAME>
+                      <VALUE>200</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>NUMBER_SPEEDS</NAME>
+                      <VALUE>1</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
+                      <VALUE>1</VALUE>
+                    </PARAM>
+
+     <MEDIA>
+      <URL>https://cdn.sanity.io/images/bvwt1scq/production/9292dd3014a45369c84095a09b738ec70facdf9a-600x600.jpg</URL>
       <MAIN>true</MAIN>
      </MEDIA>
      
@@ -1821,15 +1279,13 @@ Odšťavněte ingredience s úplně uzavřeným vývodem.
      
      <CATEGORY_ID>EB034</CATEGORY_ID>
      <BRAND_ID>HUROM</BRAND_ID>
-     <TITLE>HW Smart hopper - commercial</TITLE>
+     <TITLE>Odšťavňovač HW  - commercial</TITLE>
      <SHORTDESC>Hurom HW 2. generace je navržen tak, aby dokázal uspokojit i ty nejnáročnější zákazníky a obstojí i v rušných podmínkách komerčního provozu.</SHORTDESC>
      <LONGDESC>
 &lt;div&gt; 
 
-                        &lt;h2&gt; undefined&lt;/h2&gt; 
-
-                        &lt;img src="null?w=500" /&gt; 
-
+                        
+                        
                         &lt;p&gt; Hledáte vhodný šnekový odšťavňovač pro vaši kavárnu nebo si přejete obohatit snídaňové rauty? Dopřejte svým zákazníkům skutečně kvalitní, plnohodnotné ovocné a zeleninové šťávy s Hurom HW 2. generace. Tento nízkootáčkový odšťavňovač byl přímo navržen tak, aby vyhověl náročným požadavkům pro komerční využití. Je vysoce odolný, má velmi snadnou údržbu a jeho ovládání je intuitivní.&lt;/p&gt; 
 
                       
@@ -1909,7 +1365,7 @@ Dopřejte svým zákazníkům i sobě možnost volby a připravte si skvělou š
                     </PARAM>
 
      <MEDIA>
-      <URL>https://cdn.sanity.io/images/bvwt1scq/production/170b56e71db2b8958fd3f220009b3a0b055a8f7c-439x816.jpg?w=500</URL>
+      <URL>https://cdn.sanity.io/images/bvwt1scq/production/ac23c1779baff240143b228eaad9862ce6ba3273-1000x1000.jpg</URL>
       <MAIN>true</MAIN>
      </MEDIA>
      
@@ -1917,13 +1373,13 @@ Dopřejte svým zákazníkům i sobě možnost volby a připravte si skvělou š
    </ITEM>
 
 <ITEM>
-     <ID>c370def0f2ca</ID>
+     <ID>bb7e47abe01e</ID>
      <STAGE>draft</STAGE>
      <ITEMGROUP_ID>a6dbf6a5-3360-4a33-acc2-04a1114aae43</ITEMGROUP_ID>
-     <ITEMGROUP_TITLE>H-AI One stop</ITEMGROUP_TITLE>
+     <ITEMGROUP_TITLE>Odšťavňovač H-AI One stop</ITEMGROUP_TITLE>
      <CATEGORY_ID>EB034</CATEGORY_ID>
      <BRAND_ID>HUROM</BRAND_ID>
-     <TITLE>H-AI One stop | red</TITLE>
+     <TITLE>Odšťavňovač H-AI One stop | platinum</TITLE>
      <SHORTDESC>Prémiový odšťavňovač Hurom H-AI H34 je designový kuchyňský pomocník, který zaujme na první pohled. Jednoduchý a stylový design, tichý chod a především praktický systém inteligentního zásobníku s podavačem, z něj dělá naprostou jedničku na světovém trhu mezi pomalými šnekovými odšťavňovači.</SHORTDESC>
      <LONGDESC>
 &lt;div&gt; 
@@ -2029,182 +1485,8 @@ Sítka a šnek jsou vyrobeny z materiálu Ultem, který se vyznačuje osmkrát v
 
 &lt;div&gt; 
 
-                        &lt;h2&gt; undefined&lt;/h2&gt; 
-
-                        &lt;img src="null?w=500" /&gt; 
-
-                        &lt;p&gt; Elegantní kuchyňský odšťavňovač, který vám pomůže k lepšímu jídelníčku i zdravému životnímu stylu.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-</LONGDESC>
-     <PRIORITY>1</PRIORITY>
-     <PACKAGE_SIZE>smallbox</PACKAGE_SIZE>
-     <BARCODE>8809069584641</BARCODE>
-     <PRICE>14990</PRICE>
-     <VAT>21</VAT>
-     <RRP>14990</RRP>
-     
-<PARAM>
-                      <NAME>JUICERS_TYPE</NAME>
-                      <VALUE>šnekový</VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>TURN_PER_MIN</NAME>
-                      <VALUE>60/23</VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>INPUT</NAME>
-                      <VALUE>200 </VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>NUMBER_SPEEDS</NAME>
-                      <VALUE>1</VALUE>
-                    </PARAM>
-
-<PARAM>
-                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
-                      <VALUE>0,9</VALUE>
-                    </PARAM>
-
-     <MEDIA>
-      <URL>https://cdn.sanity.io/images/bvwt1scq/production/50d2f48bde67b4958b6b6664b0d8e19dd32bb564-819x1094.jpg?w=500</URL>
-      <MAIN>true</MAIN>
-     </MEDIA>
-     
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/3274e39ee2d326390581c98dd0a9c54dde1a8809-425x823.jpg?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
-
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/89a82941b95db800b9ead96c111a965594182f77-603x926.jpg?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
-
-     <DELIVERY_DELAY>0</DELIVERY_DELAY>
-   </ITEM>
-
-<ITEM>
-     <ID>ee9eb4216798</ID>
-     <STAGE>draft</STAGE>
-     <ITEMGROUP_ID>a6dbf6a5-3360-4a33-acc2-04a1114aae43</ITEMGROUP_ID>
-     <ITEMGROUP_TITLE>H-AI One stop</ITEMGROUP_TITLE>
-     <CATEGORY_ID>EB034</CATEGORY_ID>
-     <BRAND_ID>HUROM</BRAND_ID>
-     <TITLE>H-AI One stop | platinum</TITLE>
-     <SHORTDESC>Prémiový odšťavňovač Hurom H-AI H34 je designový kuchyňský pomocník, který zaujme na první pohled. Jednoduchý a stylový design, tichý chod a především praktický systém inteligentního zásobníku s podavačem, z něj dělá naprostou jedničku na světovém trhu mezi pomalými šnekovými odšťavňovači.</SHORTDESC>
-     <LONGDESC>
-&lt;div&gt; 
-
-                        &lt;h2&gt; Prémiová řada Hurom H-AI H34 One Stop&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/987f0416612a7de5982f85cf2bf3de93a1a3c170-653x800.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Šnekový lis v modelu H 34 "One Stop" se otočí 60 krát za minutu a věrně imituje proces ručního odšťavňování. Patentovaný systém odšťavňuje velmi nízkou rychlostí, tím pádem zde nedochází ke vzniku tepla a tím i degradaci vitamínů a minerálů ve šťávě. Rotační silikonové stěrky se otáčí v protisměru rychlostí 23 otáček za minutu a nenechají v odšťavňovací komoře žádný zbytek šťávy.
-
-
-&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Inteligentní zásobník&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/e653807567ac28a815b55193b8fe10f885c39392-650x435.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Je to snadné! Jednoduše umístěte předem připravené ingredience do praktické násypky a otočte kolečkem, během chvilky si pak pochutnáte na zdravé čerstvé šťávě. Šnek si sám vtáhne kousky ovoce nebo zeleniny do odšťavňovací komory. Pokud máte rádi čerstvou šťávu s větším podílem dužiny, vyměňte před samotným odšťavňování jemné sítko za hrubé a uzavřete regulační páčku. Větší otvory propustí více dužiny a výsledkem bude čersvý fresh, který konzistencí připomíná spíše smoothie.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Vylepšená klasická násypka &lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/2e418138b5382259fea1b17d687db5b235092cd7-353x304.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Kromě inteligentního zásobníku najdete v balení samozřejmě i standardní násypku s plnicí trubicí, která  je opatřena dávkovačem určeným na kořenovou zeleninu. Díky němu se snadno vyhnete vhození přiliš velkého kusu kořenové nebo vláknité zeleniny (mrkev, řepa, řapíkatý celer), které by jinak mohly spustit bezpečnostní pojistku a zastavit motor. Zastavení motoru standardně chrání díly před poškozením, hlavně při spadnutí cizího předmětu, např. lžíce nebo pecky, do plnicí trubice.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Skvělá chuť a živé barvy&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/35acc6d8b3f1b29f0f1bce52d10819b78927deb2-1136x852.webp?w=500" /&gt; 
-
-                        &lt;p&gt; Šťáva z odšťavňovače Hurom vždy svěže voní a má krásnou živou barvu. Perfektně zachovává vysokou výživovou hodnotu, díky nízkootáčkové extrakci šťávy, která pracuje na principu intezivního, ale pomalého stlačení odšťavňovaných surovin.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Inteligentní ovládání Jog Dial&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/a6e36d1585e483e2a198ca16b87b45ba8aedf63f-408x341.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Hurom vyřešil velmi elegantně i samotné ovládání přístroje. Otočné ovládání "Jog Dial" je umístěno na přední straně odšťavňovače pro zvýšení viditelnosti a pohodlí při jeho používání.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Regulační páčka&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/86b6c15d90cf273b2e4cc5d15b40501de16f9a59-404x435.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Tato chytrá ovládací páčka reguluje tlak uvnitř odšťavňovací komory.  S její pomocí docílíte většího tlaku a tím i jemné a kompaktnější chuti šťávy. S pomocí uzavřené regulační páčky snadno vyrobíte i „raw milk", milkshake či smoothie různých druhů. Díky této regulační páčce můžete upravovat objem nerozpustné vlákniny, která ze šnekového odšťavňovače vychází. &lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Neocenitelné drobnosti&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/decf8bd64b174bdd9b07bfb762c097637fdae480-370x340.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Vestavěná nádoba na odpad
-Tuhé složky z ovoce, zeleniny nebo ořechů, které zbyly po odšťavnění nyní pohodlně najdete ve vestavěném sběrném kontejneru. Ty poté můžete ještě dále zpracovat, anebo snadno zkompostovat.
-
-&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; Pokaždé něco navíc&lt;/h2&gt; 
-
-                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/4d7b7128bcfb346927049fd13af15c385e560877-370x340.jpg?w=500" /&gt; 
-
-                        &lt;p&gt; Odšťavňovací komora v mírném sklonu
-Odšťavňovat můžete i s uzavřenou výpustní zátkou, díky tomu se vše pěkně promíchá a výsledkem je osvěžující jemná šťáva. I zátka byla navržena tak, aby  umožnila, co nejlepší odtok tekutiny z mírně nakloněné odšťavňovací komory.
-
-One Stop
-Tato technologie povolí řídící jednotce spustit proces odšťavňování až ve chvíli, kdy jsou jednotlivé části přístroje bezpečně spojeny.
-
-Bez BPA a se silným Ultem
-Sítka a šnek jsou vyrobeny z materiálu Ultem, který se vyznačuje osmkrát vyšší odolností a trvanlivostí při porovnání s ostatními plasty. Další plastové části bez škodlivých BPA jsou naprostou samozřejmostí.&lt;/p&gt; 
-
-                      
-&lt;/div&gt; 
-
-&lt;div&gt; 
-
-                        &lt;h2&gt; undefined&lt;/h2&gt; 
-
-                        &lt;img src="null?w=500" /&gt; 
-
+                        
+                        
                         &lt;p&gt; Elegantní kuchyňský odšťavňovač, který vám pomůže k lepšímu jídelníčku i zdravému životnímu stylu.&lt;/p&gt; 
 
                       
@@ -2213,9 +1495,9 @@ Sítka a šnek jsou vyrobeny z materiálu Ultem, který se vyznačuje osmkrát v
      <PRIORITY>1</PRIORITY>
      <PACKAGE_SIZE>smallbox</PACKAGE_SIZE>
      <BARCODE>8809069584634</BARCODE>
-     <PRICE>14990</PRICE>
+     <PRICE>12990</PRICE>
      <VAT>21</VAT>
-     <RRP>14990</RRP>
+     <RRP>12990</RRP>
      
 <PARAM>
                       <NAME>JUICERS_TYPE</NAME>
@@ -2243,25 +1525,438 @@ Sítka a šnek jsou vyrobeny z materiálu Ultem, který se vyznačuje osmkrát v
                     </PARAM>
 
      <MEDIA>
-      <URL>https://cdn.sanity.io/images/bvwt1scq/production/3e59d27194f9e9617bb0e247d1e58b4e28cd523b-819x1094.jpg?w=500</URL>
+      <URL>https://cdn.sanity.io/images/bvwt1scq/production/367f7063af028af1f06d08cae9689d8da0bc839d-855x855.jpg</URL>
       <MAIN>true</MAIN>
      </MEDIA>
      
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/3aef9d33d0be5d114c3b1718dd57892aaa55bdf9-262x445.png?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
+     <DELIVERY_DELAY>0</DELIVERY_DELAY>
+   </ITEM>
 
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/b4ee0ef2b9770d674dcb8a935cea922c2742288f-186x445.png?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
+<ITEM>
+     <ID>4d1932723e29</ID>
+     <STAGE>draft</STAGE>
+     <ITEMGROUP_ID>b8f42862-a866-47a3-954f-a113d987c9a2</ITEMGROUP_ID>
+     <ITEMGROUP_TITLE>H 320 N</ITEMGROUP_TITLE>
+     <CATEGORY_ID>EB034</CATEGORY_ID>
+     <BRAND_ID>HUROM</BRAND_ID>
+     <TITLE>H 320 N | stříbrný</TITLE>
+     <SHORTDESC>Model H320N kombinuje výhody revolučního modelu H 200 a osvědčených modelů předchozích generací. Má všechny přednosti a inovace modelu H 200, především velkokapacitní inteligentní  zásobník a je vybaven klasickým děrovaným nerezovým sítkem, stejně jako předchozí modely. Díky tomu je šťáva více čirá a neobsahuje žádné kousky. Moderní barvy i elegantní design jsou samozřejmostí, na kterou jsme si již u značky HUROM zvykli.
 
-<MEDIA>
-                      <URL>https://cdn.sanity.io/images/bvwt1scq/production/8a4a0b04b915ff35a8b78aeca5e2904ddaa80fb8-182x445.png?w=500</URL>
-                      <MAIN>false</MAIN>
-                    </MEDIA>
 
+
+</SHORTDESC>
+     <LONGDESC>
+&lt;div&gt; 
+
+                        &lt;h2&gt; Návrat ke kořenům&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/bc4f9f62a8dcc6d11e8a18f21aa05e75d719cbf5-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; 
+Děrované nerezové  sítko je po generace odzkoušenou technologií v podání značky HUROM. Zde se výrobce vrátil k osvědčené klasice, díky které se do šťávy nedostanou žádné kousky. A i díky pomalým otáčkám (50 ot./min.) se snižuje produkce tepla a vliv oxidace. Proto si můžete na jazyku vychutnat jemnou šťávu z ovoce a zeleniny plnou přírodní chuti. &lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Velký vstupní otvor&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/79cea068765961b7e3ab2341363f791b394dfeb3-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; Díky opravdu velkému vstupnímu otvoru můžete vkládat celé plody. Celá jablka, červenou řepu, oloupané citrusy nebo třeba mrkev. Není třeba nic krájet. Velký 2 litrový zásobník můžete naplnit ovocem a zeleninou a vše najednou odšťavňit. Na víku inteligentního zásobníku je navíc otvor, kterým můžete přidávat další suroviny i během procesu odšťavňování.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Sám krájí i odšťavňuje.&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/91af01d5c3c16676c12e1a71e119ced84752af29-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; 
+Funkce automatické přípravy šťávy, je obzvlášť v dnešní hektické době velmi potěšující. Úspora času, který jste dříve museli věnovat krájení surovin, vede k maximálnímu pohodlí při výrobě čerstvé ovocné či zeleninové šťávy. Stačí jenom naplnit velký inteligentní zásobník a zdravá šťáva se vám vyrobí automaticky.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Vše dokonale spojí v jemnou šťávu&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/4dcef5e4cc0d2da3d47b11c54354fb1ddf2a8bcd-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; Rotační stěrka se pomalu otáčí rychlostí 17 ot./min. Vytírá jemné sítko a rovnoměrně promíchává šťávu, až vznikne dokonale jemný nápoj, plný přirozené chuti ovoce a zeleniny.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Použité materiály neobsahují BPA.&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/9cf078bc9f31f6af73b3a3f843e10ea7746f7200-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; 
+Všechny komponenty jsou vyráběny jenom z těch, pro lidský organismus, nejšetrnějších materiálů. Většina dílů je z Tritanu, který se používá ve zdravotnictví nebo na výrobu kojeneckých láhví. Sítka jsou částečně  z nerezové oceli, která je v potravinářství považována za ideální materiál. Je méně náchylná na usazení choroboplodných zárodků a snadno se čistí. Ultem, z kterého jsou vyrobené části sítek či šnek, je netoxický a odolá silnému tlaku. HUROM pečlivě vybírá použité materiály s ohledem na vaše zdraví.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+</LONGDESC>
+     <PRIORITY>1</PRIORITY>
+     <PACKAGE_SIZE>smallbox</PACKAGE_SIZE>
+     <BARCODE>8809686401079</BARCODE>
+     <PRICE>15990</PRICE>
+     <VAT>21</VAT>
+     <RRP>15990</RRP>
+     
+<PARAM>
+                      <NAME>JUICERS_TYPE</NAME>
+                      <VALUE>šnekový</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
+                      <VALUE>1</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>NUMBER_SPEEDS</NAME>
+                      <VALUE>1</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>TURN_PER_MIN</NAME>
+                      <VALUE>50 šnek /17 nůž        -</VALUE>
+                    </PARAM>
+
+     <MEDIA>
+      <URL>https://cdn.sanity.io/images/bvwt1scq/production/a224de9eb2c2f17a2394b95a7113ab6afa1c1d57-1200x1200.jpg</URL>
+      <MAIN>true</MAIN>
+     </MEDIA>
+     
+     <DELIVERY_DELAY>0</DELIVERY_DELAY>
+   </ITEM>
+
+<ITEM>
+     <ID>1193a3f02f16</ID>
+     <STAGE>draft</STAGE>
+     <ITEMGROUP_ID>b8f42862-a866-47a3-954f-a113d987c9a2</ITEMGROUP_ID>
+     <ITEMGROUP_TITLE>H 320 N</ITEMGROUP_TITLE>
+     <CATEGORY_ID>EB034</CATEGORY_ID>
+     <BRAND_ID>HUROM</BRAND_ID>
+     <TITLE>H 320 N | černý</TITLE>
+     <SHORTDESC>Model H320N kombinuje výhody revolučního modelu H 200 a osvědčených modelů předchozích generací. Má všechny přednosti a inovace modelu H 200, především velkokapacitní inteligentní  zásobník a je vybaven klasickým děrovaným nerezovým sítkem, stejně jako předchozí modely. Díky tomu je šťáva více čirá a neobsahuje žádné kousky. Moderní barvy i elegantní design jsou samozřejmostí, na kterou jsme si již u značky HUROM zvykli.
+
+
+
+</SHORTDESC>
+     <LONGDESC>
+&lt;div&gt; 
+
+                        &lt;h2&gt; Návrat ke kořenům&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/bc4f9f62a8dcc6d11e8a18f21aa05e75d719cbf5-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; 
+Děrované nerezové  sítko je po generace odzkoušenou technologií v podání značky HUROM. Zde se výrobce vrátil k osvědčené klasice, díky které se do šťávy nedostanou žádné kousky. A i díky pomalým otáčkám (50 ot./min.) se snižuje produkce tepla a vliv oxidace. Proto si můžete na jazyku vychutnat jemnou šťávu z ovoce a zeleniny plnou přírodní chuti. &lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Velký vstupní otvor&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/79cea068765961b7e3ab2341363f791b394dfeb3-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; Díky opravdu velkému vstupnímu otvoru můžete vkládat celé plody. Celá jablka, červenou řepu, oloupané citrusy nebo třeba mrkev. Není třeba nic krájet. Velký 2 litrový zásobník můžete naplnit ovocem a zeleninou a vše najednou odšťavňit. Na víku inteligentního zásobníku je navíc otvor, kterým můžete přidávat další suroviny i během procesu odšťavňování.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Sám krájí i odšťavňuje.&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/91af01d5c3c16676c12e1a71e119ced84752af29-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; 
+Funkce automatické přípravy šťávy, je obzvlášť v dnešní hektické době velmi potěšující. Úspora času, který jste dříve museli věnovat krájení surovin, vede k maximálnímu pohodlí při výrobě čerstvé ovocné či zeleninové šťávy. Stačí jenom naplnit velký inteligentní zásobník a zdravá šťáva se vám vyrobí automaticky.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Vše dokonale spojí v jemnou šťávu&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/4dcef5e4cc0d2da3d47b11c54354fb1ddf2a8bcd-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; Rotační stěrka se pomalu otáčí rychlostí 17 ot./min. Vytírá jemné sítko a rovnoměrně promíchává šťávu, až vznikne dokonale jemný nápoj, plný přirozené chuti ovoce a zeleniny.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Použité materiály neobsahují BPA.&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/9cf078bc9f31f6af73b3a3f843e10ea7746f7200-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; 
+Všechny komponenty jsou vyráběny jenom z těch, pro lidský organismus, nejšetrnějších materiálů. Většina dílů je z Tritanu, který se používá ve zdravotnictví nebo na výrobu kojeneckých láhví. Sítka jsou částečně  z nerezové oceli, která je v potravinářství považována za ideální materiál. Je méně náchylná na usazení choroboplodných zárodků a snadno se čistí. Ultem, z kterého jsou vyrobené části sítek či šnek, je netoxický a odolá silnému tlaku. HUROM pečlivě vybírá použité materiály s ohledem na vaše zdraví.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+</LONGDESC>
+     <PRIORITY>1</PRIORITY>
+     <PACKAGE_SIZE>smallbox</PACKAGE_SIZE>
+     <BARCODE>8809686401055</BARCODE>
+     <PRICE>15990</PRICE>
+     <VAT>21</VAT>
+     <RRP>15990</RRP>
+     
+<PARAM>
+                      <NAME>JUICERS_TYPE</NAME>
+                      <VALUE>šnekový</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
+                      <VALUE>1</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>NUMBER_SPEEDS</NAME>
+                      <VALUE>1</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>TURN_PER_MIN</NAME>
+                      <VALUE>50 šnek /17 nůž        -</VALUE>
+                    </PARAM>
+
+     <MEDIA>
+      <URL>https://cdn.sanity.io/images/bvwt1scq/production/16afbdd81c170e4e1bdb4ed1edb27d97a4e9754c-1200x1200.jpg</URL>
+      <MAIN>true</MAIN>
+     </MEDIA>
+     
+     <DELIVERY_DELAY>0</DELIVERY_DELAY>
+   </ITEM>
+
+<ITEM>
+     <ID>ffa2ea7d885c</ID>
+     <STAGE>draft</STAGE>
+     <ITEMGROUP_ID>b8f42862-a866-47a3-954f-a113d987c9a2</ITEMGROUP_ID>
+     <ITEMGROUP_TITLE>H 320 N</ITEMGROUP_TITLE>
+     <CATEGORY_ID>EB034</CATEGORY_ID>
+     <BRAND_ID>HUROM</BRAND_ID>
+     <TITLE>H 320 N | bílý</TITLE>
+     <SHORTDESC>Model H320N kombinuje výhody revolučního modelu H 200 a osvědčených modelů předchozích generací. Má všechny přednosti a inovace modelu H 200, především velkokapacitní inteligentní  zásobník a je vybaven klasickým děrovaným nerezovým sítkem, stejně jako předchozí modely. Díky tomu je šťáva více čirá a neobsahuje žádné kousky. Moderní barvy i elegantní design jsou samozřejmostí, na kterou jsme si již u značky HUROM zvykli.
+
+
+
+</SHORTDESC>
+     <LONGDESC>
+&lt;div&gt; 
+
+                        &lt;h2&gt; Návrat ke kořenům&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/bc4f9f62a8dcc6d11e8a18f21aa05e75d719cbf5-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; 
+Děrované nerezové  sítko je po generace odzkoušenou technologií v podání značky HUROM. Zde se výrobce vrátil k osvědčené klasice, díky které se do šťávy nedostanou žádné kousky. A i díky pomalým otáčkám (50 ot./min.) se snižuje produkce tepla a vliv oxidace. Proto si můžete na jazyku vychutnat jemnou šťávu z ovoce a zeleniny plnou přírodní chuti. &lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Velký vstupní otvor&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/79cea068765961b7e3ab2341363f791b394dfeb3-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; Díky opravdu velkému vstupnímu otvoru můžete vkládat celé plody. Celá jablka, červenou řepu, oloupané citrusy nebo třeba mrkev. Není třeba nic krájet. Velký 2 litrový zásobník můžete naplnit ovocem a zeleninou a vše najednou odšťavňit. Na víku inteligentního zásobníku je navíc otvor, kterým můžete přidávat další suroviny i během procesu odšťavňování.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Sám krájí i odšťavňuje.&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/91af01d5c3c16676c12e1a71e119ced84752af29-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; 
+Funkce automatické přípravy šťávy, je obzvlášť v dnešní hektické době velmi potěšující. Úspora času, který jste dříve museli věnovat krájení surovin, vede k maximálnímu pohodlí při výrobě čerstvé ovocné či zeleninové šťávy. Stačí jenom naplnit velký inteligentní zásobník a zdravá šťáva se vám vyrobí automaticky.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Vše dokonale spojí v jemnou šťávu&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/4dcef5e4cc0d2da3d47b11c54354fb1ddf2a8bcd-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; Rotační stěrka se pomalu otáčí rychlostí 17 ot./min. Vytírá jemné sítko a rovnoměrně promíchává šťávu, až vznikne dokonale jemný nápoj, plný přirozené chuti ovoce a zeleniny.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Použité materiály neobsahují BPA.&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/9cf078bc9f31f6af73b3a3f843e10ea7746f7200-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; 
+Všechny komponenty jsou vyráběny jenom z těch, pro lidský organismus, nejšetrnějších materiálů. Většina dílů je z Tritanu, který se používá ve zdravotnictví nebo na výrobu kojeneckých láhví. Sítka jsou částečně  z nerezové oceli, která je v potravinářství považována za ideální materiál. Je méně náchylná na usazení choroboplodných zárodků a snadno se čistí. Ultem, z kterého jsou vyrobené části sítek či šnek, je netoxický a odolá silnému tlaku. HUROM pečlivě vybírá použité materiály s ohledem na vaše zdraví.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+</LONGDESC>
+     <PRIORITY>1</PRIORITY>
+     <PACKAGE_SIZE>smallbox</PACKAGE_SIZE>
+     <BARCODE>8809686401062</BARCODE>
+     <PRICE>15990</PRICE>
+     <VAT>21</VAT>
+     <RRP>15990</RRP>
+     
+<PARAM>
+                      <NAME>JUICERS_TYPE</NAME>
+                      <VALUE>šnekový</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
+                      <VALUE>1</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>NUMBER_SPEEDS</NAME>
+                      <VALUE>1</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>TURN_PER_MIN</NAME>
+                      <VALUE>50 šnek /17 nůž        -</VALUE>
+                    </PARAM>
+
+     <MEDIA>
+      <URL>https://cdn.sanity.io/images/bvwt1scq/production/97fb62b26d4fc9ac3ad144ec9f22f5f7f78d1506-1200x1200.jpg</URL>
+      <MAIN>true</MAIN>
+     </MEDIA>
+     
+     <DELIVERY_DELAY>0</DELIVERY_DELAY>
+   </ITEM>
+
+<ITEM>
+     <ID>44797cba43a6</ID>
+     <STAGE>draft</STAGE>
+     <ITEMGROUP_ID>b8f42862-a866-47a3-954f-a113d987c9a2</ITEMGROUP_ID>
+     <ITEMGROUP_TITLE>H 320 N</ITEMGROUP_TITLE>
+     <CATEGORY_ID>EB034</CATEGORY_ID>
+     <BRAND_ID>HUROM</BRAND_ID>
+     <TITLE>H 320 N | tmavě zelený</TITLE>
+     <SHORTDESC>Model H320N kombinuje výhody revolučního modelu H 200 a osvědčených modelů předchozích generací. Má všechny přednosti a inovace modelu H 200, především velkokapacitní inteligentní  zásobník a je vybaven klasickým děrovaným nerezovým sítkem, stejně jako předchozí modely. Díky tomu je šťáva více čirá a neobsahuje žádné kousky. Moderní barvy i elegantní design jsou samozřejmostí, na kterou jsme si již u značky HUROM zvykli.
+
+
+
+</SHORTDESC>
+     <LONGDESC>
+&lt;div&gt; 
+
+                        &lt;h2&gt; Návrat ke kořenům&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/bc4f9f62a8dcc6d11e8a18f21aa05e75d719cbf5-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; 
+Děrované nerezové  sítko je po generace odzkoušenou technologií v podání značky HUROM. Zde se výrobce vrátil k osvědčené klasice, díky které se do šťávy nedostanou žádné kousky. A i díky pomalým otáčkám (50 ot./min.) se snižuje produkce tepla a vliv oxidace. Proto si můžete na jazyku vychutnat jemnou šťávu z ovoce a zeleniny plnou přírodní chuti. &lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Velký vstupní otvor&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/79cea068765961b7e3ab2341363f791b394dfeb3-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; Díky opravdu velkému vstupnímu otvoru můžete vkládat celé plody. Celá jablka, červenou řepu, oloupané citrusy nebo třeba mrkev. Není třeba nic krájet. Velký 2 litrový zásobník můžete naplnit ovocem a zeleninou a vše najednou odšťavňit. Na víku inteligentního zásobníku je navíc otvor, kterým můžete přidávat další suroviny i během procesu odšťavňování.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Sám krájí i odšťavňuje.&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/91af01d5c3c16676c12e1a71e119ced84752af29-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; 
+Funkce automatické přípravy šťávy, je obzvlášť v dnešní hektické době velmi potěšující. Úspora času, který jste dříve museli věnovat krájení surovin, vede k maximálnímu pohodlí při výrobě čerstvé ovocné či zeleninové šťávy. Stačí jenom naplnit velký inteligentní zásobník a zdravá šťáva se vám vyrobí automaticky.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Vše dokonale spojí v jemnou šťávu&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/4dcef5e4cc0d2da3d47b11c54354fb1ddf2a8bcd-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; Rotační stěrka se pomalu otáčí rychlostí 17 ot./min. Vytírá jemné sítko a rovnoměrně promíchává šťávu, až vznikne dokonale jemný nápoj, plný přirozené chuti ovoce a zeleniny.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+
+&lt;div&gt; 
+
+                        &lt;h2&gt; Použité materiály neobsahují BPA.&lt;/h2&gt; 
+
+                        &lt;img src="https://cdn.sanity.io/images/bvwt1scq/production/9cf078bc9f31f6af73b3a3f843e10ea7746f7200-783x602.jpg?w=500" /&gt; 
+
+                        &lt;p&gt; 
+Všechny komponenty jsou vyráběny jenom z těch, pro lidský organismus, nejšetrnějších materiálů. Většina dílů je z Tritanu, který se používá ve zdravotnictví nebo na výrobu kojeneckých láhví. Sítka jsou částečně  z nerezové oceli, která je v potravinářství považována za ideální materiál. Je méně náchylná na usazení choroboplodných zárodků a snadno se čistí. Ultem, z kterého jsou vyrobené části sítek či šnek, je netoxický a odolá silnému tlaku. HUROM pečlivě vybírá použité materiály s ohledem na vaše zdraví.&lt;/p&gt; 
+
+                      
+&lt;/div&gt; 
+</LONGDESC>
+     <PRIORITY>1</PRIORITY>
+     <PACKAGE_SIZE>smallbox</PACKAGE_SIZE>
+     <BARCODE>8809686401048</BARCODE>
+     <PRICE>15990</PRICE>
+     <VAT>21</VAT>
+     <RRP>15990</RRP>
+     
+<PARAM>
+                      <NAME>JUICERS_TYPE</NAME>
+                      <VALUE>šnekový</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>VESSEL_VOLUME_FOR_SQUSH</NAME>
+                      <VALUE>1</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>NUMBER_SPEEDS</NAME>
+                      <VALUE>1</VALUE>
+                    </PARAM>
+
+<PARAM>
+                      <NAME>TURN_PER_MIN</NAME>
+                      <VALUE>50 šnek /17 nůž        -</VALUE>
+                    </PARAM>
+
+     <MEDIA>
+      <URL>https://cdn.sanity.io/images/bvwt1scq/production/09c27650a4b61619d3ec1be9895540b290c0a674-2145x2108.jpg</URL>
+      <MAIN>true</MAIN>
+     </MEDIA>
+     
      <DELIVERY_DELAY>0</DELIVERY_DELAY>
    </ITEM>
 </ITEMS>
