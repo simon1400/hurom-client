@@ -14,6 +14,18 @@
    </AVAILABILITY>
 
 <AVAILABILITY>
+     <ID>47352777dee3</ID>
+     <IN_STOCK>undefined</IN_STOCK>
+     <ACTIVE>true</ACTIVE>
+   </AVAILABILITY>
+
+<AVAILABILITY>
+     <ID>fb45583e3bbc</ID>
+     <IN_STOCK>undefined</IN_STOCK>
+     <ACTIVE>true</ACTIVE>
+   </AVAILABILITY>
+
+<AVAILABILITY>
      <ID>3c4a70f1-7585-4f90-9a0a-6457f7803d54</ID>
      <IN_STOCK>99</IN_STOCK>
      <ACTIVE>true</ACTIVE>
@@ -33,18 +45,6 @@
 
 <AVAILABILITY>
      <ID>540db812-26e7-4b76-a63d-9ae2e5fd37de</ID>
-     <IN_STOCK>0</IN_STOCK>
-     <ACTIVE>true</ACTIVE>
-   </AVAILABILITY>
-
-<AVAILABILITY>
-     <ID>681f0761-ffb1-4672-8f4f-f9299f2e893f</ID>
-     <IN_STOCK>0</IN_STOCK>
-     <ACTIVE>true</ACTIVE>
-   </AVAILABILITY>
-
-<AVAILABILITY>
-     <ID>70b40f4baf58</ID>
      <IN_STOCK>0</IN_STOCK>
      <ACTIVE>true</ACTIVE>
    </AVAILABILITY>

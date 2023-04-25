@@ -13,6 +13,7 @@ const toXmlHeureka = require('./toXmlHeurekaFeed').default
 const toXmlGoogle = require('./toXmlGoogleFeed').default
 const toXmlZbozi = require('./toXmlZboziFeed').default
 const toXmlCustom = require('./toXmlCustomFeed').default
+const toXmlAlza = require('./toXmlAlzaFeed').default
 const toXmlFacebook = require('./toXmlFacebookFeed').default
 const toXmlGlobal = require('./toXmlGlobalFeed').default
 const toXmlMall = require('./toXmlMall').default
@@ -152,6 +153,7 @@ async function generateFeed() {
     const xmlGoogle = toXmlGoogle(productsData)
     const xmlZbozi = toXmlZbozi(productsData)
     const xmlCustom = toXmlCustom(productsData)
+    const xmlAlza = toXmlAlza(productsData)
     const xmlFacebook = toXmlFacebook(productsData)
     const xmlGlobal = toXmlGlobal(productsData)
     const xmlMall = toXmlMall(productsData)
@@ -161,6 +163,7 @@ async function generateFeed() {
     var pathGoogle = './public/google-feed.xml'
     var pathZbozi = './public/zbozi-feed.xml'
     var pathCustom = './public/1a6s8d465asd48a-feed.xml'
+    var pathAlza = './public/alza-Pzte5E127t-feed.xml'
     var pathFacebook = './public/facebook-feed.xml'
     var pathGlobal = './public/global-feed.xml'
     var pathMall = './public/mall-feed.xml'
@@ -170,6 +173,7 @@ async function generateFeed() {
     feedWrite(pathGoogle, xmlGoogle)
     feedWrite(pathZbozi, xmlZbozi)
     feedWrite(pathCustom, xmlCustom)
+    feedWrite(pathAlza, xmlAlza)
     feedWrite(pathFacebook, xmlFacebook)
     feedWrite(pathGlobal, xmlGlobal)
     feedWrite(pathMall, xmlMall)
