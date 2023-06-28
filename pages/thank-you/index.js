@@ -3,7 +3,6 @@ import {AxiosAPI} from '../../restClient'
 import { DataStateContext } from '../../context/dataStateContext'
 import Page from '../../layout/page'
 import Button from '../../components/Button'
-import Head from 'next/head'
 import TagManager from 'react-gtm-module'
 import axios from 'axios'
 

@@ -4,7 +4,6 @@ require("babel-register")({
 
 const sanityClient = require("../lib/sanity").default;
 const imageUrlBuilder = require("@sanity/image-url");
-const axios = require('axios')
 const imageBuilder = imageUrlBuilder(sanityClient);
 const urlFor = (source) => imageBuilder.image(source)
 const feedWrite = require("./feedWrite").default

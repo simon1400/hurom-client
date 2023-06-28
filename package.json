@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export",
+    "deploy": "pm2 deploy production",
     "sitemap": "NODE_ENV=prod babel-node ./functions/sitemap-generator.js",
     "feed": "NODE_ENV=prod babel-node ./functions/feed.js"
   },
