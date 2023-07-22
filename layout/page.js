@@ -12,6 +12,7 @@ import Search from './search'
 import CookieConsent from '../components/CookieConsent'
 
 import query from '../queries/page'
+import Cookies from 'js-cookie';
 
 const Page = ({
   children,
@@ -29,7 +30,6 @@ const Page = ({
   tags
 }) => {
 
-  const { dataContextState } = useContext(DataStateContext)
   const router = useRouter()
   const [global, setGlobal] = useState({
     site_url: process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://hurom.cz',
@@ -48,6 +48,15 @@ const Page = ({
         defaultTitle: res[1].endTitle || 'HUROM'
       })
     })
+    if(router.query?.['a_box']) {
+      const aBoxValue = router.query['a_box']
+      const cookieABoxValue = Cookies.get("a_box_partner_id")
+      console.log("aBoxValue", aBoxValue)
+      console.log("cookieABoxValue", cookieABoxValue)
+      if(cookieABoxValue !== aBoxValue) {
+        Cookies.set("a_box_partner_id", aBoxValue)
+      }
+    }
   }, [])
 
   const theTitle = title ? (title + global.defaultSep + global.defaultTitle).substring(0, 60) : global.defaultTitle;

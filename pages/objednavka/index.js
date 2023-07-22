@@ -5,6 +5,7 @@ import validationForm from '../../function/validationForm'
 import router from 'next/router'
 
 import Checkout from '../../view/Checkout'
+import Cookies from 'js-cookie'
 
 const CheckoutWrap = () => {
 
@@ -272,11 +273,12 @@ const CheckoutWrap = () => {
       check: {...state},
       description,
       basket: basketItems,
-      sum: sum
+      sum: sum,
+      a_box_partner_id: Cookies.get("a_box_partner_id")
     }
 
-    await axios.post(`https://api.hurom.cz/order`, dataSend).then(res => {
-
+    await axios.post(`http://localhost:9001/order`, dataSend).then(res => {
+      Cookies.remove("a_box_partner_id")
       if(dataSend.payOnline && res.data.data.redirect !== undefined){
         window.location.href = decodeURIComponent(res.data.data.redirect)
       }else{
