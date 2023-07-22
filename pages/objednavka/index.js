@@ -277,7 +277,7 @@ const CheckoutWrap = () => {
       a_box_partner_id: Cookies.get("a_box_partner_id")
     }
 
-    await axios.post(`http://localhost:9001/order`, dataSend).then(res => {
+    await axios.post(`https://api.hurom.cz/order`, dataSend).then(res => {
       Cookies.remove("a_box_partner_id")
       if(dataSend.payOnline && res.data.data.redirect !== undefined){
         window.location.href = decodeURIComponent(res.data.data.redirect)
