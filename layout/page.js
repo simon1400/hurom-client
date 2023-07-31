@@ -1,9 +1,8 @@
-import { useState, useEffect, useContext } from 'react';
+import { useState, useEffect } from 'react';
 import Head from 'next/head'
 import sanityClient from "../lib/sanity.js";
 import { useRouter } from 'next/router'
-
-import { DataStateContext } from '../context/dataStateContext'
+import axios from 'axios'
 
 import Header from './header'
 import Footer from './footer'
@@ -51,10 +50,9 @@ const Page = ({
     if(router.query?.['a_box']) {
       const aBoxValue = router.query['a_box']
       const cookieABoxValue = Cookies.get("a_box_partner_id")
-      console.log("aBoxValue", aBoxValue)
-      console.log("cookieABoxValue", cookieABoxValue)
       if(cookieABoxValue !== aBoxValue) {
         Cookies.set("a_box_partner_id", aBoxValue)
+        axios.post('https://api.hurom.cz/order/affilateClick/'+aBoxValue).then(() => console.log("affelateOk"))
       }
     }
   }, [])
@@ -66,15 +64,6 @@ const Page = ({
   return (
     <div>
       <Head>
-
-        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJN3SG2FPF"></script>
-        <script dangerouslySetInnerHTML={{__html: `window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-DJN3SG2FPF');
-          gtag('config', 'AW-465988455');`}} /> */}
-
 
         <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.js"></script>
 
