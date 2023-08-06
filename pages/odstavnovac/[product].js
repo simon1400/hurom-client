@@ -82,6 +82,7 @@ const ProductWrap = ({dataBread, startSelectValue, product, idsGTM}) => {
         id: product._id,
         nameProduct: product.title,
         price: product.price,
+        priceBeforeSale: product.priceBeforeSale,
         gift: product.gift,
         count: 1,
         image: product.image,

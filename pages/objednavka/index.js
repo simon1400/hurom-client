@@ -14,6 +14,7 @@ const CheckoutWrap = () => {
   const [startSum, setStartSum] = useState(0)
   const [sum, setSum] = useState(0)
   const [sale, setSale] = useState({value: 0, typ: ''})
+  
   const [deliveryMethod, setDeliveryMethod] = useState([
     {
       name: 'delivery',
@@ -106,7 +107,6 @@ const CheckoutWrap = () => {
     dic: dataContextState.user?.firmInfo?.dic || ''
   })
 
-  // const [password, setPassword] = useState('')
   const [description, setDescription] = useState('')
 
   const [state, setState] = useState({
@@ -138,33 +138,29 @@ const CheckoutWrap = () => {
     sale: false
   })
 
-  const handleStratSum = () => {
+  const handleSum = (typePrice) => {
     var newStartSum = 0
-    dataContextState.basket.map(item => {
-      newStartSum += +item.price * +item.count
-    })
+    dataContextState.basket.map(item => newStartSum += +item[typePrice] * +item.count)
     if(newStartSum > 2000){
       var newDeliveryMethod = [...deliveryMethod]
       var newPayMethod = [...payMethod]
       newDeliveryMethod.map(item => item.value = 0)
       newPayMethod.map(item => item.value = 0)
     }
-    setStartSum(newStartSum)
     return newStartSum
   }
 
   useEffect(() => {
-    setBasketItems(dataContextState.basket)
     if(!dataContextState.basket.length) {
       router.push('/')
     }
-    handleStratSum()
+    setBasketItems(dataContextState.basket)
+    setStartSum(handleSum('price'))
   }, [])
-
 
   useEffect(() => {
     if(sale.value){
-      var newSum = sum
+      var newSum = handleSum('priceBeforeSale')
       if(sale.typ === 'procent'){
         newSum = Math.round(newSum - (newSum * (sale.value / 100)))
       }else if(sale.typ === 'current'){
@@ -172,7 +168,6 @@ const CheckoutWrap = () => {
       }
       setSum(newSum)
     }
-
   }, [sale.value])
 
   useEffect(() => {
@@ -207,7 +202,7 @@ const CheckoutWrap = () => {
   }
 
   useEffect(() => {
-    setSum(handleStratSum())
+    setSum(handleSum('price'))
     sumWithOptions()
   }, [dataContextState.basket])
 
