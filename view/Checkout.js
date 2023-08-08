@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import loadable from '@loadable/component'
 import AnimateHeight from 'react-animate-height';
 import errorMessages from '../data/errorMessages'
@@ -34,6 +34,11 @@ const Checkout = ({
   setDescription,
   setSale
 }) => {
+
+  useEffect(() => {
+    setSaleCoupon('')
+    setSale({value: 0, typ: ''})
+  }, [payMethod, deliveryMethod])
 
   const [saleCoupon, setSaleCoupon] = useState('')
   const [heightProductsList, setHeightProductsLits] = useState(0)
@@ -129,7 +134,7 @@ const Checkout = ({
                   <table className="uk-table uk-table-divider uk-margin-remove-vertical">
                     <tbody>
                       {sale.value > 0 && <tr>
-                        <td>Sleva</td>
+                        <td>Celková sleva</td>
                         <td className="uk-text-right">{sale.value} {sale.typ === 'procent' ? '%' : 'Kč'}</td>
                       </tr>}
                       <tr>
