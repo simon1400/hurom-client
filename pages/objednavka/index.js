@@ -140,7 +140,13 @@ const CheckoutWrap = () => {
 
   const handleSum = (typePrice) => {
     var newStartSum = 0
-    dataContextState.basket.map(item => newStartSum += +item[typePrice] * +item.count)
+    dataContextState.basket.map(item => {
+      if(typePrice === 'priceBeforeSale' && item.priceBeforeSale) {
+        return newStartSum += +item.priceBeforeSale * +item.count
+      }else{
+        return newStartSum += item.price * +item.count
+      }
+    })
     if(newStartSum > 2000){
       var newDeliveryMethod = [...deliveryMethod]
       var newPayMethod = [...payMethod]
