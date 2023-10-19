@@ -32,7 +32,9 @@ const Checkout = ({
   setAnotherAddress,
   setFirmInfo,
   setDescription,
-  setSale
+  setSale,
+  setSaleCoupon,
+  saleCoupon
 }) => {
 
   useEffect(() => {
@@ -40,7 +42,6 @@ const Checkout = ({
     setSale({value: 0, typ: ''})
   }, [payMethod, deliveryMethod])
 
-  const [saleCoupon, setSaleCoupon] = useState('')
   const [heightProductsList, setHeightProductsLits] = useState(0)
 
   const toggleProductsList = (e) => {

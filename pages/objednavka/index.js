@@ -14,6 +14,8 @@ const CheckoutWrap = () => {
   const [startSum, setStartSum] = useState(0)
   const [sum, setSum] = useState(0)
   const [sale, setSale] = useState({value: 0, typ: ''})
+
+  const [saleCoupon, setSaleCoupon] = useState('')
   
   const [deliveryMethod, setDeliveryMethod] = useState([
     {
@@ -302,6 +304,8 @@ const CheckoutWrap = () => {
       setState={setState}
       payMethod={payMethod}
       basketItems={basketItems}
+      setSaleCoupon={setSaleCoupon}
+      saleCoupon={saleCoupon}
       contactInfo={contactInfo}
       setFirmInfo={setFirmInfo}
       description={description}
