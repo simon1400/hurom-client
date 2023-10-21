@@ -255,7 +255,6 @@ const CheckoutWrap = () => {
       return
     }
 
-
     const dataSend = {
       email: contactInfo.email,
       delivery: {
@@ -272,6 +271,7 @@ const CheckoutWrap = () => {
       status: 'PENDING',
       payOnline: checkPayment.payOnline,
       sale,
+      saleCoupon,
       firmInfo,
       check: {...state},
       description,
