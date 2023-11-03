@@ -6,9 +6,12 @@ const toXml = data => {
     paramStr = ''
     if(item.parametry && item.parametry.length){
       item.parametry.map(itemParameter => {
-        var valueTypeParameters = item.params.filter(param => param._id === itemParameter.parameter._ref)[0].value
+        let filter = item.params.filter(param => param._id === itemParameter.parameter._ref)[0]
+        var valueTypeParameters = filter.value
+        let head = filter.head
+        let alzaName = filter?.alzaName
         paramStr += `\n<PARAM>
-                      <PARAM_NAME>${item.params.filter(param => param._id === itemParameter.parameter._ref)[0].head}</PARAM_NAME>
+                      <PARAM_NAME>${alzaName?.length ? alzaName : head}</PARAM_NAME>
                       <VAL>${itemParameter.value}${valueTypeParameters ? ' ' + valueTypeParameters : ''}</VAL>
                     </PARAM>\n`
       })
