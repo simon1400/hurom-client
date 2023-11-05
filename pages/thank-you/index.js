@@ -20,7 +20,7 @@ export async function getServerSideProps({query}) {
 
   const res = await axios.get(`https://api.hurom.cz/payment/status/${query.refId}`)
 
-  // await axios.post('https://api.hurom.cz/send/orderInfo', res.data.data[0])
+  await axios.post('https://api.hurom.cz/send/orderInfo', res.data.data[0])
 
   var basItem
   var orderBasket = res.data.data[0].basket.map((item, index) => {

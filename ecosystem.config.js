@@ -1,6 +1,8 @@
 module.exports = {
   apps : [{
     name   : "Hurom client",
+    watch: true,
+    ignore_watch : ["node_modules", "client/img", "\\.git", "*.log"],
     script : "yarn start",
     env_production: {}
   }],

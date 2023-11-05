@@ -10,6 +10,7 @@ const toXml = data => {
         var valueTypeParameters = filter.value
         let head = filter.head
         let alzaName = filter.alzaName
+        console.log(alzaName)
         paramStr += `\n<PARAM>
                       <PARAM_NAME>${alzaName ? alzaName : head}</PARAM_NAME>
                       <VAL>${itemParameter.value}${valueTypeParameters ? ' ' + valueTypeParameters : ''}</VAL>
