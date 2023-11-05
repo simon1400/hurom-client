@@ -32,8 +32,21 @@
      <google_product_category>750</google_product_category>
    </item>
 <item>
+     <id>d7d8cfa8b2c6</id>
+     <title>Odšťavňovač HV 2. generace | stříbrný</title>
+     <description>Zdravé ovocné a zeleninové šťávy během chvilky, přímo u vás doma. Nízkootáčkový šnekový odšťavňovač Hurom HV 2. generace je to pravé pro vás!</description>
+     <link>https://hurom.cz/odstavnovac/hv-2-generace?variant=stribrny</link>
+     <image_link>https://cdn.sanity.io/images/bvwt1scq/production/445941f45151e5f10b2186c3927f29ebd2dc4c39-419x706.jpg</image_link>
+     <availability>in stock</availability>
+     <condition>new</condition>
+     <price>9990 CZK</price>
+     <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
+   </item>
+<item>
      <id>47352777dee3</id>
-     <title>H 310 A | bílý</title>
+     <title>Odšťavňovač H 310 A | bílý</title>
      <description>Nejjednodušší system odšťavňování na světě. Srdce přístroje tvoří pouze jeden díl. Sítko i šnek  v jednom.</description>
      <link>https://hurom.cz/odstavnovac/h-310-a?variant=bily</link>
      <image_link>https://cdn.sanity.io/images/bvwt1scq/production/1bdbf08fa50697b86346640c860ec36b629b862f-1200x1200.jpg</image_link>
@@ -46,7 +59,7 @@
    </item>
 <item>
      <id>fb45583e3bbc</id>
-     <title>H 310 A | černý</title>
+     <title>Odšťavňovač H 310 A | černý</title>
      <description>Nejjednodušší system odšťavňování na světě. Srdce přístroje tvoří pouze jeden díl. Sítko i šnek  v jednom.</description>
      <link>https://hurom.cz/odstavnovac/h-310-a?variant=cerny</link>
      <image_link>https://cdn.sanity.io/images/bvwt1scq/production/dfca78374c94637bc091e185d76aad58ae102aab-1200x1200.jpg</image_link>
@@ -97,19 +110,6 @@
      <google_product_category>750</google_product_category>
    </item>
 <item>
-     <id>540db812-26e7-4b76-a63d-9ae2e5fd37de</id>
-     <title>Odšťavňovač S 13</title>
-     <description>Nový přírustek do rodiny HUROM za bezkonkurenční cenu. Kvalitní šťáva plná vitamínu dostupná pro každého.</description>
-     <link>https://hurom.cz/odstavnovac/s-13</link>
-     <image_link>https://cdn.sanity.io/images/bvwt1scq/production/a054da1b9f47c61dee8a575c93ff81980d09533f-1013x2000.jpg</image_link>
-     <availability>in stock</availability>
-     <condition>new</condition>
-     <price>8990 CZK</price>
-     <brand>HUROM</brand>
-     <inventory>10</inventory>
-     <google_product_category>750</google_product_category>
-   </item>
-<item>
      <id>2185fa869cbf</id>
      <title>Odšťavňovač H 200 | červený</title>
      <description>Získejte to nejlepší z čerstvého ovoce a zeleniny, díky pomalé extrakci. Vylisujte si čerstvou šťávu v pohodlí domova a během několika okamžiků.</description>
@@ -117,7 +117,7 @@
      <image_link>https://cdn.sanity.io/images/bvwt1scq/production/76fab5642dee552f2cbdac4ea131cd46b907dcb7-1200x1200.png</image_link>
      <availability>in stock</availability>
      <condition>new</condition>
-     <price>14990 CZK</price>
+     <price>14490 CZK</price>
      <brand>HUROM</brand>
      <inventory>10</inventory>
      <google_product_category>750</google_product_category>
@@ -130,14 +130,14 @@
      <image_link>https://cdn.sanity.io/images/bvwt1scq/production/9292dd3014a45369c84095a09b738ec70facdf9a-600x600.jpg</image_link>
      <availability>in stock</availability>
      <condition>new</condition>
-     <price>14990 CZK</price>
+     <price>14490 CZK</price>
      <brand>HUROM</brand>
      <inventory>10</inventory>
      <google_product_category>750</google_product_category>
    </item>
 <item>
      <id>a064d3ab-16f0-4645-a58a-453454ebf204</id>
-     <title>Odšťavňovač HW  - commercial</title>
+     <title>Odšťavňovač HW  -Normal hopper commercial </title>
      <description>Čerstvé ovocné a zeleninové šťávy během chvilky kdykoliv. Nízkootáčkový šnekový odšťavňovač Hurom HW 2. generace je správná volba!</description>
      <link>https://hurom.cz/odstavnovac/hw-commercial</link>
      <image_link>https://cdn.sanity.io/images/bvwt1scq/production/ac23c1779baff240143b228eaad9862ce6ba3273-1000x1000.jpg</image_link>
@@ -156,43 +156,69 @@
      <image_link>https://cdn.sanity.io/images/bvwt1scq/production/367f7063af028af1f06d08cae9689d8da0bc839d-855x855.jpg</image_link>
      <availability>in stock</availability>
      <condition>new</condition>
-     <price>12990 CZK</price>
+     <price>11690 CZK</price>
      <brand>HUROM</brand>
      <inventory>10</inventory>
      <google_product_category>750</google_product_category>
    </item>
 <item>
      <id>4d1932723e29</id>
-     <title>H 320 N | stříbrný</title>
+     <title>Odšťavňovač H 320 N | stříbrný</title>
      <description>Připravte si sklenici lahodné ovocné či zeleninové šťávy, aniž by jste museli použité suroviny krájet.</description>
      <link>https://hurom.cz/odstavnovac/h-320-n?variant=stribrny</link>
      <image_link>https://cdn.sanity.io/images/bvwt1scq/production/a224de9eb2c2f17a2394b95a7113ab6afa1c1d57-1200x1200.jpg</image_link>
      <availability>in stock</availability>
      <condition>new</condition>
-     <price>15990 CZK</price>
-     <brand>HUROM</brand>
-     <inventory>10</inventory>
-     <google_product_category>750</google_product_category>
-   </item>
-<item>
-     <id>1193a3f02f16</id>
-     <title>H 320 N | černý</title>
-     <description>Připravte si sklenici lahodné ovocné či zeleninové šťávy, aniž by jste museli použité suroviny krájet.</description>
-     <link>https://hurom.cz/odstavnovac/h-320-n?variant=cerny</link>
-     <image_link>https://cdn.sanity.io/images/bvwt1scq/production/16afbdd81c170e4e1bdb4ed1edb27d97a4e9754c-1200x1200.jpg</image_link>
-     <availability>in stock</availability>
-     <condition>new</condition>
-     <price>15990 CZK</price>
+     <price>15490 CZK</price>
      <brand>HUROM</brand>
      <inventory>10</inventory>
      <google_product_category>750</google_product_category>
    </item>
 <item>
      <id>ffa2ea7d885c</id>
-     <title>H 320 N | bílý</title>
+     <title>Odšťavňovač H 320 N | bílý</title>
      <description>Připravte si sklenici lahodné ovocné či zeleninové šťávy, aniž by jste museli použité suroviny krájet.</description>
      <link>https://hurom.cz/odstavnovac/h-320-n?variant=bily</link>
      <image_link>https://cdn.sanity.io/images/bvwt1scq/production/97fb62b26d4fc9ac3ad144ec9f22f5f7f78d1506-1200x1200.jpg</image_link>
+     <availability>in stock</availability>
+     <condition>new</condition>
+     <price>15490 CZK</price>
+     <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
+   </item>
+<item>
+     <id>f2b900d217e2</id>
+     <title>Odšťavňovač H 320 N | tmavě zelená</title>
+     <description>Připravte si sklenici lahodné ovocné či zeleninové šťávy, aniž by jste museli použité suroviny krájet.</description>
+     <link>https://hurom.cz/odstavnovac/h-320-n?variant=tmave-zelena</link>
+     <image_link>https://cdn.sanity.io/images/bvwt1scq/production/0626f3dd093c5a276b4c94e4e3c174fa18e7408b-2355x3140.png</image_link>
+     <availability>in stock</availability>
+     <condition>new</condition>
+     <price>15490 CZK</price>
+     <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
+   </item>
+<item>
+     <id>14b42784ae54</id>
+     <title>Odšťavňovač H 320 N | černý</title>
+     <description>Připravte si sklenici lahodné ovocné či zeleninové šťávy, aniž by jste museli použité suroviny krájet.</description>
+     <link>https://hurom.cz/odstavnovac/h-320-n?variant=cerny</link>
+     <image_link>https://cdn.sanity.io/images/bvwt1scq/production/aa485cfc64854d0add1f9972e17c9ae2b4b13746-3840x2160.jpg</image_link>
+     <availability>in stock</availability>
+     <condition>new</condition>
+     <price>15490 CZK</price>
+     <brand>HUROM</brand>
+     <inventory>10</inventory>
+     <google_product_category>750</google_product_category>
+   </item>
+<item>
+     <id>d75e80f63702</id>
+     <title>Hurom H400 | stříbrný</title>
+     <description>undefined</description>
+     <link>https://hurom.cz/odstavnovac/hurom-h400?variant=stribrny</link>
+     <image_link>https://cdn.sanity.io/images/bvwt1scq/production/7ab8636009be32163d00b4dcf72bfd329101ed2d-716x716.jpg</image_link>
      <availability>in stock</availability>
      <condition>new</condition>
      <price>15990 CZK</price>
@@ -201,14 +227,14 @@
      <google_product_category>750</google_product_category>
    </item>
 <item>
-     <id>44797cba43a6</id>
-     <title>H 320 N | tmavě zelený</title>
-     <description>Připravte si sklenici lahodné ovocné či zeleninové šťávy, aniž by jste museli použité suroviny krájet.</description>
-     <link>https://hurom.cz/odstavnovac/h-320-n?variant=tmave-zeleny</link>
-     <image_link>https://cdn.sanity.io/images/bvwt1scq/production/09c27650a4b61619d3ec1be9895540b290c0a674-2145x2108.jpg</image_link>
+     <id>e82ca8ae-97b5-40f4-be60-11e777ab7112</id>
+     <title>Odšťavňovač HW Smart hopper - commercial</title>
+     <description>Čerstvé ovocné a zeleninové šťávy během chvilky kdykoliv. Nízkootáčkový šnekový odšťavňovač Hurom HW 2. generace je správná volba!</description>
+     <link>https://hurom.cz/odstavnovac/hurom-or-hw-smart-hopper-commercial</link>
+     <image_link>https://cdn.sanity.io/images/bvwt1scq/production/126ac8d59cd4e627e6ef685e15ca90fd7cdc1983-800x800.jpg</image_link>
      <availability>in stock</availability>
      <condition>new</condition>
-     <price>15990 CZK</price>
+     <price>36179 CZK</price>
      <brand>HUROM</brand>
      <inventory>10</inventory>
      <google_product_category>750</google_product_category>

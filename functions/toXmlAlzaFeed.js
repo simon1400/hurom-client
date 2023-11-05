@@ -9,9 +9,9 @@ const toXml = data => {
         let filter = item.params.filter(param => param._id === itemParameter.parameter._ref)[0]
         var valueTypeParameters = filter.value
         let head = filter.head
-        let alzaName = filter?.alzaName
+        let alzaName = filter.alzaName
         paramStr += `\n<PARAM>
-                      <PARAM_NAME>${alzaName?.length ? alzaName : head}</PARAM_NAME>
+                      <PARAM_NAME>${alzaName ? alzaName : head}</PARAM_NAME>
                       <VAL>${itemParameter.value}${valueTypeParameters ? ' ' + valueTypeParameters : ''}</VAL>
                     </PARAM>\n`
       })

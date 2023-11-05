@@ -76,8 +76,8 @@
      <EAN>8809069585921</EAN>
      <PRODUCTNO>8809069585921</PRODUCTNO>
      <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
-     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
-     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
+     
+     
    </SHOPITEM>
 
 <SHOPITEM>
@@ -155,14 +155,73 @@
      <EAN>8809069585914</EAN>
      <PRODUCTNO>8809069585914</PRODUCTNO>
      <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
-     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
-     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
+     
+     
+   </SHOPITEM>
+
+<SHOPITEM>
+     <ITEM_ID>d7d8cfa8b2c6</ITEM_ID>
+     <PRODUCTNAME>HUROM | Odšťavňovač HV 2. generace | stříbrný</PRODUCTNAME>
+     <PRODUCT>Odšťavňovač HV 2. generace | stříbrný</PRODUCT>
+     <DESCRIPTION>Zdravé ovocné a zeleninové šťávy během chvilky, přímo u vás doma. Nízkootáčkový šnekový odšťavňovač Hurom HV 2. generace je to pravé pro vás!</DESCRIPTION>
+     <URL>https://hurom.cz/odstavnovac/hv-2-generace?variant=stribrny</URL>
+     <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/445941f45151e5f10b2186c3927f29ebd2dc4c39-419x706.jpg</IMGURL>
+     <PRICE_VAT>9990</PRICE_VAT>
+     
+<PARAM>
+                      <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
+                      <VAL>šnekový</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Uložení šneku</PARAM_NAME>
+                      <VAL>vertikální</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Příkon</PARAM_NAME>
+                      <VAL>150  W</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Výrobce</PARAM_NAME>
+                      <VAL>Hurom</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Protiskluzové nožičky</PARAM_NAME>
+                      <VAL>ano</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Možnost mytí v myčce </PARAM_NAME>
+                      <VAL>ano</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Počet rychlostí</PARAM_NAME>
+                      <VAL>1</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Objem nádoby na šťávu</PARAM_NAME>
+                      <VAL>1 l</VAL>
+                    </PARAM>
+
+     <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
+     <DELIVERY_DATE>0</DELIVERY_DATE>
+     <EAN>6957754804740</EAN>
+     <PRODUCTNO>6957754804740</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     
+     
    </SHOPITEM>
 
 <SHOPITEM>
      <ITEM_ID>47352777dee3</ITEM_ID>
-     <PRODUCTNAME>HUROM | H 310 A | bílý</PRODUCTNAME>
-     <PRODUCT>H 310 A | bílý</PRODUCT>
+     <PRODUCTNAME>HUROM | Odšťavňovač H 310 A | bílý</PRODUCTNAME>
+     <PRODUCT>Odšťavňovač H 310 A | bílý</PRODUCT>
      <DESCRIPTION>Nejjednodušší system odšťavňování na světě. Srdce přístroje tvoří pouze jeden díl. Sítko i šnek  v jednom.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-310-a?variant=bily</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/1bdbf08fa50697b86346640c860ec36b629b862f-1200x1200.jpg</IMGURL>
@@ -220,8 +279,8 @@
 
 <SHOPITEM>
      <ITEM_ID>fb45583e3bbc</ITEM_ID>
-     <PRODUCTNAME>HUROM | H 310 A | černý</PRODUCTNAME>
-     <PRODUCT>H 310 A | černý</PRODUCT>
+     <PRODUCTNAME>HUROM | Odšťavňovač H 310 A | černý</PRODUCTNAME>
+     <PRODUCT>Odšťavňovač H 310 A | černý</PRODUCT>
      <DESCRIPTION>Nejjednodušší system odšťavňování na světě. Srdce přístroje tvoří pouze jeden díl. Sítko i šnek  v jednom.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-310-a?variant=cerny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/dfca78374c94637bc091e185d76aad58ae102aab-1200x1200.jpg</IMGURL>
@@ -396,8 +455,8 @@
      <EAN>880906956218</EAN>
      <PRODUCTNO>880906956218</PRODUCTNO>
      <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
-     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
-     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
+     
+     
    </SHOPITEM>
 
 <SHOPITEM>
@@ -465,80 +524,6 @@
      <EAN>8809069585402</EAN>
      <PRODUCTNO>8809069585402</PRODUCTNO>
      <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
-     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
-     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
-   </SHOPITEM>
-
-<SHOPITEM>
-     <ITEM_ID>540db812-26e7-4b76-a63d-9ae2e5fd37de</ITEM_ID>
-     <PRODUCTNAME>HUROM | Odšťavňovač S 13</PRODUCTNAME>
-     <PRODUCT>Odšťavňovač S 13</PRODUCT>
-     <DESCRIPTION>Nový přírustek do rodiny HUROM za bezkonkurenční cenu. Kvalitní šťáva plná vitamínu dostupná pro každého.</DESCRIPTION>
-     <URL>https://hurom.cz/odstavnovac/s-13</URL>
-     <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/a054da1b9f47c61dee8a575c93ff81980d09533f-1013x2000.jpg</IMGURL>
-     <PRICE_VAT>8990</PRICE_VAT>
-     
-<PARAM>
-                      <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
-                      <VAL>šnekový</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Uložení šneku</PARAM_NAME>
-                      <VAL>vertikální</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Otáčky</PARAM_NAME>
-                      <VAL>70 otáček za minutu</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Rozměry</PARAM_NAME>
-                      <VAL>17,3 x 23,7 x 43,0 cm</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Příkon</PARAM_NAME>
-                      <VAL>150 W</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Váha</PARAM_NAME>
-                      <VAL>6,5 kg</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Výrobce</PARAM_NAME>
-                      <VAL>Hurom</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Možnost mytí v myčce </PARAM_NAME>
-                      <VAL>ano</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Protiskluzové nožičky</PARAM_NAME>
-                      <VAL>ano</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Počet rychlostí</PARAM_NAME>
-                      <VAL>1</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Objem nádoby na šťávu</PARAM_NAME>
-                      <VAL>0,5 l</VAL>
-                    </PARAM>
-
-     <MANUFACTURER>HUROM</MANUFACTURER>
-     <BRAND>HUROM</BRAND>
-     <DELIVERY_DATE>0</DELIVERY_DATE>
-     <EAN>8809069581220</EAN>
-     <PRODUCTNO>8809069581220</PRODUCTNO>
-     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
      
      
    </SHOPITEM>
@@ -550,7 +535,7 @@
      <DESCRIPTION>Získejte to nejlepší z čerstvého ovoce a zeleniny, díky pomalé extrakci. Vylisujte si čerstvou šťávu v pohodlí domova a během několika okamžiků.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-200?variant=cerveny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/76fab5642dee552f2cbdac4ea131cd46b907dcb7-1200x1200.png</IMGURL>
-     <PRICE_VAT>14990</PRICE_VAT>
+     <PRICE_VAT>14490</PRICE_VAT>
      
 <PARAM>
                       <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
@@ -624,7 +609,7 @@
      <DESCRIPTION>Získejte to nejlepší z čerstvého ovoce a zeleniny, díky pomalé extrakci. Vylisujte si čerstvou šťávu v pohodlí domova a během několika okamžiků.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-200?variant=stribrny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/9292dd3014a45369c84095a09b738ec70facdf9a-600x600.jpg</IMGURL>
-     <PRICE_VAT>14990</PRICE_VAT>
+     <PRICE_VAT>14490</PRICE_VAT>
      
 <PARAM>
                       <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
@@ -693,8 +678,8 @@
 
 <SHOPITEM>
      <ITEM_ID>a064d3ab-16f0-4645-a58a-453454ebf204</ITEM_ID>
-     <PRODUCTNAME>HUROM | Odšťavňovač HW  - commercial</PRODUCTNAME>
-     <PRODUCT>Odšťavňovač HW  - commercial</PRODUCT>
+     <PRODUCTNAME>HUROM | Odšťavňovač HW  -Normal hopper commercial </PRODUCTNAME>
+     <PRODUCT>Odšťavňovač HW  -Normal hopper commercial </PRODUCT>
      <DESCRIPTION>Čerstvé ovocné a zeleninové šťávy během chvilky kdykoliv. Nízkootáčkový šnekový odšťavňovač Hurom HW 2. generace je správná volba!</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/hw-commercial</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/ac23c1779baff240143b228eaad9862ce6ba3273-1000x1000.jpg</IMGURL>
@@ -766,8 +751,8 @@
      <EAN>8809069582173</EAN>
      <PRODUCTNO>8809069582173</PRODUCTNO>
      <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
-     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
-     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
+     
+     
    </SHOPITEM>
 
 <SHOPITEM>
@@ -777,7 +762,7 @@
      <DESCRIPTION>Vyzkoušejte sílu prémiového šnekového odšťavňovače Hurom H-AI H34. Jedinečný zážitek z čerstvých přírodních šťáv, kdykoliv a přímo u vás doma.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-ai-one-stop?variant=platinum</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/367f7063af028af1f06d08cae9689d8da0bc839d-855x855.jpg</IMGURL>
-     <PRICE_VAT>12990</PRICE_VAT>
+     <PRICE_VAT>11690</PRICE_VAT>
      
 <PARAM>
                       <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
@@ -856,12 +841,12 @@
 
 <SHOPITEM>
      <ITEM_ID>4d1932723e29</ITEM_ID>
-     <PRODUCTNAME>HUROM | H 320 N | stříbrný</PRODUCTNAME>
-     <PRODUCT>H 320 N | stříbrný</PRODUCT>
+     <PRODUCTNAME>HUROM | Odšťavňovač H 320 N | stříbrný</PRODUCTNAME>
+     <PRODUCT>Odšťavňovač H 320 N | stříbrný</PRODUCT>
      <DESCRIPTION>Připravte si sklenici lahodné ovocné či zeleninové šťávy, aniž by jste museli použité suroviny krájet.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-320-n?variant=stribrny</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/a224de9eb2c2f17a2394b95a7113ab6afa1c1d57-1200x1200.jpg</IMGURL>
-     <PRICE_VAT>15990</PRICE_VAT>
+     <PRICE_VAT>15490</PRICE_VAT>
      
 <PARAM>
                       <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
@@ -916,6 +901,26 @@
 <PARAM>
                       <PARAM_NAME>Otáčky</PARAM_NAME>
                       <VAL>50 šnek /17 nůž        - otáček za minutu</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Hloubka obalu v cm</PARAM_NAME>
+                      <VAL>50</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Výška obalu v cm</PARAM_NAME>
+                      <VAL>30</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Šířka obalu v cm</PARAM_NAME>
+                      <VAL>25</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Váha vč. obalu v kg</PARAM_NAME>
+                      <VAL>14</VAL>
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
@@ -924,92 +929,18 @@
      <EAN>8809686401079</EAN>
      <PRODUCTNO>8809686401079</PRODUCTNO>
      <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
-     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
-     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
-   </SHOPITEM>
-
-<SHOPITEM>
-     <ITEM_ID>1193a3f02f16</ITEM_ID>
-     <PRODUCTNAME>HUROM | H 320 N | černý</PRODUCTNAME>
-     <PRODUCT>H 320 N | černý</PRODUCT>
-     <DESCRIPTION>Připravte si sklenici lahodné ovocné či zeleninové šťávy, aniž by jste museli použité suroviny krájet.</DESCRIPTION>
-     <URL>https://hurom.cz/odstavnovac/h-320-n?variant=cerny</URL>
-     <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/16afbdd81c170e4e1bdb4ed1edb27d97a4e9754c-1200x1200.jpg</IMGURL>
-     <PRICE_VAT>15990</PRICE_VAT>
      
-<PARAM>
-                      <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
-                      <VAL>šnekový</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Uložení šneku</PARAM_NAME>
-                      <VAL>vertikální</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Výrobce</PARAM_NAME>
-                      <VAL>Hurom</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Objem nádoby na šťávu</PARAM_NAME>
-                      <VAL>1 l</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Počet rychlostí</PARAM_NAME>
-                      <VAL>1</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Možnost mytí v myčce </PARAM_NAME>
-                      <VAL>ano</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Protiskluzové nožičky</PARAM_NAME>
-                      <VAL>ano</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Rozměry</PARAM_NAME>
-                      <VAL> 	24.8 × 22.3 × 46.2 cm</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Délka přívodní šňůry</PARAM_NAME>
-                      <VAL>1,5 m</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Váha</PARAM_NAME>
-                      <VAL>9,9 kg</VAL>
-                    </PARAM>
-
-<PARAM>
-                      <PARAM_NAME>Otáčky</PARAM_NAME>
-                      <VAL>50 šnek /17 nůž        - otáček za minutu</VAL>
-                    </PARAM>
-
-     <MANUFACTURER>HUROM</MANUFACTURER>
-     <BRAND>HUROM</BRAND>
-     <DELIVERY_DATE>0</DELIVERY_DATE>
-     <EAN>8809686401055</EAN>
-     <PRODUCTNO>8809686401055</PRODUCTNO>
-     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
-     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
-     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
+     
    </SHOPITEM>
 
 <SHOPITEM>
      <ITEM_ID>ffa2ea7d885c</ITEM_ID>
-     <PRODUCTNAME>HUROM | H 320 N | bílý</PRODUCTNAME>
-     <PRODUCT>H 320 N | bílý</PRODUCT>
+     <PRODUCTNAME>HUROM | Odšťavňovač H 320 N | bílý</PRODUCTNAME>
+     <PRODUCT>Odšťavňovač H 320 N | bílý</PRODUCT>
      <DESCRIPTION>Připravte si sklenici lahodné ovocné či zeleninové šťávy, aniž by jste museli použité suroviny krájet.</DESCRIPTION>
      <URL>https://hurom.cz/odstavnovac/h-320-n?variant=bily</URL>
      <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/97fb62b26d4fc9ac3ad144ec9f22f5f7f78d1506-1200x1200.jpg</IMGURL>
-     <PRICE_VAT>15990</PRICE_VAT>
+     <PRICE_VAT>15490</PRICE_VAT>
      
 <PARAM>
                       <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
@@ -1064,6 +995,26 @@
 <PARAM>
                       <PARAM_NAME>Otáčky</PARAM_NAME>
                       <VAL>50 šnek /17 nůž        - otáček za minutu</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Hloubka obalu v cm</PARAM_NAME>
+                      <VAL>50</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Výška obalu v cm</PARAM_NAME>
+                      <VAL>30</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Šířka obalu v cm</PARAM_NAME>
+                      <VAL>25</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Váha vč. obalu v kg</PARAM_NAME>
+                      <VAL>14</VAL>
                     </PARAM>
 
      <MANUFACTURER>HUROM</MANUFACTURER>
@@ -1072,18 +1023,18 @@
      <EAN>8809686401062</EAN>
      <PRODUCTNO>8809686401062</PRODUCTNO>
      <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
-     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
-     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
+     
+     
    </SHOPITEM>
 
 <SHOPITEM>
-     <ITEM_ID>44797cba43a6</ITEM_ID>
-     <PRODUCTNAME>HUROM | H 320 N | tmavě zelený</PRODUCTNAME>
-     <PRODUCT>H 320 N | tmavě zelený</PRODUCT>
+     <ITEM_ID>f2b900d217e2</ITEM_ID>
+     <PRODUCTNAME>HUROM | Odšťavňovač H 320 N | tmavě zelená</PRODUCTNAME>
+     <PRODUCT>Odšťavňovač H 320 N | tmavě zelená</PRODUCT>
      <DESCRIPTION>Připravte si sklenici lahodné ovocné či zeleninové šťávy, aniž by jste museli použité suroviny krájet.</DESCRIPTION>
-     <URL>https://hurom.cz/odstavnovac/h-320-n?variant=tmave-zeleny</URL>
-     <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/09c27650a4b61619d3ec1be9895540b290c0a674-2145x2108.jpg</IMGURL>
-     <PRICE_VAT>15990</PRICE_VAT>
+     <URL>https://hurom.cz/odstavnovac/h-320-n?variant=tmave-zelena</URL>
+     <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/0626f3dd093c5a276b4c94e4e3c174fa18e7408b-2355x3140.png</IMGURL>
+     <PRICE_VAT>15490</PRICE_VAT>
      
 <PARAM>
                       <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
@@ -1140,13 +1091,275 @@
                       <VAL>50 šnek /17 nůž        - otáček za minutu</VAL>
                     </PARAM>
 
+<PARAM>
+                      <PARAM_NAME>Hloubka obalu v cm</PARAM_NAME>
+                      <VAL>50</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Výška obalu v cm</PARAM_NAME>
+                      <VAL>30</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Šířka obalu v cm</PARAM_NAME>
+                      <VAL>25</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Váha vč. obalu v kg</PARAM_NAME>
+                      <VAL>14</VAL>
+                    </PARAM>
+
      <MANUFACTURER>HUROM</MANUFACTURER>
      <BRAND>HUROM</BRAND>
      <DELIVERY_DATE>0</DELIVERY_DATE>
      <EAN>8809686401048</EAN>
      <PRODUCTNO>8809686401048</PRODUCTNO>
      <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
-     <FREE_GIFT_TEXT>ultra lehká termo láhev v hodnotě 500 Kč</FREE_GIFT_TEXT>
-     <EXTRA_MESSAGE>free_gift</EXTRA_MESSAGE>
+     
+     
+   </SHOPITEM>
+
+<SHOPITEM>
+     <ITEM_ID>14b42784ae54</ITEM_ID>
+     <PRODUCTNAME>HUROM | Odšťavňovač H 320 N | černý</PRODUCTNAME>
+     <PRODUCT>Odšťavňovač H 320 N | černý</PRODUCT>
+     <DESCRIPTION>Připravte si sklenici lahodné ovocné či zeleninové šťávy, aniž by jste museli použité suroviny krájet.</DESCRIPTION>
+     <URL>https://hurom.cz/odstavnovac/h-320-n?variant=cerny</URL>
+     <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/aa485cfc64854d0add1f9972e17c9ae2b4b13746-3840x2160.jpg</IMGURL>
+     <PRICE_VAT>15490</PRICE_VAT>
+     
+<PARAM>
+                      <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
+                      <VAL>šnekový</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Uložení šneku</PARAM_NAME>
+                      <VAL>vertikální</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Výrobce</PARAM_NAME>
+                      <VAL>Hurom</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Objem nádoby na šťávu</PARAM_NAME>
+                      <VAL>1 l</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Počet rychlostí</PARAM_NAME>
+                      <VAL>1</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Možnost mytí v myčce </PARAM_NAME>
+                      <VAL>ano</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Protiskluzové nožičky</PARAM_NAME>
+                      <VAL>ano</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Rozměry</PARAM_NAME>
+                      <VAL> 	24.8 × 22.3 × 46.2 cm</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Délka přívodní šňůry</PARAM_NAME>
+                      <VAL>1,5 m</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Váha</PARAM_NAME>
+                      <VAL>9,9 kg</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Otáčky</PARAM_NAME>
+                      <VAL>50 šnek /17 nůž        - otáček za minutu</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Hloubka obalu v cm</PARAM_NAME>
+                      <VAL>50</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Výška obalu v cm</PARAM_NAME>
+                      <VAL>30</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Šířka obalu v cm</PARAM_NAME>
+                      <VAL>25</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Váha vč. obalu v kg</PARAM_NAME>
+                      <VAL>14</VAL>
+                    </PARAM>
+
+     <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
+     <DELIVERY_DATE>0</DELIVERY_DATE>
+     <EAN></EAN>
+     <PRODUCTNO></PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     
+     
+   </SHOPITEM>
+
+<SHOPITEM>
+     <ITEM_ID>d75e80f63702</ITEM_ID>
+     <PRODUCTNAME>HUROM | Hurom H400 | stříbrný</PRODUCTNAME>
+     <PRODUCT>Hurom H400 | stříbrný</PRODUCT>
+     <DESCRIPTION>undefined</DESCRIPTION>
+     <URL>https://hurom.cz/odstavnovac/hurom-h400?variant=stribrny</URL>
+     <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/7ab8636009be32163d00b4dcf72bfd329101ed2d-716x716.jpg</IMGURL>
+     <PRICE_VAT>15990</PRICE_VAT>
+     
+<PARAM>
+                      <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
+                      <VAL>šnekový</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Výrobce</PARAM_NAME>
+                      <VAL>Hurom</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Otáčky</PARAM_NAME>
+                      <VAL>90 otáček  za minutu otáček za minutu</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Možnost mytí v myčce </PARAM_NAME>
+                      <VAL>ano</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Rozměry</PARAM_NAME>
+                      <VAL>169 x 261 x 471 mm cm</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Délka přívodní šňůry</PARAM_NAME>
+                      <VAL>1,4 metru m</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Hloubka obalu v cm</PARAM_NAME>
+                      <VAL>40</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Šířka obalu v cm</PARAM_NAME>
+                      <VAL>50</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Výška obalu v cm</PARAM_NAME>
+                      <VAL>30</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Váha vč. obalu v kg</PARAM_NAME>
+                      <VAL>15</VAL>
+                    </PARAM>
+
+     <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
+     <DELIVERY_DATE>0</DELIVERY_DATE>
+     <EAN>8809686401772</EAN>
+     <PRODUCTNO>8809686401772</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     
+     
+   </SHOPITEM>
+
+<SHOPITEM>
+     <ITEM_ID>e82ca8ae-97b5-40f4-be60-11e777ab7112</ITEM_ID>
+     <PRODUCTNAME>HUROM | Odšťavňovač HW Smart hopper - commercial</PRODUCTNAME>
+     <PRODUCT>Odšťavňovač HW Smart hopper - commercial</PRODUCT>
+     <DESCRIPTION>Čerstvé ovocné a zeleninové šťávy během chvilky kdykoliv. Nízkootáčkový šnekový odšťavňovač Hurom HW 2. generace je správná volba!</DESCRIPTION>
+     <URL>https://hurom.cz/odstavnovac/hurom-or-hw-smart-hopper-commercial</URL>
+     <IMGURL>https://cdn.sanity.io/images/bvwt1scq/production/126ac8d59cd4e627e6ef685e15ca90fd7cdc1983-800x800.jpg</IMGURL>
+     <PRICE_VAT>36179</PRICE_VAT>
+     
+<PARAM>
+                      <PARAM_NAME>Způsob odšťavňování</PARAM_NAME>
+                      <VAL>vertikální šnekový</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Uložení šneku</PARAM_NAME>
+                      <VAL>vertikálně</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Otáčky</PARAM_NAME>
+                      <VAL>43/60 otáček za minutu</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Rozměry</PARAM_NAME>
+                      <VAL>282,5 x 199 x 445,7 cm</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Příkon</PARAM_NAME>
+                      <VAL>150 W</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Váha</PARAM_NAME>
+                      <VAL>8,6 kg</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Výrobce</PARAM_NAME>
+                      <VAL>Hurom</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Protiskluzové nožičky</PARAM_NAME>
+                      <VAL>ano</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Možnost mytí v myčce </PARAM_NAME>
+                      <VAL>ano</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Počet rychlostí</PARAM_NAME>
+                      <VAL>1</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Objem nádoby na šťávu</PARAM_NAME>
+                      <VAL>1 l</VAL>
+                    </PARAM>
+
+<PARAM>
+                      <PARAM_NAME>Délka přívodní šňůry</PARAM_NAME>
+                      <VAL>1,4 m</VAL>
+                    </PARAM>
+
+     <MANUFACTURER>HUROM</MANUFACTURER>
+     <BRAND>HUROM</BRAND>
+     <DELIVERY_DATE>0</DELIVERY_DATE>
+     <EAN>8809069582173</EAN>
+     <PRODUCTNO>8809069582173</PRODUCTNO>
+     <CATEGORYTEXT>Domácí spotřebiče | Kuchyňské spotřebiče | Příprava nápojů | Odšťavňovače</CATEGORYTEXT>
+     
+     
    </SHOPITEM>
 </SHOP>
