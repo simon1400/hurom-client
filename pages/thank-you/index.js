@@ -5,6 +5,7 @@ import Page from '../../layout/page'
 import Button from '../../components/Button'
 import TagManager from 'react-gtm-module'
 import axios from 'axios'
+import Script from 'next/script'
 
 export async function getServerSideProps({query}) {
 
@@ -17,9 +18,9 @@ export async function getServerSideProps({query}) {
     }
   }
 
-  const res = await AxiosAPI.get(`/payment/status/${query.refId}`)
+  const res = await axios.get(`https://api.hurom.cz/payment/status/${query.refId}`)
 
-  await AxiosAPI.post('/send/orderInfo', res.data.data[0])
+  // await axios.post('https://api.hurom.cz/send/orderInfo', res.data.data[0])
 
   var basItem
   var orderBasket = res.data.data[0].basket.map((item, index) => {
@@ -103,6 +104,16 @@ const ThankYou = ({order, orderBasket}) => {
           </div>
         </div>
       </div>
+      {order.saleCoupon && <><Script id="set-affilate" strategy="afterInteractive">
+        {` var ab_instance = "partner.hurom.cz";
+          var ab_kampan = 6;
+          var ab_cena = ${order.sum - (order.sum * 0.21)};
+          var ab_id_transakce = "${order.idOrder}";
+          var ab_mena = "CZK";    
+          var ab_kupon = "${order.saleCoupon}";`}
+      </Script>
+      <Script id="connect-affilate" strategy="afterInteractive" src="https://partner.hurom.cz/c3.js" type="text/javascript" defer async />
+      </>}
     </Page>
   )
 
