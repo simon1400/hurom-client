@@ -104,7 +104,7 @@ const ThankYou = ({order, orderBasket}) => {
           </div>
         </div>
       </div>
-      {order.saleCoupon && <><Script id="set-affilate" strategy="afterInteractive">
+      {!!order.saleCoupon?.length && <><Script id="set-affilate" strategy="afterInteractive">
         {` var ab_instance = "partner.hurom.cz";
           var ab_kampan = 6;
           var ab_cena = ${order.sum - (order.sum * 0.21)};
