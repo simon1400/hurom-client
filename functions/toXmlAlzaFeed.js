@@ -28,7 +28,7 @@ const toXml = data => {
      <PRICE>${(item.priceBeforeSale - (item.priceBeforeSale * 0.21)).toFixed(2)}</PRICE>
      <PRICE_VAT>${item.priceBeforeSale}</PRICE_VAT>
      <MANUFACTURER>HUROM</MANUFACTURER>
-     <CATEGORY>18850379</CATEGORY>
+     <CATEGORY>18871113</CATEGORY>
      <EAN>${item.ean}</EAN>
      <SEO_Prefix>Odšťavňovač</SEO_Prefix>
      <STOCK>${item.stock}</STOCK>
